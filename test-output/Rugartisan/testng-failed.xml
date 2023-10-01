@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rugartisan]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="url"/>
+  <test thread-count="5" name="Category functionality(failed)">
+    <classes>
+      <class name="filterSectionTestcases.TC_089_Check_Category_Option_Functionality">
+        <methods>
+          <include name="teardown"/>
+          <include name="check_category_option_Test"/>
+          <include name="launchurl_rugartisan"/>
+        </methods>
+      </class> <!-- filterSectionTestcases.TC_089_Check_Category_Option_Functionality -->
+    </classes>
+  </test> <!-- Category functionality(failed) -->
+</suite> <!-- Failed suite [Rugartisan] -->

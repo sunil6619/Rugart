@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="url"/>
+  <test thread-count="5" name="PDP round shape displays diameter(failed)">
+    <classes>
+      <class name="PDPpagetTestcases.TC_147_Check_round_shape_displays_diameter">
+        <methods>
+          <include name="teardown"/>
+          <include name="check_rugshapes_verify_title_Test"/>
+          <include name="launchurl_rugartisan"/>
+        </methods>
+      </class> <!-- PDPpagetTestcases.TC_147_Check_round_shape_displays_diameter -->
+    </classes>
+  </test> <!-- PDP round shape displays diameter(failed) -->
+  <test thread-count="5" name="PDP square shape length automatically changes(failed)">
+    <classes>
+      <class name="PDPpagetTestcases.TC_148_Check_square_shape_length_change_same_as_width">
+        <methods>
+          <include name="launchurl"/>
+          <include name="teardown"/>
+          <include name="check_square_shape_length_change_same_as_width"/>
+        </methods>
+      </class> <!-- PDPpagetTestcases.TC_148_Check_square_shape_length_change_same_as_width -->
+    </classes>
+  </test> <!-- PDP square shape length automatically changes(failed) -->
+  <test thread-count="5" name="PDP square shape length locked(failed)">
+    <classes>
+      <class name="PDPpagetTestcases.TC_149_Check_square_shape_length_locked">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchurl"/>
+          <include name="check_square_shape_length_locked"/>
+        </methods>
+      </class> <!-- PDPpagetTestcases.TC_149_Check_square_shape_length_locked -->
+    </classes>
+  </test> <!-- PDP square shape length locked(failed) -->
+</suite> <!-- Failed suite [Suite] -->
