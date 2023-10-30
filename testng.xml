@@ -7,7 +7,7 @@
     <classes>
       <class name="headertestcases.TC_001_Check_Signin_link"></class>
     </classes>
-  </test> <!-- Test -->
+  </test>   <!-- Test --> 
    <test name="Aboutus" enabled="true">   
     <classes> 
       <class name="headertestcases.TC_002_Check_aboutuslink"></class>
@@ -768,5 +768,491 @@
       <class name="PDPpagetTestcases.TC_152_Check_diamond_shape_length_double_as_width_colorsample"></class>
     </classes>
     </test><!-- Test -->
+    <test name="Rug Price changes when rug shape chnaged" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_153_Check_price_changes_when_rug_shape_changed"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Rugtype Dropdown " enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_154_Check_rugtype_dropdown"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Handtufted Rugtype pile Height" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_155_Check_handtufted_rugtype_pile_height_displays"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Handknotted Rugtype Knot Density" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_156_Check_handknotted_rugtype_knot_density_displays"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Rugtype page Title change" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_157_Check_rugtype_changed_page_title_changes"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Handknotted rugtype starting price" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_158_Check_handknot_rugtype_startingprice_changes"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Rugtype Price change Verify" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_159_Check_rugtype_changed_price_changes"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Rugtype changes on PDP top bar" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_160_Check_rugtype_changed_price_rugtype_displays_in_PDPtopbar"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Handknotted default rug material display" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_161_Check_handknotted_rugtype_default_rug_material_displays"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Order Sample inches to feet conversion" enabled="true">
+		 <classes> 
+      <class name="Ordersample_SectionTestcases.TC_162_Check_order_samples_12inches_feet_increases"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Order Sample displays selected PDP colors Verify" enabled="true">
+		 <classes> 
+      <class name="Ordersample_SectionTestcases.TC_163_Check_order_samples_displays_selected_colors_PDP"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Rug Defaut price check" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_164_Check_default_price"></class>
+    </classes>
+    </test><!-- Test -->
+     <test name="Rugshape same as selected from ref page" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_165_Check_rugshape_same_as_selected_from_ref_page"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="PDP should open whichever Product selected" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_166_Check_PDP_should_open_whichever_design_selected"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Color changes change default when reset changes" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_167_Check_color_changes_to_default_reset_changes_clicked"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Colors remain same when material changes" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_168_Check_when_material_changed_colors_remain_same"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Colors remain same when Rugtype changes" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_169_Check_when_rugtype_changed_colors_remain_same"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Colors remain same when rugshape changes" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_170_Check_when_rugshape_changed_colors_remain_same"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Colors changes when color,shape changed" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_171_Check_when_color_and_shape_changed_updated_colors_displays_on_changed_shape"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Rugtype remain same when color,shape changed" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_172_Check_rugtype_remains_same_change_color_and_shape"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Handtufted default rugmaterial" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_173_Check_handtufted_rugtype_default_rug_material_displays"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Flatweave default rugmaterial" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_174_Check_flatweave_rugtype_default_rug_material_displays"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Outdoor default rugmaterial" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_175_Check_Outdoor_rugtype_default_rug_material_displays"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Delivery time when rugtype changed" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_176_Check_delivery_time_when_rug_type_changed"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Default Pile height" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_177_Check_default_pileheight_knotDensity_be_low"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Own colors dropdown" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_178_Check_own_colors_dropdown"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Own colors core,pastel colors check" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_179_Check_own_colors_able_to_click_core_pastel"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Core(own colors) displays color name when mousehover" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_180_Check_own_colors_core_displays_color_name_mousehover"></class>
+    </classes>
+    </test><!-- Test -->
+     <test name="Core colors displays on left side" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_181_Check_own_colors_core_displays_color_name_left_side_when_mousehover"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Change Core colors" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_182_Check_able_to_change_core_colors"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Core colors search functionality" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_183_Check_search_functionality_core_colors_in_own_colors"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Pastel(own colors) displays color name when mousehover" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_184_Check_own_colors_pastel_displays_color_name_mousehover"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Pastel colors displays on left side" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_185_Check_own_colors_pastel_displays_color_name_left_side_when_mousehover"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Change Pastel colors" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_186_Check_able_to_change_pastel_colors"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Pastel colors search functionality" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_187_Check_search_functionality_pastel_colors_in_own_colors"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Scroll Core pastel colors" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_188_Check_scroll_core_pastel_colors"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Rugmaterial change Wool in all colors" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_189_Check_rugmaterial_wool_changed_should_change_in_all"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Rugmaterial change Silk in all colors" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_190_Check_rugmaterial_silk_changed_should_change_in_all"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Select different rugmaterials" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_191_Check_able_select_different_rugmaterial"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Starting price change when rugmaterial change" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_192_Check_starting_price_changes_when_rugmaterial_changes"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Rug price change when rugmaterial change" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_193_Check_rug_price_changes_when_rugmaterial_changes"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Rugmaterial change not effect shape,color" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_194_Check_rug_material_change_not_effect_shape_color"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Size able to select ft,cm" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_195_Check_size_able_to_select_ft_cm"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Size left blank verify msg" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_196_Check_size_length_width_left_blank_verify_err_msg"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Size not accept alphabets" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_197_Check_size_length_width_not_accept_alphabets"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Size not accept special characters" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_198_Check_size_length_width_not_accept_special_characters"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Size range feet verify msg" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_199_Check_size_ft_range_verify_error_msg"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Size range cm verify msg" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_200_Check_size_cm_range_verify_error_msg"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Pile Height feet(cm),cm(mm)" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_201_Check_pile_height_inch_mm_when_feet_cm_selected"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Size different values cm,ft" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_202_Check_enter_different_values_feet_cm_verify_price_change"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Pile Height displaying correctly" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_203_Check_all_pile_height_displaying_correctly"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Price changes when Pile height changed" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_204_Check_pile_height_changed_price_changes"></class>
+    </classes>
+    </test><!-- Test -->
+   <test name="Price changes when Knot density changed" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_205_Check_knot_density_changed_price_changes"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Knot density changes pile weight changes" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_206_Check_knot_density_changes_pile_weight_also_changes"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Pile height changes pile weight changes" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_207_Check_pile_height_changes_pile_weight_also_changes"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Pile height change check if shape,color changed,page refrshed" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_208_Check_if_pile_height_gets_changed_when_shape_color_changed_and_page_refreshed"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Default Quantity" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_209_Check_default_Quantity"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name=" Quantity increased then Price change " enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_210_Check_increase_Quantity_price_change"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Quantity decreased then Price change" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_211_Check_decrease_Quantity_price_change"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Quantity maximum check" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_212_Check_maximum_Quantity"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Color,shape changed,page refrshed, Quantity not change" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_213_Check_Quantity_not_change_when_color_shape_page_refreshed"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="PDP topbar required fields" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_214_Check_PDP_top_bar_displays_required_fields"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="PDP topbar dropdown" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_215_Check_PDP_top_bar_dropdown"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="PDP topbar fields after dropdown" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_216_Check_PDP_top_bar_dropdown_required_details"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="PDP topbar order sample link" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_217_Check_PDP_top_bar_order_sample_link"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="PDP topbar order share link" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_218_Check_PDP_top_bar_share_link"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="PDP topbar order share product link" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_219_Check_PDP_top_bar_in_share_product_link_displays"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="PDP topbar share,copy button functionality" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_220_Check_PDP_top_bar_in_share_copy_button_functionality"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="PDP topbar close button" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_221_Check_PDP_top_bar_close_button"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="PDP topbar add to cart link" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_222_Check_PDP_top_bar_addtocart"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Partial ,full payment select" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_223_Check_partial_full_payment_radio_buttons"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Partial payment default fields" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_224_Check_partial_payment_displays_default_columns"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Partial payment close" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_225_Check_partial_payment_close"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Default rug price" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_226_Check_default_price"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Invalid_size,price check" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_227_Check_if_width_or_lgth_value_invalid_price_remains_zero"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Add to Cart without login pop up" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_228_Check_addto_cart_without_login_pop_up_appears"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Add to Cart without login pop up left blank" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_229_Check_addto_cart_without_login_pop_up_left_blank_error_msg"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Add to Cart email pop up close" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_230_Check_addto_cart_without_login_pop_up_close"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Add to Cart email pop up close" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_230_Check_addto_cart_without_login_pop_up_close"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Add to Cart functionality via pop up email box" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_231_Check_addto_cart_email_popup_functionality_verify_in_cart"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="PDP order sample link" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_232_Check_PDP_Order_sample_bottom_link"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="PDP share link" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_233_Check_PDP_bottom_share_link"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="PDP share product link" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_234_Check_PDP_bottom_share_product_link"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="PDP share copy button functionality" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_235_Check_PDP_bottom_share_copy_button_functionality"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="PDP share close " enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_236_Check_PDP_bottom_share_close_button"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Small rug price topbar,bottom " enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_238_Check_small_rug_price_topbar_and_bottom"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Default Stain Protection " enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_239_Check_stain_protection_default"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Stain Protection price change when size changed " enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_240_Check_stain_protection_price_changes_when_size_changed"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Stain Protection price change when rugtype changed " enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_241_Check_stain_protection_price_changes_when_rugtype_changed"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Stain Protection price change when rugmaterial changed " enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_242_Check_stain_protection_price_changes_when_rugmaterial_changed"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Stain Protection price change when shape changed " enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_243_Check_stain_protection_price_changes_when_shape_changed"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Stain Protection price change when quantity changed " enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_244_Check_stain_protection_price_changes_when_quantity_changed"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Stain Protection in cart verify " enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_245_Check_stain_protection_in_Cart"></class>
+    </classes>
+    </test><!-- Test -->
+      </test><!-- Test -->
+    <test name="Wishlist link " enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_246_Check_wishlist_link_verify"></class>
+    </classes>
+    </test><!-- Test -->
+      </test><!-- Test -->
+    <test name="Wishlist functionality after login " enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_247_Check_wishlist_functionality_with_login_verify"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Edit history functionality " enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_248_Check_edit_history_functionality"></class>
+    </classes>
+    </test><!-- Test -->
+    
+    
+    
+    
     
     </suite> <!-- Suite -->

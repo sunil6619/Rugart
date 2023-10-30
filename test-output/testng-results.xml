@@ -1,21 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-28T20:02:47 IST" name="Default suite" finished-at="2023-09-28T20:03:06 IST" duration-ms="19122">
+  <suite started-at="2023-10-27T23:15:14 IST" name="Default suite" finished-at="2023-10-27T23:15:14 IST" duration-ms="62">
     <groups>
     </groups>
-    <test started-at="2023-09-28T20:02:47 IST" name="Default test" finished-at="2023-09-28T20:03:06 IST" duration-ms="19122">
-      <class name="PDPpagetTestcases.TC_161_Check_handknotted_rugtype_default_rug_material_displays">
-        <test-method is-config="true" signature="launchurl()[pri:0, instance:PDPpagetTestcases.TC_161_Check_handknotted_rugtype_default_rug_material_displays@7d3e8655]" started-at="2023-09-28T20:02:47 IST" name="launchurl" finished-at="2023-09-28T20:02:53 IST" duration-ms="5493" status="PASS">
+    <test started-at="2023-10-27T23:15:14 IST" name="Default test" finished-at="2023-10-27T23:15:14 IST" duration-ms="62">
+      <class name="PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not">
+        <test-method is-config="true" signature="initialiseExtentReports()[pri:0, instance:PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not@147e2ae7]" started-at="2023-10-27T23:15:14 IST" name="initialiseExtentReports" finished-at="2023-10-27T23:15:14 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseExtentReports -->
+        <test-method is-config="true" signature="launchurl()[pri:0, instance:PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not@147e2ae7]" started-at="2023-10-27T23:15:14 IST" name="launchurl" finished-at="2023-10-27T23:15:14 IST" duration-ms="28" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+at PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not.launchurl(TC_237_Check_download_pdf_link_verify_downloaded_or_not.java:94)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchurl -->
-        <test-method signature="checkhandknottedrugtype_default_materials()[pri:0, instance:PDPpagetTestcases.TC_161_Check_handknotted_rugtype_default_rug_material_displays@7d3e8655]" started-at="2023-09-28T20:02:53 IST" name="checkhandknottedrugtype_default_materials" finished-at="2023-09-28T20:03:06 IST" duration-ms="13599" status="PASS">
+        <test-method signature="check_donwload_pdf_verify()[pri:0, instance:PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not@147e2ae7]" started-at="2023-10-27T23:15:14 IST" name="check_donwload_pdf_verify" finished-at="2023-10-27T23:15:14 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+at PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not.launchurl(TC_237_Check_download_pdf_link_verify_downloaded_or_not.java:94)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkhandknottedrugtype_default_materials -->
-      </class> <!-- PDPpagetTestcases.TC_161_Check_handknotted_rugtype_default_rug_material_displays -->
+        </test-method> <!-- check_donwload_pdf_verify -->
+        <test-method is-config="true" signature="generateExtentreports()[pri:0, instance:PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not@147e2ae7]" started-at="2023-10-27T23:15:14 IST" name="generateExtentreports" finished-at="2023-10-27T23:15:14 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentreports -->
+      </class> <!-- PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
