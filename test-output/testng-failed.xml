@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PDPpagetTestcases.TC_161_Check_handknotted_rugtype_default_rug_material_displays">
+      <class name="PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not">
         <methods>
-          <include name="checkhandknottedrugtype_default_materials"/>
           <include name="launchurl"/>
+          <include name="generateExtentreports"/>
+          <include name="check_donwload_pdf_verify"/>
+          <include name="initialiseExtentReports"/>
         </methods>
-      </class> <!-- PDPpagetTestcases.TC_161_Check_handknotted_rugtype_default_rug_material_displays -->
+      </class> <!-- PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

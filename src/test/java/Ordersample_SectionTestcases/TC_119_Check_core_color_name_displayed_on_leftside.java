@@ -16,21 +16,21 @@ public class TC_119_Check_core_color_name_displayed_on_leftside extends Base {
 
 	@Parameters ("url")
 	@BeforeTest
-	
+
 	public void launchurl_rugartisan() throws InterruptedException {
-		
+
 		getlaunchurl(getreaddata("url"));
 	}
-	
+
 	@Test
 
 	public void check_core_color_name_displayed_leftside_Test()throws InterruptedException, AWTException {
 		Thread.sleep(1000);
-		 WebElement collection=driver.findElement(By.xpath("//div[@class=\"collapse navbar-collapse\"]/child::ul/child::li/child::a[@href=\"/collections\"]"));
-		 mousehover(collection);
-		 Thread.sleep(1000);
-		 driver.findElement(By.xpath("//div[@class=\"collection-item\"]/child::a/img[@alt=\"Field of Flowers\"]")).click();
-		 Thread.sleep(1000);
+		WebElement collection=driver.findElement(By.xpath("//div[@class=\"collapse navbar-collapse\"]/child::ul/child::li/child::a[@href=\"/collections\"]"));
+		mousehover(collection);
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//div[@class=\"collection-item\"]/child::a/img[@alt=\"Field of Flowers\"]")).click();
+		Thread.sleep(1000);
 		List<WebElement> customize=driver.findElements(By.xpath("//span[contains (text(),'Custom Sizes')]"));
 		WebElement first=customize.get(0);
 		first.click();
@@ -59,4 +59,4 @@ public class TC_119_Check_core_color_name_displayed_on_leftside extends Base {
 		colorfilter=driver.findElement(By.xpath("//div[@class=\"color-filters d-flex\"]/child::span[text()='RA-AH05']"));
 		text=colorfilter.getText();
 		Assert.assertEquals("RA-AH05", text);
-}}
+	}}

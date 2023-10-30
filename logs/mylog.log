@@ -1,0 +1,317 @@
+[INFO ] 2023-10-11 19:22:26.080 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-11 19:22:57.061 [main] Base - Clicking on collection FOF and changing rug materials,checking rug price
+[INFO ] 2023-10-11 20:03:11.347 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-11 20:03:20.710 [main] Base - Clicking on collection FOF and changing rug materials,checking not effecting shape and selected colors
+[INFO ] 2023-10-11 20:17:39.619 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-11 20:17:49.162 [main] Base - Clicking on collection FOF and changing rug materials,checking not effecting shape and selected colors
+[INFO ] 2023-10-11 20:37:40.709 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-11 20:38:26.956 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-11 20:39:25.779 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-11 20:41:35.459 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-11 20:42:10.158 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-11 20:42:22.875 [main] Base - Clicking on collection FOF and checking size by selectin feet and cm
+[INFO ] 2023-10-11 20:43:32.463 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-11 20:43:44.490 [main] Base - Clicking on collection FOF and checking size by selectin feet and cm
+[INFO ] 2023-10-12 18:47:58.432 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-12 18:52:09.910 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-12 18:54:24.390 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-12 18:54:37.690 [main] Base - Clicking on collection FOF and checking error msg when rugsize left blank ,clicked add to cart
+[INFO ] 2023-10-12 19:19:55.035 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-12 19:21:03.017 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-12 19:21:16.916 [main] Base - Clicking on collection FOF and checking when alphabets entered
+[INFO ] 2023-10-12 19:29:37.145 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-12 19:29:50.950 [main] Base - Clicking on collection FOF and checking when special characters entered
+[INFO ] 2023-10-12 19:54:51.316 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-12 19:55:01.841 [main] Base - Clicking on collection FOF and checking Ft range
+[INFO ] 2023-10-12 19:58:06.975 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-12 19:58:17.520 [main] Base - Clicking on collection FOF and checking Ft range
+[INFO ] 2023-10-12 20:08:12.089 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-12 20:09:19.236 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-12 20:09:30.850 [main] Base - Clicking on collection FOF and checking CM range
+[INFO ] 2023-10-13 18:52:30.128 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 18:53:46.520 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 18:54:34.851 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 18:57:59.842 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 18:58:09.132 [main] Base - Clicking on collection FOF and checking pile height
+[INFO ] 2023-10-13 19:20:11.475 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 19:22:08.703 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 19:26:32.389 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 19:28:06.060 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 19:36:38.767 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 19:40:16.199 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 19:41:32.875 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 19:41:44.678 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 19:46:32.642 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 19:47:49.982 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 19:48:12.088 [main] Base - Clicking on collection FOF and checking price change when different values entered in feet
+[INFO ] 2023-10-13 20:14:57.133 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 20:15:44.565 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-13 20:15:53.830 [main] Base - Clicking on collection FOF and checking price change when different values entered in feet
+[INFO ] 2023-10-16 19:51:48.812 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-16 19:54:05.500 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-16 20:01:12.246 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-16 20:05:03.175 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-16 20:07:31.073 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-16 20:09:37.143 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-16 20:10:08.190 [main] Base - Clicking on collection FOF and checking price change when pile height is changed
+[INFO ] 2023-10-16 20:33:12.044 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-16 20:34:59.948 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-16 20:35:13.216 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-16 20:35:43.664 [main] Base - Clicking on collection FOF and checking price change when knot density is changed
+[INFO ] 2023-10-17 19:05:01.485 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-17 19:05:19.364 [main] Base - Clicking on collection FOF and checking pile weight when knot density is changed
+[INFO ] 2023-10-17 19:39:29.497 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-17 19:39:49.150 [main] Base - Clicking on collection FOF and checking price change when pile height is changed
+[INFO ] 2023-10-17 20:04:19.987 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-17 20:04:27.876 [main] Base - Clicking on collection FOF and checking pile height is changed or not
+[INFO ] 2023-10-17 21:12:52.178 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-17 21:15:05.675 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-17 21:15:56.604 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-17 21:17:26.625 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-17 21:18:42.070 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-17 21:19:00.290 [main] Base - Clicking on collection FOF and checking pile height is changed or not
+[INFO ] 2023-10-17 21:30:36.435 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-17 21:30:54.958 [main] Base - Clicking on collection FOF and checking pile height is changed or not when color,
+[INFO ] 2023-10-17 21:32:38.540 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-17 21:32:54.519 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-17 21:33:13.756 [main] Base - Clicking on collection FOF and checking pile height is changed or not when color,
+[INFO ] 2023-10-17 21:44:14.066 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-17 21:44:32.617 [main] Base - Clicking on collection FOF and checking pile height is changed or not when color,
+[INFO ] 2023-10-17 21:45:28.392 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-17 21:45:47.029 [main] Base - Clicking on collection FOF and checking pile height is changed or not when color,
+[INFO ] 2023-10-17 22:43:30.041 [main] Base - url launched
+[INFO ] 2023-10-17 22:49:16.159 [main] Base - url launched
+[INFO ] 2023-10-18 17:37:33.172 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-18 17:39:18.448 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-18 17:52:45.521 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-18 17:52:53.932 [main] Base - Clicking on collection FOF and checking default quantity,
+[INFO ] 2023-10-18 18:55:26.246 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-18 18:55:37.957 [main] Base - Clicking on collection FOF and checking price change when quantity changed
+[INFO ] 2023-10-18 18:57:19.509 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-18 19:10:33.469 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-18 19:12:34.529 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-18 19:12:52.443 [main] Base - Clicking on collection FOF and checking price change when quantity decreased
+[INFO ] 2023-10-18 19:28:03.569 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-18 19:28:24.738 [main] Base - Clicking on collection FOF and checking maximum quantity
+[INFO ] 2023-10-18 19:58:25.117 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-18 19:59:27.343 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-18 19:59:50.061 [main] Base - Clicking on collection FOF and checking maximum quantity
+[INFO ] 2023-10-18 21:32:08.550 [main] Base - url launched
+[INFO ] 2023-10-18 21:33:09.455 [main] Base - url launched
+[INFO ] 2023-10-18 21:35:00.636 [main] Base - url launched
+[INFO ] 2023-10-18 21:36:56.778 [main] Base - url launched
+[INFO ] 2023-10-18 21:38:32.888 [main] Base - url launched
+[INFO ] 2023-10-18 21:39:36.059 [main] Base - url launched
+[INFO ] 2023-10-18 21:40:42.518 [main] Base - url launched
+[INFO ] 2023-10-18 22:35:36.189 [main] Base - url launched
+[INFO ] 2023-10-18 22:36:40.323 [main] Base - url launched
+[INFO ] 2023-10-18 22:48:43.833 [main] Base - url launched
+[INFO ] 2023-10-18 22:49:22.694 [main] Base - url launched
+[INFO ] 2023-10-18 22:50:21.268 [main] Base - url launched
+[INFO ] 2023-10-18 22:51:40.769 [main] Base - url launched
+[INFO ] 2023-10-18 22:54:04.941 [main] Base - url launched
+[INFO ] 2023-10-19 18:30:06.858 [main] Base - url launched
+[INFO ] 2023-10-19 18:52:24.150 [main] Base - url launched
+[INFO ] 2023-10-19 18:52:28.916 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-19 18:52:36.326 [main] Base - Clicking on collection FOF and checking PDP top bar
+[INFO ] 2023-10-19 18:54:09.139 [main] Base - url launched
+[INFO ] 2023-10-19 18:54:16.331 [main] Base - Clicking on collection FOF and checking PDP top bar
+[INFO ] 2023-10-19 18:56:37.486 [main] Base - url launched
+[INFO ] 2023-10-19 18:57:58.949 [main] Base - url launched
+[INFO ] 2023-10-19 18:59:22.889 [main] Base - url launched
+[INFO ] 2023-10-19 18:59:30.020 [main] Base - Clicking on collection FOF and checking PDP top bar
+[INFO ] 2023-10-19 19:09:04.160 [main] Base - url launched
+[INFO ] 2023-10-19 19:09:28.567 [main] Base - url launched
+[INFO ] 2023-10-19 19:09:36.686 [main] Base - Clicking on collection FOF and checking PDP top bar
+[INFO ] 2023-10-19 19:12:58.744 [main] Base - url launched
+[INFO ] 2023-10-19 19:13:06.051 [main] Base - Clicking on collection FOF and checking PDP top bar
+[INFO ] 2023-10-19 19:15:14.251 [main] Base - url launched
+[INFO ] 2023-10-19 19:18:01.652 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-19 19:18:08.926 [main] Base - Clicking on collection FOF and checking PDP top bar
+[INFO ] 2023-10-19 19:18:59.974 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-19 19:19:07.252 [main] Base - Clicking on collection FOF and checking PDP top bar
+[INFO ] 2023-10-19 19:20:33.632 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-19 19:20:41.170 [main] Base - Clicking on collection FOF and checking PDP top bar
+[INFO ] 2023-10-19 19:24:53.311 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-19 19:25:03.250 [main] Base - Clicking on collection FOF and checking PDP top bar
+[INFO ] 2023-10-19 19:45:06.966 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-19 19:45:52.791 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-19 19:49:18.045 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-19 19:49:25.185 [main] Base - Clicking on collection FOF and checking PDP top bar
+[INFO ] 2023-10-19 20:09:10.172 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-19 20:10:13.971 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-19 20:10:21.646 [main] Base - Clicking on collection FOF and checking PDP top bar dropdown
+[INFO ] 2023-10-19 20:29:53.632 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-19 20:30:54.313 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-19 20:31:03.404 [main] Base - Clicking on collection FOF and checking PDP top bar dropdown Details
+[INFO ] 2023-10-19 21:14:25.455 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-19 21:14:35.664 [main] Base - Clicking on collection FOF and checking PDP top bar order sample link
+[INFO ] 2023-10-19 21:37:58.831 [main] Base - url launched
+[INFO ] 2023-10-19 21:43:07.413 [main] Base - url launched
+[INFO ] 2023-10-19 21:47:16.065 [main] Base - url launched
+[INFO ] 2023-10-19 21:47:23.410 [main] Base - Clicking on collection FOF and checking PDP top bar details
+[INFO ] 2023-10-19 21:50:45.643 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-19 21:50:52.786 [main] Base - Clicking on collection FOF and checking PDP top bar dropdown
+[INFO ] 2023-10-19 22:04:37.010 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 17:05:03.983 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 17:05:10.627 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 17:07:00.597 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 17:09:10.023 [main] Base - Clicking on collection FOF and checking PDP top bar order sample link
+[INFO ] 2023-10-20 17:25:18.072 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 17:26:28.573 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 17:26:52.949 [main] Base - Clicking on collection FOF and checking PDP top bar order sample link
+[INFO ] 2023-10-20 17:37:45.699 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 17:39:30.890 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 17:40:25.046 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 17:45:31.164 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 17:45:52.190 [main] Base - Clicking on collection FOF and checking share url link
+[INFO ] 2023-10-20 20:03:59.515 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 20:07:07.246 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 20:07:18.251 [main] Base - Clicking on collection FOF and checking copy button in share link
+[INFO ] 2023-10-20 20:25:07.951 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 20:25:16.379 [main] Base - Clicking on collection FOF and checking close of PDP topbar
+[INFO ] 2023-10-20 21:45:27.901 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 21:47:20.651 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 21:48:44.864 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 21:49:28.913 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 21:49:41.186 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 21:50:22.067 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 21:55:11.685 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 21:55:23.465 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 21:56:31.850 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 21:57:52.516 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 21:59:16.248 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 22:00:13.878 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 22:01:08.189 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 22:02:13.807 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 22:02:33.697 [main] Base - Clicking on collection FOF and checking close of PDP topbar
+[INFO ] 2023-10-20 22:18:58.929 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 22:19:43.092 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 22:19:50.391 [main] Base - Clicking on collection FOF and checking partial,full payment options
+[INFO ] 2023-10-20 22:21:38.738 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 22:21:48.209 [main] Base - Clicking on collection FOF and checking partial,full payment options
+[INFO ] 2023-10-20 22:23:10.307 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 22:25:16.848 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 22:26:31.740 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 22:26:44.712 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 22:34:23.339 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 22:41:02.744 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 22:41:58.221 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 22:42:10.467 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 22:42:22.777 [main] Base - Clicking on collection FOF and checking partial,full payment options
+[INFO ] 2023-10-20 22:43:00.484 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 23:02:37.645 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-20 23:02:47.008 [main] Base - Clicking on collection FOF and checking partial payment options
+[INFO ] 2023-10-23 15:46:40.612 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 15:46:51.181 [main] Base - Clicking on collection FOF and checking partial payment options
+[INFO ] 2023-10-23 16:48:28.887 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 16:55:00.246 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 16:56:05.579 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 16:57:42.334 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 16:57:56.979 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 16:58:07.445 [main] Base - Clicking on collection FOF and checking partial payment close icon
+[INFO ] 2023-10-23 17:33:01.494 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 17:33:11.210 [main] Base - Clicking on collection FOF and checking default rugprice
+[INFO ] 2023-10-23 18:24:39.693 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 18:24:48.599 [main] Base - Clicking on collection FOF and checking price when size is invalid
+[INFO ] 2023-10-23 18:58:17.768 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 18:58:30.752 [main] Base - Clicking on collection FOF and checking price when size is invalid
+[INFO ] 2023-10-23 19:23:57.540 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 19:24:08.196 [main] Base - Clicking on collection FOF and email pop up left blank,verify error msg
+[INFO ] 2023-10-23 19:48:10.703 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 19:48:21.414 [main] Base - Clicking on collection FOF and email pop up close
+[INFO ] 2023-10-23 20:23:29.449 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 20:25:05.904 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 20:25:22.180 [main] Base - Clickon sign in and add product,verify in cart
+[INFO ] 2023-10-23 20:25:39.742 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 20:26:29.105 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 20:28:42.464 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 20:30:21.733 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 20:53:54.181 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-23 20:54:10.157 [main] Base - Clickon sign in and add product,verify in cart
+[INFO ] 2023-10-25 16:53:02.121 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 16:53:18.958 [main] Base - Clickon sign in and add product,verify in cart
+[INFO ] 2023-10-25 17:19:47.239 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 17:19:55.399 [main] Base - Checking order sample link on bottom in PDP page
+[INFO ] 2023-10-25 17:50:01.467 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 17:50:10.901 [main] Base - Checking share link on bottom in PDP page
+[INFO ] 2023-10-25 19:01:49.521 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 19:01:58.597 [main] Base - Checking share product link on bottom in PDP page
+[INFO ] 2023-10-25 19:03:21.559 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 19:03:31.236 [main] Base - Clicking on collection FOF and checking share url link
+[INFO ] 2023-10-25 19:03:55.533 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 19:04:04.708 [main] Base - Checking share product link on bottom in PDP page
+[INFO ] 2023-10-25 19:24:07.947 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 19:24:17.901 [main] Base - Checking copy button of share on bottom in PDP page
+[INFO ] 2023-10-25 19:40:21.155 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 19:41:05.619 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 19:41:15.004 [main] Base - Checking close button of share of PDP page
+[INFO ] 2023-10-25 20:33:43.594 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 20:34:21.484 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 20:34:32.721 [main] Base - Checking small rug price in PDP page
+[INFO ] 2023-10-25 20:57:57.554 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 20:59:20.987 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 20:59:49.314 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 21:10:31.652 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 21:10:42.455 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-25 21:10:51.501 [main] Base - Checking small rug price in PDP page
+[INFO ] 2023-10-26 19:02:22.900 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 19:03:43.473 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 19:05:04.317 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 19:06:05.070 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 19:06:58.754 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 19:07:42.223 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 19:08:00.044 [main] Base - Checking stain protection price when size is changed
+[INFO ] 2023-10-26 19:34:41.115 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 19:54:12.383 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 19:54:34.547 [main] Base - Checking stain protection price when rugtype is changed
+[INFO ] 2023-10-26 20:13:37.498 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 20:15:46.239 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 20:15:57.019 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 20:16:16.677 [main] Base - Checking stain protection price when rugmaterial is changed
+[INFO ] 2023-10-26 20:21:44.513 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 20:23:30.120 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 20:23:42.879 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 20:25:01.410 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 20:25:46.953 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 20:27:03.395 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 20:27:27.339 [main] Base - Checking stain protection price when rugshape is changed
+[INFO ] 2023-10-26 20:36:21.146 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 20:37:21.190 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 20:38:24.395 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 20:39:01.429 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 20:39:16.888 [main] Base - Checking stain protection price when quantity is changed
+[INFO ] 2023-10-26 20:44:15.257 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-26 20:44:36.996 [main] Base - Checking stain protection price when quantity is changed
+[INFO ] 2023-10-27 16:22:24.849 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 16:22:44.673 [main] Base - Checking stain protection in shopping cart
+[INFO ] 2023-10-27 17:04:34.101 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 17:05:13.446 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 17:06:15.339 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 17:25:38.322 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 17:25:51.806 [main] Base - Checking wishlist link
+[INFO ] 2023-10-27 17:44:09.368 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 17:45:17.828 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 17:53:35.800 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 17:53:50.894 [main] Base - Checking wishlist functionality
+[INFO ] 2023-10-27 18:34:12.606 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 18:35:17.499 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 18:37:02.802 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 18:37:22.349 [main] Base - Checking wishlist functionality when logged in,verify
+[INFO ] 2023-10-27 19:24:16.884 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 19:26:15.231 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 19:44:53.823 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 19:45:09.879 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 19:49:09.929 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 19:53:17.215 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 19:57:16.674 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 19:58:01.760 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 19:58:17.384 [main] Base - Checking edit history loading
+[INFO ] 2023-10-27 19:58:32.402 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 19:58:48.284 [main] Base - Checking edit history loading
+[INFO ] 2023-10-27 20:12:22.347 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 20:12:32.491 [main] Base - Checking related designs 
+[INFO ] 2023-10-27 20:32:58.093 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 20:33:12.559 [main] Base - Clicking on collection FOF and checking PDP top bar changes
+[INFO ] 2023-10-27 21:45:39.053 [main] Base - Chrome browser and url launch
+[INFO ] 2023-10-27 21:45:47.091 [main] Base - Checking download PDF in PDP 

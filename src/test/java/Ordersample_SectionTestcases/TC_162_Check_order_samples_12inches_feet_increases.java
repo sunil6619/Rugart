@@ -7,6 +7,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 import resources.Base;
 
@@ -31,7 +35,7 @@ public class TC_162_Check_order_samples_12inches_feet_increases  extends Base{
 	public TC_162_Check_order_samples_12inches_feet_increases() {
 		PageFactory.initElements(driver, this);
 	}
-	
+	//clicking on collections field of flowers
 	public void clickoncollectionfof() throws InterruptedException, AWTException {
 		mousehover(collection);
 		Thread.sleep(1000);
@@ -42,12 +46,33 @@ public class TC_162_Check_order_samples_12inches_feet_increases  extends Base{
 		first.click();
 		zoomin();
 	}
+	//checking 12 inches are entered then feet value increases to 1
 	public void ordersampples_if_inches_equals_12_feet_increases() throws InterruptedException {
 		ordersamples.click();
 		Thread.sleep(2000);
 		widthinch.sendKeys("12");
+		String text=widthft.getAttribute("value");
+		Assert.assertEquals("1",text);
+		widthinch.clear();
+		widthinch.sendKeys("12");
+		text=widthft.getAttribute("value");
+		Assert.assertEquals("2",text);
 		
 		
 		
 	}
+	TC_162_Check_order_samples_12inches_feet_increases ob;
+	@Parameters("url")
+	@BeforeTest
+	
+	public void launchurl() throws InterruptedException {
+		getlaunchurl(getreaddata("url"));
+		ob=new TC_162_Check_order_samples_12inches_feet_increases();	
+	}
+	@Test
+	public void ifinches_equals_12_feet_increases() throws InterruptedException, AWTException {
+		ob.clickoncollectionfof();
+		ob.ordersampples_if_inches_equals_12_feet_increases();
+	}
+	
 }
