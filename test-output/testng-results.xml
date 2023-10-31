@@ -2,16 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-27T23:15:14 IST" name="Default suite" finished-at="2023-10-27T23:15:14 IST" duration-ms="62">
+  <suite started-at="2023-10-31T13:30:06 IST" name="Default suite" finished-at="2023-10-31T13:30:06 IST" duration-ms="178">
     <groups>
     </groups>
-    <test started-at="2023-10-27T23:15:14 IST" name="Default test" finished-at="2023-10-27T23:15:14 IST" duration-ms="62">
+    <test started-at="2023-10-31T13:30:06 IST" name="Default test" finished-at="2023-10-31T13:30:06 IST" duration-ms="178">
       <class name="PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not">
-        <test-method is-config="true" signature="initialiseExtentReports()[pri:0, instance:PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not@147e2ae7]" started-at="2023-10-27T23:15:14 IST" name="initialiseExtentReports" finished-at="2023-10-27T23:15:14 IST" duration-ms="146" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialiseExtentReports -->
-        <test-method is-config="true" signature="launchurl()[pri:0, instance:PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not@147e2ae7]" started-at="2023-10-27T23:15:14 IST" name="launchurl" finished-at="2023-10-27T23:15:14 IST" duration-ms="28" status="FAIL">
+        <test-method is-config="true" signature="launchurl()[pri:0, instance:PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not@4f49f6af]" started-at="2023-10-31T13:30:06 IST" name="launchurl" finished-at="2023-10-31T13:30:06 IST" duration-ms="109" status="FAIL">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
@@ -56,7 +52,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchurl -->
-        <test-method signature="check_donwload_pdf_verify()[pri:0, instance:PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not@147e2ae7]" started-at="2023-10-27T23:15:14 IST" name="check_donwload_pdf_verify" finished-at="2023-10-27T23:15:14 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getlaunchurl(java.lang.String)[pri:0, instance:PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not@4f49f6af]" started-at="2023-10-31T13:30:06 IST" name="getlaunchurl" finished-at="2023-10-31T13:30:06 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlaunchurl -->
+        <test-method signature="check_donwload_pdf_verify()[pri:0, instance:PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not@4f49f6af]" started-at="2023-10-31T13:30:06 IST" name="check_donwload_pdf_verify" finished-at="2023-10-31T13:30:06 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
@@ -101,10 +101,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_donwload_pdf_verify -->
-        <test-method is-config="true" signature="generateExtentreports()[pri:0, instance:PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not@147e2ae7]" started-at="2023-10-27T23:15:14 IST" name="generateExtentreports" finished-at="2023-10-27T23:15:14 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not@4f49f6af]" started-at="2023-10-31T13:30:06 IST" name="teardown" finished-at="2023-10-31T13:30:06 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- generateExtentreports -->
+        </test-method> <!-- teardown -->
       </class> <!-- PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

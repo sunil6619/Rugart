@@ -80,7 +80,7 @@ public class TC_250_Check_topbar_changes extends Base{
 
 	@Test
 
-	public void check_topbar_order_sample_link() throws InterruptedException, AWTException {
+	public void check_topbar_changes() throws InterruptedException, AWTException {
 		
 		ob.clickoncollection();
 		ob.topbar_changes();

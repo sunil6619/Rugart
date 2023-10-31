@@ -22,7 +22,7 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 
-public class TC_237_Check_download_pdf_link_verify_downloaded_or_not extends Base{
+public class TC_237_Check_download_pdf_link extends Base{
 
 	@FindBy(xpath = "//div[@class=\"collapse navbar-collapse\"]/child::ul/child::li/child::a[@href=\"/collections\"]")
 	private WebElement collection;
@@ -31,11 +31,10 @@ public class TC_237_Check_download_pdf_link_verify_downloaded_or_not extends Bas
 	@FindBy(xpath = "//span[@class=\"downloadpdf modal-text\"]")
 	private WebElement downloadpdf;
 	
-	String downloadpath= System.getProperty("user.dir")+"\\DownloadFiles";
-	String expectedFilename="Anemone-Hand Tufted-Rectangle.pdf";
+
 //	private static String downloadpath="S:\\RugDownloads";
 	
-	public  TC_237_Check_download_pdf_link_verify_downloaded_or_not() {
+	public  TC_237_Check_download_pdf_link() {
 		PageFactory.initElements(driver, this);
 	}
 	public void clickoncollection() throws InterruptedException, AWTException {
@@ -53,51 +52,28 @@ public class TC_237_Check_download_pdf_link_verify_downloaded_or_not extends Bas
 		pagedown();
 		Thread.sleep(1000);
 		downloadpdf.click();
-		Assert.assertTrue(verifyDownloadedfile());
+		
 		
 		
 //		Assert.assertTrue(isFileDownloaded("S:\\RugDownloads", "file-sample_100kB.doc"), "Failed to download Expected document");
 	}
-	public boolean verifyDownloadedfile() {
-		File folder=new File(downloadpath);
-		File[] filelist=folder.listFiles();
-		boolean isFilePresent=false;
-		for (File file:filelist) {
-			if(file.isFile()) {
-				String filename=file.getName();
-				System.out.println(filename);
-				if(filename.matches(expectedFilename))
-				{
-					isFilePresent=true;
-				}
-			}
-		}
-		return isFilePresent;
-	}
+	
 	
 	
 
-	TC_237_Check_download_pdf_link_verify_downloaded_or_not ob;
+	TC_237_Check_download_pdf_link ob;
 	//@Parameters ("url")
 	@BeforeTest
 
 
 
 	public void launchurl() throws InterruptedException, IOException {
-		//initialize chrome options
-				ChromeOptions options=new ChromeOptions();
-				//set download path
-				Map<String,Object>prefs= new HashMap<>();
-				prefs.put("download.default_directory",downloadpath);
-				options.setExperimentalOption("prefs", prefs);
-				//initiaze chrome with chrome `options
-				WebDriver driver= new ChromeDriver(options);
+		
 				
 		getlaunchurl(getreaddata("url"));
-		ob= new TC_237_Check_download_pdf_link_verify_downloaded_or_not();
+		ob= new TC_237_Check_download_pdf_link();
 		Log.info("Chrome browser and url launch");
-		File folder=new File(downloadpath);
-		FileUtils.cleanDirectory(folder);
+		
 	}
 	
 

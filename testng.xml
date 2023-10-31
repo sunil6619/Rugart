@@ -1158,14 +1158,10 @@
       <class name="PDPpagetTestcases.TC_230_Check_addto_cart_without_login_pop_up_close"></class>
     </classes>
     </test><!-- Test -->
-    <test name="Add to Cart email pop up close" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_230_Check_addto_cart_without_login_pop_up_close"></class>
-    </classes>
-    </test><!-- Test -->
+ 
     <test name="Add to Cart functionality via pop up email box" enabled="true">
 		 <classes> 
-      <class name="PDPpagetTestcases.TC_231_Check_addto_cart_email_popup_functionality_verify_in_cart"></class>
+      <class name="PDPpagetTestcases.TC_231_Check_signin_add_to_cart_verify"></class>
     </classes>
     </test><!-- Test -->
     <test name="PDP order sample link" enabled="true">
@@ -1191,6 +1187,11 @@
     <test name="PDP share close " enabled="true">
 		 <classes> 
       <class name="PDPpagetTestcases.TC_236_Check_PDP_bottom_share_close_button"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Download PDF link" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_237_Check_download_pdf_link"></class>
     </classes>
     </test><!-- Test -->
     <test name="Small rug price topbar,bottom " enabled="true">
@@ -1232,14 +1233,12 @@
 		 <classes> 
       <class name="PDPpagetTestcases.TC_245_Check_stain_protection_in_Cart"></class>
     </classes>
-    </test><!-- Test -->
-      </test><!-- Test -->
+    </test><!-- Test -->   
     <test name="Wishlist link " enabled="true">
 		 <classes> 
       <class name="PDPpagetTestcases.TC_246_Check_wishlist_link_verify"></class>
     </classes>
     </test><!-- Test -->
-      </test><!-- Test -->
     <test name="Wishlist functionality after login " enabled="true">
 		 <classes> 
       <class name="PDPpagetTestcases.TC_247_Check_wishlist_functionality_with_login_verify"></class>
@@ -1250,9 +1249,17 @@
       <class name="PDPpagetTestcases.TC_248_Check_edit_history_functionality"></class>
     </classes>
     </test><!-- Test -->
-    
-    
-    
-    
-    
+    <test name="Related Designs displaying " enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_249_Check_related_designs_displaying"></class>
+    </classes>
+    </test><!-- Test -->
+    <test name="Top bar PDP changes" enabled="true">
+		 <classes> 
+      <class name="PDPpagetTestcases.TC_250_Check_topbar_changes"></class>
+    </classes>
+    </test><!-- Test -->
     </suite> <!-- Suite -->
+
+
+

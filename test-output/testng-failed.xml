@@ -5,10 +5,10 @@
     <classes>
       <class name="PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not">
         <methods>
+          <include name="getlaunchurl"/>
+          <include name="teardown"/>
           <include name="launchurl"/>
-          <include name="generateExtentreports"/>
           <include name="check_donwload_pdf_verify"/>
-          <include name="initialiseExtentReports"/>
         </methods>
       </class> <!-- PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not -->
     </classes>
