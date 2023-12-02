@@ -80,17 +80,17 @@ public class TC_172_Check_rugtype_remains_same_change_color_and_shape extends Ba
 
 
 
-	TC_172_Check_rugtype_remains_same_change_color_and_shape ob;
-	@Parameters("url")
-	@BeforeTest
-
-	public void launchrugartisan() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_172_Check_rugtype_remains_same_change_color_and_shape();
-	}
+	//	TC_172_Check_rugtype_remains_same_change_color_and_shape ob;
+	//	@Parameters("url")
+	//	@BeforeTest
+	//
+	//	public void launchrugartisan() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_172_Check_rugtype_remains_same_change_color_and_shape();
+	//	}
 	@Test
 	public void check_rugtyperemains_same__when_color_shape_changed() throws InterruptedException, AWTException {
-
+		TC_172_Check_rugtype_remains_same_change_color_and_shape ob=  new TC_172_Check_rugtype_remains_same_change_color_and_shape();
 		ob.clickoncollectionfof();
 		ob.change_color_shape_checkrugtype();
 	}

@@ -80,20 +80,21 @@ public class TC_191_Check_able_select_different_rugmaterial extends Base{
 		Assert.assertEquals("Pure Wool", expectedmaterial);
 
 	}
-	TC_191_Check_able_select_different_rugmaterial ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_191_Check_able_select_different_rugmaterial();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_191_Check_able_select_different_rugmaterial ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_191_Check_able_select_different_rugmaterial();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 
 	@Test
 
 	public void check_able_select_different_rugmaterials() throws InterruptedException, AWTException {
+		TC_191_Check_able_select_different_rugmaterial ob=new TC_191_Check_able_select_different_rugmaterial() ;
 		ob.clickoncollection();
 		ob.change_rugmaterials();
 		Log.info("Clicking on collection FOF and changing rug materials");

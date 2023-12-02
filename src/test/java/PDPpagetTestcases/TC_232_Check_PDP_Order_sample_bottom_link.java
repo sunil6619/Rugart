@@ -23,7 +23,7 @@ public class TC_232_Check_PDP_Order_sample_bottom_link extends Base{
 	private WebElement ordersamplelink;
 	@FindBy(xpath = "//h3[contains(text(),'ORDER COLOR SAMPLES')]")
 	private WebElement ordersamplebox;
-	
+
 	public  TC_232_Check_PDP_Order_sample_bottom_link () {
 		PageFactory.initElements(driver, this);
 	}
@@ -37,34 +37,34 @@ public class TC_232_Check_PDP_Order_sample_bottom_link extends Base{
 		WebElement first=customize.get(2);
 		first.click();
 	}
-	
+
 	public void click_order_sample_link() throws InterruptedException {
-		
+
 		Thread.sleep(1000);
 		pagedown();
 		ordersamplelink.click();
 		Thread.sleep(1000);
 		String expected=ordersamplebox.getText();
 		Assert.assertEquals("ORDER COLOR SAMPLES", expected);
-		
-		
+
+
 	}
-	TC_232_Check_PDP_Order_sample_bottom_link ob;
-	//@Parameters ("url")
-	@BeforeTest
-
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_232_Check_PDP_Order_sample_bottom_link();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_232_Check_PDP_Order_sample_bottom_link ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_232_Check_PDP_Order_sample_bottom_link();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_order_sample_bottom_link() throws InterruptedException, AWTException {
-
+		TC_232_Check_PDP_Order_sample_bottom_link ob= new TC_232_Check_PDP_Order_sample_bottom_link();
 		ob.clickoncollection();
 		ob.click_order_sample_link();
 		Log.info("Checking order sample link on bottom in PDP page");

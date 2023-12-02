@@ -48,17 +48,17 @@ public class TC_147_Check_round_shape_displays_diameter extends Base {
 		mousehover(collection);
 	}
 	
-	TC_147_Check_round_shape_displays_diameter ob;
-	@Parameters ("url")
-	@BeforeTest
 	
-	public void launchurl_rugartisan() throws InterruptedException {
-		
-
-		getlaunchurl(getreaddata("url"));
-		ob=new TC_147_Check_round_shape_displays_diameter();
-		
-	}
+//	@Parameters ("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException {
+//		
+//
+//		getlaunchurl(getreaddata("url"));
+//		ob=new TC_147_Check_round_shape_displays_diameter();
+//		
+//	}
 	
 
 	@Test

@@ -91,17 +91,17 @@ public class TC_167_Check_color_changes_to_default_reset_changes_clicked extends
 	}
 
 
-	TC_167_Check_color_changes_to_default_reset_changes_clicked ob;
-	@Parameters("url")
-	@BeforeTest
-
-	public void launchrugartisan() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_167_Check_color_changes_to_default_reset_changes_clicked();
-	}
+	//	TC_167_Check_color_changes_to_default_reset_changes_clicked ob;
+	//	@Parameters("url")
+	//	@BeforeTest
+	//
+	//	public void launchrugartisan() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_167_Check_color_changes_to_default_reset_changes_clicked();
+	//	}
 	@Test
 	public void check_color_changes_to_default_reset_changes_clicked() throws InterruptedException, AWTException {
-
+		TC_167_Check_color_changes_to_default_reset_changes_clicked ob= new TC_167_Check_color_changes_to_default_reset_changes_clicked();
 		ob.clickoncollectionfof();
 		ob.clickonresetchangesafter_changing_colors();
 

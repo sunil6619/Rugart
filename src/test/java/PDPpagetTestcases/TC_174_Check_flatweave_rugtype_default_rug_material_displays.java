@@ -64,18 +64,19 @@ public class TC_174_Check_flatweave_rugtype_default_rug_material_displays extend
 		Assert.assertEquals("Recycled Yarn",text);
 
 	}
-	TC_174_Check_flatweave_rugtype_default_rug_material_displays ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_174_Check_flatweave_rugtype_default_rug_material_displays();
-	}
+//	TC_174_Check_flatweave_rugtype_default_rug_material_displays ob;
+//	@Parameters ("url")
+//	@BeforeTest
+//
+//	public void launchurl() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		ob= new TC_174_Check_flatweave_rugtype_default_rug_material_displays();
+//	}
 
 	@Test
 
 	public void check_flatweave_default_materials() throws InterruptedException, AWTException {
+		TC_174_Check_flatweave_rugtype_default_rug_material_displays ob= new TC_174_Check_flatweave_rugtype_default_rug_material_displays();
 		ob.clickoncollection();
 		ob.flatweaves_rugtype_displaysdefault_rug_material();
 

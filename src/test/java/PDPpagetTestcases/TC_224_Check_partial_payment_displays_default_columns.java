@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_224_Check_partial_payment_displays_default_columns extends Base{
-	
+
 	@FindBy(xpath = "//div[@class=\"collapse navbar-collapse\"]/child::ul/child::li/child::a[@href=\"/collections\"]")
 	private WebElement collection;
 	@FindBy(xpath = "//div[@class=\"collection-item\"]/child::a/img[@alt=\"Field of Flowers\"]")
@@ -27,8 +27,8 @@ public class TC_224_Check_partial_payment_displays_default_columns extends Base{
 	private WebElement duedate;
 	@FindBy(xpath = "//td[text()='Amount']")
 	private WebElement amount;
-	
-	
+
+
 	public  TC_224_Check_partial_payment_displays_default_columns  () {
 		PageFactory.initElements(driver, this);
 	}
@@ -43,7 +43,7 @@ public class TC_224_Check_partial_payment_displays_default_columns extends Base{
 		first.click();
 		zoomin();
 	}
-	
+
 	public void check_default_columns() throws InterruptedException {
 		Thread.sleep(1000);
 		pagedown();
@@ -56,25 +56,25 @@ public class TC_224_Check_partial_payment_displays_default_columns extends Base{
 		Assert.assertTrue(expected);
 		expected=amount.isDisplayed();
 		Assert.assertTrue(expected);
-	
+
 	}
-	
-	TC_224_Check_partial_payment_displays_default_columns ob;
-	//@Parameters ("url")
-	@BeforeTest
 
 
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_224_Check_partial_payment_displays_default_columns ();
-		Log.info("Chrome browser and url launch");
-	}
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_224_Check_partial_payment_displays_default_columns ();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_partial_payment_default_option() throws InterruptedException, AWTException {
-
+		TC_224_Check_partial_payment_displays_default_columns ob= new TC_224_Check_partial_payment_displays_default_columns ();
 		ob.clickoncollection();
 		ob.check_default_columns();
 		Log.info("Clicking on collection FOF and checking partial payment options");

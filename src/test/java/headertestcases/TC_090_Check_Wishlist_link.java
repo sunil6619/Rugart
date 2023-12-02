@@ -11,14 +11,14 @@ import resources.Base;
 
 public class TC_090_Check_Wishlist_link extends Base {
 	
-	@Parameters ("url")
-	@BeforeTest
-	
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters ("url")
+//	@BeforeTest
+//	
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	
 	public void check_wishlist_link_Test() throws InterruptedException {

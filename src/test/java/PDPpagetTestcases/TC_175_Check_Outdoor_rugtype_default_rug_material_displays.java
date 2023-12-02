@@ -47,18 +47,19 @@ public class TC_175_Check_Outdoor_rugtype_default_rug_material_displays extends 
 		Assert.assertEquals("Recycled Yarn",text);
 
 	}
-	TC_175_Check_Outdoor_rugtype_default_rug_material_displays ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_175_Check_Outdoor_rugtype_default_rug_material_displays();
-	}
+//	TC_175_Check_Outdoor_rugtype_default_rug_material_displays ob;
+//	@Parameters ("url")
+//	@BeforeTest
+//
+//	public void launchurl() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		ob= new TC_175_Check_Outdoor_rugtype_default_rug_material_displays();
+//	}
 
 	@Test
 
 	public void check_outdoor_default_materials() throws InterruptedException, AWTException {
+		TC_175_Check_Outdoor_rugtype_default_rug_material_displays ob= new TC_175_Check_Outdoor_rugtype_default_rug_material_displays();
 		ob.clickoncollection();
 		ob.outdoor_rugtype_displaysdefault_rug_material();
 

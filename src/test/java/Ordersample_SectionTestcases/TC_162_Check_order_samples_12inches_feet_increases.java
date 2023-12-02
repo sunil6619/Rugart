@@ -61,16 +61,17 @@ public class TC_162_Check_order_samples_12inches_feet_increases  extends Base{
 		
 		
 	}
-	TC_162_Check_order_samples_12inches_feet_increases ob;
-	@Parameters("url")
-	@BeforeTest
 	
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob=new TC_162_Check_order_samples_12inches_feet_increases();	
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	
+//	public void launchurl() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		ob=new TC_162_Check_order_samples_12inches_feet_increases();	
+//	}
 	@Test
 	public void ifinches_equals_12_feet_increases() throws InterruptedException, AWTException {
+		TC_162_Check_order_samples_12inches_feet_increases ob= new TC_162_Check_order_samples_12inches_feet_increases();
 		ob.clickoncollectionfof();
 		ob.ordersampples_if_inches_equals_12_feet_increases();
 	}

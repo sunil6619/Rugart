@@ -66,12 +66,12 @@ public class TC_192_Check_starting_price_changes_when_rugmaterial_changes extend
 		Assert.assertEquals("$44 ft2", expectedprice);
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0,100)");
-        Thread.sleep(2000);
+		Thread.sleep(2000);
 		rugmaterial1.click();
 		Thread.sleep(2000);
 		puresilk.click();
 		Thread.sleep(3000);
-	    expectedprice=startingprice.getText();
+		expectedprice=startingprice.getText();
 		Assert.assertEquals("$56 ft2", expectedprice);
 		expectedprice=pdptopbarstartingprice.getText();
 		Assert.assertEquals("$56 ft2", expectedprice);
@@ -80,7 +80,7 @@ public class TC_192_Check_starting_price_changes_when_rugmaterial_changes extend
 		Thread.sleep(2000);
 		bamboosilk.click();
 		Thread.sleep(3000);
-	    expectedprice=startingprice.getText();
+		expectedprice=startingprice.getText();
 		Assert.assertEquals("$45 ft2", expectedprice);
 		expectedprice=pdptopbarstartingprice.getText();
 		Assert.assertEquals("$45 ft2", expectedprice);
@@ -89,29 +89,30 @@ public class TC_192_Check_starting_price_changes_when_rugmaterial_changes extend
 		Thread.sleep(2000);
 		purewool.click();
 		Thread.sleep(3000);
-	    expectedprice=startingprice.getText();
+		expectedprice=startingprice.getText();
 		Assert.assertEquals("$36 ft2", expectedprice);
 		expectedprice=pdptopbarstartingprice.getText();
 		Assert.assertEquals("$36 ft2", expectedprice);
-		
+
 	}
 
-	TC_192_Check_starting_price_changes_when_rugmaterial_changes ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_192_Check_starting_price_changes_when_rugmaterial_changes();
-				Log.info("Chrome browser and url launch");
-	}
+	//	TC_192_Check_starting_price_changes_when_rugmaterial_changes ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_192_Check_starting_price_changes_when_rugmaterial_changes();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_starting_price_changes() throws InterruptedException, AWTException {
+		TC_192_Check_starting_price_changes_when_rugmaterial_changes ob= new TC_192_Check_starting_price_changes_when_rugmaterial_changes();
 		ob.clickoncollection();
 		ob.starting_price_changes_rugmaterial_changed();
-				Log.info("Clicking on collection FOF and changing rug materials,checking starting price");
+		Log.info("Clicking on collection FOF and changing rug materials,checking starting price");
 
 
 

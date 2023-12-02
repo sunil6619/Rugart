@@ -57,7 +57,7 @@ public class TC_198_Check_size_length_width_not_accept_special_characters extend
 
 	public void enter_special_characters_rugsize() throws InterruptedException {
 		Thread.sleep(1000);
-	
+
 		Thread.sleep(1000);
 		widthft.sendKeys("#$%^");
 		lgthft.sendKeys("@#$%");
@@ -77,26 +77,22 @@ public class TC_198_Check_size_length_width_not_accept_special_characters extend
 		expectederrormsg=validationmsg.getText();
 		Assert.assertEquals("Width and Length can not be blank", expectederrormsg);
 
-
-
-
-
-
 	}
 
-	TC_198_Check_size_length_width_not_accept_special_characters ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_198_Check_size_length_width_not_accept_special_characters();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_198_Check_size_length_width_not_accept_special_characters ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_198_Check_size_length_width_not_accept_special_characters();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_size_rugsize_enter_special_character_verify_errormsg() throws InterruptedException, AWTException {
+		TC_198_Check_size_length_width_not_accept_special_characters ob= new TC_198_Check_size_length_width_not_accept_special_characters();
 		ob.clickoncollection();
 		ob.enter_special_characters_rugsize();
 		Log.info("Clicking on collection FOF and checking when special characters entered");

@@ -10,13 +10,13 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_045_Check_Offbeat_link_RugStyle_Click_all_Shapes extends Base{
-	@Parameters("url") 
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url") 
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_offbeat_link_in_collection_click_all_shapes_Test() throws InterruptedException {
 		Thread.sleep(1000);

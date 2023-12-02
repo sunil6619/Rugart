@@ -57,7 +57,7 @@ public class TC_197_Check_size_length_width_not_accept_alphabets extends Base {
 
 	public void enter_alphabets_rugsize() throws InterruptedException {
 		Thread.sleep(1000);
-	
+
 		Thread.sleep(1000);
 		widthft.sendKeys("absg");
 		lgthft.sendKeys("mkjh");
@@ -78,25 +78,22 @@ public class TC_197_Check_size_length_width_not_accept_alphabets extends Base {
 		Assert.assertEquals("Width and Length can not be blank", expectederrormsg);
 
 
-
-
-
-
 	}
 
-	TC_197_Check_size_length_width_not_accept_alphabets ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_197_Check_size_length_width_not_accept_alphabets();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_197_Check_size_length_width_not_accept_alphabets ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_197_Check_size_length_width_not_accept_alphabets();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_size_rugsize_enter_alphabets_verify_errormsg() throws InterruptedException, AWTException {
+		TC_197_Check_size_length_width_not_accept_alphabets ob=new TC_197_Check_size_length_width_not_accept_alphabets() ;
 		ob.clickoncollection();
 		ob.enter_alphabets_rugsize();
 		Log.info("Clicking on collection FOF and checking when alphabets entered");

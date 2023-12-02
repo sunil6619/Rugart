@@ -21,7 +21,7 @@ public class TC_239_Check_stain_protection_default extends Base{
 	private WebElement fof;
 	@FindBy(xpath = "//input[@type=\"checkbox\"and @name=\"stain-protection\"]")
 	private WebElement stainproteccheckbox;
-	
+
 	public   TC_239_Check_stain_protection_default () {
 		PageFactory.initElements(driver, this);
 	}
@@ -45,23 +45,23 @@ public class TC_239_Check_stain_protection_default extends Base{
 		Boolean expected=stainproteccheckbox.isSelected();
 		Assert.assertFalse(expected);
 	}
-	
-	TC_239_Check_stain_protection_default ob;
-	//@Parameters ("url")
-	@BeforeTest
 
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new  TC_239_Check_stain_protection_default();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_239_Check_stain_protection_default ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new  TC_239_Check_stain_protection_default();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_stain_protection_default() throws InterruptedException, AWTException {
-
+		TC_239_Check_stain_protection_default ob= new  TC_239_Check_stain_protection_default();
 		ob.clickoncollection();
 		ob.stain_protection();
 		Log.info("Checking small rug price in PDP page");

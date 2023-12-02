@@ -11,12 +11,12 @@ import resources.Base;
 
 public class TC_095_Check_Size_ft_accepts_alphabets_value_or_not extends Base{
 
-	@Parameters ("url")
-	@BeforeTest
-	
-	public void launchurl_rugartisan() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-	}
+//	@Parameters ("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//	}
 	
 //	@FindBy (xpath="//div[@class=\"feet-width-error unit-error\"]")
 //	public WebElement validationmsg;

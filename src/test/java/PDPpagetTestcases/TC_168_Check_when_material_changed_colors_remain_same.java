@@ -82,17 +82,17 @@ public class TC_168_Check_when_material_changed_colors_remain_same extends Base{
 
 
 
-	TC_168_Check_when_material_changed_colors_remain_same ob;
-	@Parameters("url")
-	@BeforeTest
-
-	public void launchrugartisan() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_168_Check_when_material_changed_colors_remain_same();
-	}
+	//	TC_168_Check_when_material_changed_colors_remain_same ob;
+	//	@Parameters("url")
+	//	@BeforeTest
+	//
+	//	public void launchrugartisan() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_168_Check_when_material_changed_colors_remain_same();
+	//	}
 	@Test
 	public void check_material_changed_colors_remain_same() throws InterruptedException, AWTException {
-
+		TC_168_Check_when_material_changed_colors_remain_same ob=new TC_168_Check_when_material_changed_colors_remain_same();
 		ob.clickoncollectionfof();
 		ob.changematerial_check_colors();
 	}

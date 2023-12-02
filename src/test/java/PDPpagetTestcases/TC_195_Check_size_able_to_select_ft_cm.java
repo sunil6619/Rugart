@@ -51,19 +51,20 @@ public class TC_195_Check_size_able_to_select_ft_cm extends Base{
 
 	}
 
-	TC_195_Check_size_able_to_select_ft_cm ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_195_Check_size_able_to_select_ft_cm();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_195_Check_size_able_to_select_ft_cm ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_195_Check_size_able_to_select_ft_cm();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_size_ft_cm() throws InterruptedException, AWTException {
+		TC_195_Check_size_able_to_select_ft_cm ob= new TC_195_Check_size_able_to_select_ft_cm() ;
 		ob.clickoncollection();
 		ob.click_ft_cm();
 		Log.info("Clicking on collection FOF and checking size by selectin feet and cm");

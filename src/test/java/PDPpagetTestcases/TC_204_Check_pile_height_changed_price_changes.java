@@ -41,13 +41,13 @@ public class TC_204_Check_pile_height_changed_price_changes extends Base{
 	private WebElement pileheight2;
 	@FindBy(xpath = "//div[@class=\"radio\"]/child::label[@for=\"pile_depth_3\"]")
 	private WebElement pileheight3;
-//	@FindBy(xpath = "//input[@valueatt=\"14-18mm\"]")
-//	private WebElement pileheightcm2;
-//	@FindBy(xpath = "//input[@valueatt=\"12-14mm\"]")
-//	private WebElement pileheightcm1;
-//	@FindBy(xpath = "//input[@valueatt=\"18-22mm\"]")
-//	private WebElement pileheightcm3;
-	
+	//	@FindBy(xpath = "//input[@valueatt=\"14-18mm\"]")
+	//	private WebElement pileheightcm2;
+	//	@FindBy(xpath = "//input[@valueatt=\"12-14mm\"]")
+	//	private WebElement pileheightcm1;
+	//	@FindBy(xpath = "//input[@valueatt=\"18-22mm\"]")
+	//	private WebElement pileheightcm3;
+
 
 
 	public  TC_204_Check_pile_height_changed_price_changes() {
@@ -113,19 +113,20 @@ public class TC_204_Check_pile_height_changed_price_changes extends Base{
 		Assert.assertEquals("$8148",expectedprice);
 	}
 
-	TC_204_Check_pile_height_changed_price_changes ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_204_Check_pile_height_changed_price_changes();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_204_Check_pile_height_changed_price_changes ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_204_Check_pile_height_changed_price_changes();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_pile_height_change_price() throws InterruptedException, AWTException {
+		TC_204_Check_pile_height_changed_price_changes ob= new TC_204_Check_pile_height_changed_price_changes();
 		ob.clickoncollection();
 		ob.click_different_pile_height();
 		Log.info("Clicking on collection FOF and checking price change when pile height is changed");

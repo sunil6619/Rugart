@@ -31,24 +31,24 @@ public class TC_153_Check_price_changes_when_rug_shape_changed extends Base {
 	@FindBy(xpath = "//li[@title=\"round\"]")
 	private WebElement roundshape;
 	@FindBy(xpath = "//span[@id=\"rug_price\"]")
-    private WebElement rugprice;
-	
+	private WebElement rugprice;
+
 	public TC_153_Check_price_changes_when_rug_shape_changed() {
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	public void collectionfof() throws InterruptedException, AWTException {
 		mousehover(collection);
 		Thread.sleep(1000);
 		fof.click();
-		 Thread.sleep(1000);
+		Thread.sleep(1000);
 		List<WebElement> customize=driver.findElements(By.xpath("//span[contains (text(),'Custom Sizes')]"));
 		WebElement first=customize.get(0);
 		first.click();
 		zoomin();
 	}
 	public void changeshapepricechanges() throws InterruptedException, AWTException {
-//		zoomin();
+		//		zoomin();
 		Thread.sleep(2000);
 		widthft.click();
 		widthft.sendKeys("6");
@@ -66,39 +66,40 @@ public class TC_153_Check_price_changes_when_rug_shape_changed extends Base {
 		System.out.println(text1);
 		Assert.assertEquals("$2592",text1);
 		if(text!=text1){
-			
+
 			System.out.println("Price changed when rug shape changed from rec to diamond");
 		}
 		else {
 			System.out.println("Price is not changing");
 		}
-//		pageup();
+		//		pageup();
 		rugshapedropdown.click();
 		roundshape.click();
 		Thread.sleep(2000);
 		String text2=rugprice.getText();
 		System.out.println(text2);
 		Assert.assertEquals("$1296",text2);
-if(text1!=text2) {
-			
+		if(text1!=text2) {
+
 			System.out.println("Price changed when rug shape changed from diamond to round");
 		}
 		else {
 			System.out.println("Price is not changing");
 		}}
-TC_153_Check_price_changes_when_rug_shape_changed ob;
-@Parameters("url")
-@BeforeTest
+	//TC_153_Check_price_changes_when_rug_shape_changed ob;
+	//@Parameters("url")
+	//@BeforeTest
+	//
+	//public void launchurl() throws InterruptedException {
+	//	getlaunchurl(getreaddata("url"));
+	//	ob=new TC_153_Check_price_changes_when_rug_shape_changed();
+	//}
+	@Test	
+	public void checkpricechangeswhen_rug_shape_changed() throws InterruptedException, AWTException {
+		TC_153_Check_price_changes_when_rug_shape_changed ob= new TC_153_Check_price_changes_when_rug_shape_changed() ;
+		ob.collectionfof();
+		ob.changeshapepricechanges();
+	}
+}
 
-public void launchurl() throws InterruptedException {
-	getlaunchurl(getreaddata("url"));
-	ob=new TC_153_Check_price_changes_when_rug_shape_changed();
-}
-@Test	
-public void checkpricechangeswhen_rug_shape_changed() throws InterruptedException, AWTException {
-	ob.collectionfof();
-	ob.changeshapepricechanges();
-}
-}
-	
 

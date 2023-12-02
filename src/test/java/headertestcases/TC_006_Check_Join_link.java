@@ -11,13 +11,13 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_006_Check_Join_link extends Base {
-	@Parameters("url")
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void Check_join_link_Test() throws InterruptedException {
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);

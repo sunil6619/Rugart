@@ -12,13 +12,13 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_081_Check_all_Trending_Shapes extends Base {
-	@Parameters("url") 
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url") 
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_all_trending_shapes_Test() throws InterruptedException {
 //		JavascriptExecutor jse = (JavascriptExecutor)driver;

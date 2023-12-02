@@ -87,18 +87,19 @@ public class TC_177_Check_default_pileheight_knotDensity_be_low extends Base {
 		Assert.assertTrue(selectstate);
 
 	}
-	TC_177_Check_default_pileheight_knotDensity_be_low ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_177_Check_default_pileheight_knotDensity_be_low();
-	}
+	//	TC_177_Check_default_pileheight_knotDensity_be_low ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_177_Check_default_pileheight_knotDensity_be_low();
+	//	}
 
 	@Test
 
 	public void check_default_pileheight_knotdensity() throws InterruptedException, AWTException {
+		TC_177_Check_default_pileheight_knotDensity_be_low ob= new TC_177_Check_default_pileheight_knotDensity_be_low() ;
 		ob.clickoncollection();
 		ob.default_knotdensity_pileheight_select();
 

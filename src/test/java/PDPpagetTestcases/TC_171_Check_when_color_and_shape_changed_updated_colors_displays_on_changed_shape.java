@@ -87,25 +87,25 @@ public class TC_171_Check_when_color_and_shape_changed_updated_colors_displays_o
 
 		// comparing before and after rugshape change colors name
 		if(color1st!=(aftercolorshapechangecolor1) && color2nd!=(aftercolorshapechangecolor2)&& color3rd!=(aftercolorshapechangecolor3) && color4th!=(aftercolorshapechangecolor4) ) 
-				{
+		{
 			System.out.println("Colors are changed after color,shape is changed");
-				}
+		}
 		else {
 			System.out.println("Colors are not changed ");
 		}
 
 	}
-	TC_171_Check_when_color_and_shape_changed_updated_colors_displays_on_changed_shape ob;
-	@Parameters("url")
-	@BeforeTest
-
-	public void launchrugartisan() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_171_Check_when_color_and_shape_changed_updated_colors_displays_on_changed_shape();
-	}
+	//	TC_171_Check_when_color_and_shape_changed_updated_colors_displays_on_changed_shape ob;
+	//	@Parameters("url")
+	//	@BeforeTest
+	//
+	//	public void launchrugartisan() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_171_Check_when_color_and_shape_changed_updated_colors_displays_on_changed_shape();
+	//	}
 	@Test
 	public void check_color_shape_changed_updated_colors_displays() throws InterruptedException, AWTException {
-
+		TC_171_Check_when_color_and_shape_changed_updated_colors_displays_on_changed_shape ob= new TC_171_Check_when_color_and_shape_changed_updated_colors_displays_on_changed_shape();
 		ob.clickoncollectionfof();
 		ob.changecolor_and_shape_verify_color_change();
 	}

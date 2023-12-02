@@ -13,13 +13,13 @@ import resources.Base;
 
 public class TC_089_Check_Category_Option_Functionality extends Base{
 	
-	@Parameters("url")
-	@BeforeTest
-	
-	public void launchurl_rugartisan() throws InterruptedException {
-		
-		getlaunchurl(getreaddata("url"));	
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException {
+//		
+//		getlaunchurl(getreaddata("url"));	
+//	}
 @Test
 
 public void check_category_option_Test() throws InterruptedException {

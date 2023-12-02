@@ -15,13 +15,13 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_107_Check_Customize_Option_Link extends Base {
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl_rugartisan() throws InterruptedException, AWTException {
-		
-		getlaunchurl(getreaddata("url"));
-	}
+//	@Parameters ("url")
+//	@BeforeTest
+//
+//	public void launchurl_rugartisan() throws InterruptedException, AWTException {
+//		
+//		getlaunchurl(getreaddata("url"));
+//	}
 	@Test
 	public void check_customize_option_link_Test() throws InterruptedException, AWTException {
 		

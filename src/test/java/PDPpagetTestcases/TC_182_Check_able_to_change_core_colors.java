@@ -94,26 +94,22 @@ public class TC_182_Check_able_to_change_core_colors extends Base{
 		text=pdpcolorname4.getText();
 		Assert.assertEquals("RA-DM06",text);
 
-
-
-
-
-
 	}
 
-	TC_182_Check_able_to_change_core_colors ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_182_Check_able_to_change_core_colors();
-
-	}
+	//	TC_182_Check_able_to_change_core_colors ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_182_Check_able_to_change_core_colors();
+	//
+	//	}
 
 	@Test
 
 	public void check_able_to_change_core_colors() throws InterruptedException, AWTException {
+		TC_182_Check_able_to_change_core_colors ob= new TC_182_Check_able_to_change_core_colors();
 		ob.clickoncollection();
 		ob.change_core_colors();
 

@@ -21,8 +21,8 @@ public class TC_221_Check_PDP_top_bar_close_button extends Base{
 	@FindBy(xpath = "//div[@class=\"tb2Opn\"]")
 	private WebElement pdptopbardropdown;
 	@FindBy(xpath = "//div[@class=\"tbr2Cls\"]")
-    private WebElement close;
-	
+	private WebElement close;
+
 	public  TC_221_Check_PDP_top_bar_close_button  () {
 		PageFactory.initElements(driver, this);
 	}
@@ -38,32 +38,32 @@ public class TC_221_Check_PDP_top_bar_close_button extends Base{
 		zoomin();
 	}
 	public void click_close() throws InterruptedException {
-		
+
 		Thread.sleep(1000);
 		pagedown();
 		pdptopbardropdown.click();
 		Thread.sleep(1000);
 		close.click();
-		
-		
+
+
 	}
-	
-	TC_221_Check_PDP_top_bar_close_button ob;
-	//@Parameters ("url")
-	@BeforeTest
 
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_221_Check_PDP_top_bar_close_button();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_221_Check_PDP_top_bar_close_button ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_221_Check_PDP_top_bar_close_button();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_topbar_share_link() throws InterruptedException, AWTException {
-
+		TC_221_Check_PDP_top_bar_close_button ob= new TC_221_Check_PDP_top_bar_close_button();
 		ob.clickoncollection();
 		ob.click_close();
 		Log.info("Clicking on collection FOF and checking close of PDP topbar");

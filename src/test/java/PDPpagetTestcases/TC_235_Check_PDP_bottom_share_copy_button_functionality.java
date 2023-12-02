@@ -23,7 +23,7 @@ public class TC_235_Check_PDP_bottom_share_copy_button_functionality extends Bas
 	private WebElement share;
 	@FindBy(xpath = "//button[@title=\"Copy\"]")
 	private WebElement copybutton;
-	
+
 	public  TC_235_Check_PDP_bottom_share_copy_button_functionality () {
 		PageFactory.initElements(driver, this);
 	}
@@ -38,7 +38,7 @@ public class TC_235_Check_PDP_bottom_share_copy_button_functionality extends Bas
 		first.click();
 	}
 	public void click_copy_button() throws InterruptedException {
-		
+
 		Thread.sleep(1000);
 		pagedown();
 		Thread.sleep(1000);
@@ -50,25 +50,25 @@ public class TC_235_Check_PDP_bottom_share_copy_button_functionality extends Bas
 		Thread.sleep(1000);
 		String expect=copybutton.getText();
 		Assert.assertEquals("COPIED", expect);
-		
+
 	}
-	
-	TC_235_Check_PDP_bottom_share_copy_button_functionality ob;
-	//@Parameters ("url")
-	@BeforeTest
 
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_235_Check_PDP_bottom_share_copy_button_functionality();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_235_Check_PDP_bottom_share_copy_button_functionality ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_235_Check_PDP_bottom_share_copy_button_functionality();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_copy_button_functionality_in_share() throws InterruptedException, AWTException {
-
+		TC_235_Check_PDP_bottom_share_copy_button_functionality ob= new TC_235_Check_PDP_bottom_share_copy_button_functionality();;
 		ob.clickoncollection();
 		ob.click_copy_button();
 		Log.info("Checking copy button of share on bottom in PDP page");

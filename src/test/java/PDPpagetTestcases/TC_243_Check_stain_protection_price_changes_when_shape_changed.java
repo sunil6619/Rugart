@@ -74,22 +74,22 @@ public class TC_243_Check_stain_protection_price_changes_when_shape_changed exte
 
 
 	}
-	TC_243_Check_stain_protection_price_changes_when_shape_changed ob;
-
-	@BeforeTest
-
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_243_Check_stain_protection_price_changes_when_shape_changed();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_243_Check_stain_protection_price_changes_when_shape_changed ob;
+	//
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_243_Check_stain_protection_price_changes_when_shape_changed();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_stain_protection_price_when_shape_changes() throws InterruptedException, AWTException {
-
+		TC_243_Check_stain_protection_price_changes_when_shape_changed ob= new TC_243_Check_stain_protection_price_changes_when_shape_changed();
 		ob.clickoncollection();
 		ob.change_rugshape();
 		Log.info("Checking stain protection price when rugshape is changed");

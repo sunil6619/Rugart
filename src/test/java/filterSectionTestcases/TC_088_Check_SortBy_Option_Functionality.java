@@ -10,13 +10,13 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_088_Check_SortBy_Option_Functionality extends Base {
-
-	@Parameters ("url")
-	@BeforeTest
-	
-	public void launchurl_rugartisan() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-	}
+//
+//	@Parameters ("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//	}
 	
 	@Test
 	public void check_sortby_option_functionality_Test() throws InterruptedException {

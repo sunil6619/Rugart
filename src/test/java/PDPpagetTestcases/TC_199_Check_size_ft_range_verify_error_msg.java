@@ -22,7 +22,6 @@ public class TC_199_Check_size_ft_range_verify_error_msg extends Base {
 	private WebElement fof;
 	@FindBy(xpath = "//div[@class=\"radio\"]/child::label[@for=\"cm\"]")
 	private WebElement radiocm;
-
 	@FindBy(xpath = "//div[@class=\"radio\"]/child::label[@for=\"feet\"]")
 	private WebElement feet;
 	@FindBy(xpath = "//input[@id=\"widthFeetRug\"]")
@@ -33,7 +32,6 @@ public class TC_199_Check_size_ft_range_verify_error_msg extends Base {
 	private WebElement widthcm;
 	@FindBy(xpath = "//input[@id=\"lengthCmRug\"]")
 	private WebElement lgthcm;
-
 	@FindBy(xpath = "//span[contains(text(),'Add To Cart')]")
 	private WebElement addtocart;
 	@FindBy(xpath = "//div[@class=\"feet-width-error unit-error mt-1\"]")
@@ -80,25 +78,22 @@ public class TC_199_Check_size_ft_range_verify_error_msg extends Base {
 		expectederrormsg=samesizeerrormsg.getText();
 		Assert.assertEquals("Length needs to be larger than the Width",expectederrormsg);
 
-
-
-
-
 	}
 
-	TC_199_Check_size_ft_range_verify_error_msg ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_199_Check_size_ft_range_verify_error_msg();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_199_Check_size_ft_range_verify_error_msg ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_199_Check_size_ft_range_verify_error_msg();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_size_ft_range() throws InterruptedException, AWTException {
+		TC_199_Check_size_ft_range_verify_error_msg ob= new TC_199_Check_size_ft_range_verify_error_msg();
 		ob.clickoncollection();
 		ob.ft_range_verify_error();
 		Log.info("Clicking on collection FOF and checking Ft range");

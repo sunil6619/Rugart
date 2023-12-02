@@ -27,7 +27,7 @@ public class TC_230_Check_addto_cart_without_login_pop_up_close extends Base{
 	private WebElement addtocart;
 	@FindBy(xpath = "(//div[@class=\"modal-dialog\"]/descendant::button[@aria-label=\"Close\"])[2]")
 	private WebElement close;
-	
+
 	public  TC_230_Check_addto_cart_without_login_pop_up_close() {
 		PageFactory.initElements(driver, this);
 	}
@@ -41,7 +41,7 @@ public class TC_230_Check_addto_cart_without_login_pop_up_close extends Base{
 		WebElement first=customize.get(2);
 		first.click();
 	}
-	
+
 	public void email_popup_close() throws InterruptedException {
 		Thread.sleep(1000);
 		pagedown();
@@ -52,29 +52,29 @@ public class TC_230_Check_addto_cart_without_login_pop_up_close extends Base{
 		addtocart.click();
 		Thread.sleep(1000);
 		close.click();
-		
+
 	}
 
-	TC_230_Check_addto_cart_without_login_pop_up_close ob;
-	//@Parameters ("url")
-	@BeforeTest
-
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_230_Check_addto_cart_without_login_pop_up_close();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_230_Check_addto_cart_without_login_pop_up_close ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_230_Check_addto_cart_without_login_pop_up_close();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_addtocart_without_login_popup_close() throws InterruptedException, AWTException {
-
+		TC_230_Check_addto_cart_without_login_pop_up_close ob = new TC_230_Check_addto_cart_without_login_pop_up_close();
 		ob.clickoncollection();
 		ob.email_popup_close();
 		Log.info("Clicking on collection FOF and email pop up close");
 	}
 
-	
+
 }

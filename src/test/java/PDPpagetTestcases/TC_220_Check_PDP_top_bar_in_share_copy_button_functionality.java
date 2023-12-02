@@ -27,7 +27,7 @@ public class TC_220_Check_PDP_top_bar_in_share_copy_button_functionality extends
 	private WebElement shareurl;
 	@FindBy(xpath = "//button[@title=\"Copy\"]")
 	private WebElement copybutton;
-	
+
 	public  TC_220_Check_PDP_top_bar_in_share_copy_button_functionality  () {
 		PageFactory.initElements(driver, this);
 	}
@@ -43,7 +43,7 @@ public class TC_220_Check_PDP_top_bar_in_share_copy_button_functionality extends
 		zoomin();
 	}
 	public void copy_button_functionality() throws InterruptedException {
-		
+
 		Thread.sleep(1000);
 		pagedown();
 		pdptopbardropdown.click();
@@ -56,24 +56,24 @@ public class TC_220_Check_PDP_top_bar_in_share_copy_button_functionality extends
 		Thread.sleep(1000);
 		String expect=copybutton.getText();
 		Assert.assertEquals("COPIED", expect);
-		
-		}
-	TC_220_Check_PDP_top_bar_in_share_copy_button_functionality ob;
-	//@Parameters ("url")
-	@BeforeTest
 
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_220_Check_PDP_top_bar_in_share_copy_button_functionality();
-		Log.info("Chrome browser and url launch");
 	}
+	//	TC_220_Check_PDP_top_bar_in_share_copy_button_functionality ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_220_Check_PDP_top_bar_in_share_copy_button_functionality();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_topbar_share_link() throws InterruptedException, AWTException {
-
+		TC_220_Check_PDP_top_bar_in_share_copy_button_functionality ob= new TC_220_Check_PDP_top_bar_in_share_copy_button_functionality();
 		ob.clickoncollection();
 		ob.copy_button_functionality();
 		Log.info("Clicking on collection FOF and checking copy button in share link");

@@ -55,21 +55,22 @@ public class TC_188_Check_scroll_core_pastel_colors  extends Base{
 		//		pageleft();
 		Thread.sleep(2000);
 		pageright();
-		
-	}
-	TC_188_Check_scroll_core_pastel_colors ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_188_Check_scroll_core_pastel_colors();
 
 	}
+	//	TC_188_Check_scroll_core_pastel_colors ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_188_Check_scroll_core_pastel_colors();
+	//
+	//	}
 
 	@Test
 
 	public void check_scroll_core_pastel_colors() throws InterruptedException, AWTException {
+		TC_188_Check_scroll_core_pastel_colors ob= new TC_188_Check_scroll_core_pastel_colors();
 		ob.clickoncollection();
 		ob.scroll_core_pastel_colors();
 

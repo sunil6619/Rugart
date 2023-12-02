@@ -14,13 +14,13 @@ import resources.Base;
 
 public class TC_122_Check_able_to_add_Pastel_Colors extends Base{
 	
-	@Parameters ("url")
-	@BeforeTest
-	
-	public void launchurl_rugartisan() throws InterruptedException  {
-		
-		getlaunchurl(getreaddata("url"));
-	}
+//	@Parameters ("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException  {
+//		
+//		getlaunchurl(getreaddata("url"));
+//	}
 	
 	@Test
 

@@ -11,14 +11,14 @@ import resources.Base;
 
 public class TC_113_Check_Search_functionality extends Base {
 
-	@Parameters("url")
-	@BeforeTest
-	
-	public void launchurl_rugartisan() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		
-		
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		
+//		
+//	}
 @Test
 
 public void check_search_functionality_Test() throws InterruptedException {

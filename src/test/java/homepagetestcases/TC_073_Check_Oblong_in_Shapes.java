@@ -10,13 +10,13 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_073_Check_Oblong_in_Shapes extends Base {
-	@Parameters("url") 
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url") 
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_oblong_in_shapes_Test() throws InterruptedException {
 		Thread.sleep(1000);

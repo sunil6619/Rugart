@@ -69,23 +69,24 @@ public class TC_181_Check_own_colors_core_displays_color_name_left_side_when_mou
 		mousehover(color4);
 		text=colornameleft.getText();
 		Assert.assertEquals("RA-DM06",text);
-	
+
 
 
 	}
 
-	TC_181_Check_own_colors_core_displays_color_name_left_side_when_mousehover ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_181_Check_own_colors_core_displays_color_name_left_side_when_mousehover();
-	}
+	//	TC_181_Check_own_colors_core_displays_color_name_left_side_when_mousehover ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_181_Check_own_colors_core_displays_color_name_left_side_when_mousehover();
+	//	}
 
 	@Test
 
 	public void check_core_colors_displays_on_leftside_when_mousehover() throws InterruptedException, AWTException {
+		TC_181_Check_own_colors_core_displays_color_name_left_side_when_mousehover ob=  new TC_181_Check_own_colors_core_displays_color_name_left_side_when_mousehover();
 		ob.clickoncollection();
 		ob.colorname_displays_leftside_when_mousehover();
 

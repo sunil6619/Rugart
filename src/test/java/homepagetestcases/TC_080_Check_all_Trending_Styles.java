@@ -10,13 +10,13 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_080_Check_all_Trending_Styles extends Base{
-	@Parameters("url") 
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url") 
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_all_trending_styles_Test() throws InterruptedException {
 	

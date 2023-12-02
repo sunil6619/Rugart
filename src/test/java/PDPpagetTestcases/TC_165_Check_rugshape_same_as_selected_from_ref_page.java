@@ -24,7 +24,7 @@ public class TC_165_Check_rugshape_same_as_selected_from_ref_page extends Base{
 	private WebElement roundshape; 
 	@FindBy(xpath = "//span[@class=\"ddTitleText \"]/child::span[contains(text(),'round')]")
 	private WebElement rugshape;
-	
+
 	public TC_165_Check_rugshape_same_as_selected_from_ref_page() {
 		PageFactory.initElements(driver,this);
 	}
@@ -50,21 +50,22 @@ public class TC_165_Check_rugshape_same_as_selected_from_ref_page extends Base{
 		String expectedtitle="Zinia Field of Flowers Round Hand Tufted Handmade Custom Rug | Rug Artisan";
 		Assert.assertEquals(expectedtitle,actualtitle);
 	}
-	TC_165_Check_rugshape_same_as_selected_from_ref_page ob;
-	
-	@Parameters("url")
-
-	@BeforeTest
-	
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_165_Check_rugshape_same_as_selected_from_ref_page();	
-	}
+	//	TC_165_Check_rugshape_same_as_selected_from_ref_page ob;
+	//	
+	//	@Parameters("url")
+	//
+	//	@BeforeTest
+	//	
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_165_Check_rugshape_same_as_selected_from_ref_page();	
+	//	}
 	@Test
 	public void check_rugshape_same_as_selected() throws InterruptedException, AWTException {
+		TC_165_Check_rugshape_same_as_selected_from_ref_page ob= new TC_165_Check_rugshape_same_as_selected_from_ref_page();
 		ob.clickoncollectionfof();
 		ob.check_rugshape_same_as_selected_from_ref_page();
 	}
-	
-	
+
+
 }

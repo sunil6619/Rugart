@@ -315,3 +315,588 @@
 [INFO ] 2023-10-27 20:33:12.559 [main] Base - Clicking on collection FOF and checking PDP top bar changes
 [INFO ] 2023-10-27 21:45:39.053 [main] Base - Chrome browser and url launch
 [INFO ] 2023-10-27 21:45:47.091 [main] Base - Checking download PDF in PDP 
+[INFO ] 2023-10-31 22:42:23.506 [main] Base - url launched
+[INFO ] 2023-10-31 22:43:29.854 [main] Base - url launched
+[INFO ] 2023-10-31 22:44:45.221 [main] Base - url launched
+[INFO ] 2023-11-01 13:40:44.198 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 13:42:12.892 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 13:42:25.228 [main] Base - Checking small rug price in PDP page
+[INFO ] 2023-11-01 20:39:03.054 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 20:40:35.318 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 20:42:16.049 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 20:42:37.684 [main] Base - Checking added products in Cart
+[INFO ] 2023-11-01 20:49:17.684 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 20:49:53.558 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 20:50:32.619 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:15:40.893 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:16:12.909 [main] Base - Checking added products in Cart
+[INFO ] 2023-11-01 22:19:22.394 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:19:31.417 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:19:38.369 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:19:45.701 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:20:13.406 [main] Base - Checking added products in Cart
+[INFO ] 2023-11-01 22:21:24.009 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:21:33.016 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:21:40.139 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:21:49.936 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:22:17.505 [main] Base - Checking added products in Cart
+[INFO ] 2023-11-01 22:35:01.934 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:35:11.111 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:35:18.303 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:46:37.609 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:46:46.533 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:46:53.480 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:47:38.686 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:57:36.299 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 22:59:04.293 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 23:07:28.010 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 23:08:14.865 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-01 23:11:33.579 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-02 19:00:53.920 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-02 19:06:38.392 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-02 20:00:58.634 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-02 20:02:03.257 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-02 20:02:20.506 [main] Base - Checking requried fields in Cart
+[INFO ] 2023-11-02 21:20:44.362 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-02 21:21:10.348 [main] Base - Checking rug price currency
+[INFO ] 2023-11-03 17:26:01.136 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-03 17:26:18.874 [main] Base - Checking quantity change in Cart
+[INFO ] 2023-11-03 17:31:54.119 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-03 17:32:14.187 [main] Base - Checking quantity change in Cart
+[INFO ] 2023-11-03 18:14:18.743 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-03 18:14:45.269 [main] Base - Checking add,remove of stain protection from Cart
+[INFO ] 2023-11-03 18:24:04.240 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-03 18:24:27.140 [main] Base - Checking add,remove of stain protection from Cart
+[INFO ] 2023-11-03 18:46:55.373 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-03 18:47:29.214 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-03 18:47:46.494 [main] Base - Checking add to wishlist from cart
+[INFO ] 2023-11-03 18:58:00.819 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-03 18:58:18.818 [main] Base - Checking shipping return policy displays in cart
+[INFO ] 2023-11-03 18:59:10.154 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-03 18:59:44.361 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-03 19:00:38.581 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-03 19:00:58.466 [main] Base - Checking shipping return policy displays in cart
+[INFO ] 2023-11-03 19:08:55.669 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-03 19:09:35.959 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-03 19:09:56.556 [main] Base - Checking shipping policy link
+[INFO ] 2023-11-03 19:26:22.387 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-03 19:26:42.858 [main] Base - Checking return policy link
+[INFO ] 2023-11-03 19:44:01.249 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-03 19:44:20.370 [main] Base - Checking Order summary required details
+[INFO ] 2023-11-03 19:56:52.733 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-03 19:57:11.755 [main] Base - Checking check out displays on top,bottom
+[INFO ] 2023-11-06 18:20:27.565 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 18:20:45.957 [main] Base - Checking check out displays on top,bottom
+[INFO ] 2023-11-06 18:41:42.534 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 18:42:13.364 [main] Base - Checking check out directs to checkout page
+[INFO ] 2023-11-06 19:18:04.475 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 19:19:16.498 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 19:19:35.326 [main] Base - Checking all products removed verify message
+[INFO ] 2023-11-06 19:25:41.616 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 19:26:22.660 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 19:27:18.254 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 19:30:04.920 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 19:30:38.303 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 19:32:03.160 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 19:33:04.152 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 19:33:25.698 [main] Base - Checking all products removed verify message
+[INFO ] 2023-11-06 19:34:10.660 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 19:34:32.163 [main] Base - Checking all products removed verify message
+[INFO ] 2023-11-06 19:36:18.398 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 19:37:36.632 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 19:37:56.677 [main] Base - Checking all products removed verify message
+[INFO ] 2023-11-06 19:55:28.448 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 19:55:46.518 [main] Base - Checking Continue Shopping displays when cart is empty
+[INFO ] 2023-11-06 20:06:00.197 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 20:06:21.842 [main] Base - Checking Continue Shopping directs to Collection page
+[INFO ] 2023-11-06 21:22:36.286 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 21:22:55.269 [main] Base - Checking Continue Shopping directs to Collection page
+[INFO ] 2023-11-06 21:34:15.965 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 21:35:16.043 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 21:36:32.025 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 21:37:09.817 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 21:38:59.681 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 21:39:55.784 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 21:41:37.763 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 21:42:02.882 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 21:42:38.099 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-06 21:43:04.889 [main] Base - Checking cart page title displays price
+[INFO ] 2023-11-07 18:55:32.468 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-07 18:55:49.136 [main] Base - Checking remove item from cart pop up
+[INFO ] 2023-11-07 19:31:10.637 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-07 19:31:26.995 [main] Base - Checking proceed to checkout
+[INFO ] 2023-11-07 19:53:25.954 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-07 19:53:43.433 [main] Base - Checking proceed to checkout directs to checkout page
+[INFO ] 2023-11-07 20:41:08.078 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-07 20:41:26.210 [main] Base - Checking checkout page required fields
+[INFO ] 2023-11-08 16:14:40.170 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 16:15:54.997 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 16:17:00.481 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 16:17:19.087 [main] Base - Checking checkout page required fields
+[INFO ] 2023-11-08 16:34:25.774 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 16:34:44.487 [main] Base - Checking checkout page required fields
+[INFO ] 2023-11-08 16:45:48.857 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 16:46:08.877 [main] Base - Checking checkout page shipping address mandatory fields
+[INFO ] 2023-11-08 17:34:20.134 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 18:48:00.358 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 18:48:18.955 [main] Base - Checking shipping address first name displays validation error
+[INFO ] 2023-11-08 18:59:31.547 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 18:59:50.362 [main] Base - Checking shipping address first name not accept numeric value and displays error msg
+[INFO ] 2023-11-08 19:08:43.246 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 19:09:02.050 [main] Base - Checking shipping address first name not accept alphanumeric value and displays error msg
+[INFO ] 2023-11-08 19:16:25.012 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 19:16:53.225 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 19:17:11.669 [main] Base - Checking shipping address first name accept alphabets
+[INFO ] 2023-11-08 19:26:58.164 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 19:28:10.643 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 19:28:32.862 [main] Base - Checking shipping address first name accept upto 20 characters
+[INFO ] 2023-11-08 19:38:31.937 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 19:39:56.623 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 19:40:18.675 [main] Base - Checking shipping address last name accept upto 20 characters
+[INFO ] 2023-11-08 19:47:44.637 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 19:48:05.486 [main] Base - Checking shipping address last name accept alphabets
+[INFO ] 2023-11-08 19:53:28.655 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 19:54:02.227 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 19:55:29.467 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 19:56:28.270 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 19:56:49.720 [main] Base - Checking shipping address last name not accept alphanumeric value and displays error msg
+[INFO ] 2023-11-08 20:01:00.499 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 20:01:55.767 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 20:02:53.374 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 20:07:18.178 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 20:19:22.332 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 20:19:53.362 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-08 20:20:11.227 [main] Base - Checking shipping address phone number displays validation error left blank
+[INFO ] 2023-11-09 17:16:50.256 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 17:20:53.493 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 17:21:53.077 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 17:24:55.851 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 17:26:25.966 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 17:26:58.737 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 17:27:37.382 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 18:07:08.028 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 18:08:00.726 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 18:09:48.362 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 18:10:54.530 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 18:18:11.008 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 18:18:32.962 [main] Base - Checking shipping address phone number country code dropdown
+[INFO ] 2023-11-09 18:19:25.117 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 18:19:47.516 [main] Base - Checking shipping address phone number country code dropdown
+[INFO ] 2023-11-09 18:30:06.603 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 18:30:29.399 [main] Base - Checking shipping address phone number country code dropdown search
+[INFO ] 2023-11-09 18:40:00.505 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 18:40:23.658 [main] Base - Checking shipping address phone number country code dropdown search
+[INFO ] 2023-11-09 18:42:38.523 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 18:43:03.325 [main] Base - Checking shipping address phone number country code dropdown search
+[INFO ] 2023-11-09 18:45:17.531 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 18:47:32.279 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 18:51:18.579 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 18:52:21.541 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 18:52:50.038 [main] Base - Checking shipping address phone number country code dropdown search
+[INFO ] 2023-11-09 19:04:34.845 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 19:06:18.025 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 19:06:45.174 [main] Base - Checking shipping address phone number not accept alphabets verify validation msg
+[INFO ] 2023-11-09 19:25:33.383 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 19:26:01.013 [main] Base - Checking shipping address phone number not accept speical charc
+[INFO ] 2023-11-09 19:35:13.089 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 19:35:41.591 [main] Base - Checking shipping address phone number not accept less digits
+[INFO ] 2023-11-09 19:37:38.886 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 19:38:09.687 [main] Base - Checking shipping address phone number not accept more digits
+[INFO ] 2023-11-09 19:44:35.121 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 19:45:20.948 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 19:46:56.099 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-09 19:48:31.112 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 17:46:56.700 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 17:47:20.349 [main] Base - Checking shipping address country dropdown
+[INFO ] 2023-11-10 17:48:31.801 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 18:06:59.801 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 18:07:24.884 [main] Base - Checking shipping address country dropdown
+[INFO ] 2023-11-10 18:19:15.165 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 18:19:50.367 [main] Base - Checking shipping address country dropdown
+[INFO ] 2023-11-10 18:24:04.275 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 18:24:30.207 [main] Base - Checking shipping address country dropdown
+[INFO ] 2023-11-10 18:29:20.196 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 18:29:49.176 [main] Base - Checking shipping address country dropdown
+[INFO ] 2023-11-10 18:32:18.169 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 18:33:12.451 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 18:33:34.634 [main] Base - Checking shipping address country dropdown
+[INFO ] 2023-11-10 18:38:00.331 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 18:38:14.694 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 18:38:39.097 [main] Base - Checking shipping address country dropdown
+[INFO ] 2023-11-10 18:40:48.921 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 18:41:13.207 [main] Base - Checking shipping address country dropdown
+[INFO ] 2023-11-10 18:42:02.142 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 18:42:41.540 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 18:43:06.199 [main] Base - Checking shipping address country dropdown
+[INFO ] 2023-11-10 20:00:01.082 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 20:01:19.402 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 20:01:44.796 [main] Base - Checking shipping address search zip code
+[INFO ] 2023-11-10 20:27:31.800 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 20:27:55.901 [main] Base - Checking shipping address comp name accept upto 30charac
+[INFO ] 2023-11-10 20:35:05.851 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 20:35:49.641 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 20:36:42.195 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 20:37:08.383 [main] Base - Checking shipping address comp name not accept digits
+[INFO ] 2023-11-10 21:47:47.960 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-10 21:48:15.071 [main] Base - Checking shipping address comp name accept special charac
+[INFO ] 2023-11-14 17:57:17.995 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-14 17:57:41.713 [main] Base - Checking shipping address comp name not accept alphanumeric charac
+[INFO ] 2023-11-14 18:06:08.294 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-14 18:06:32.863 [main] Base - Checking shipping address comp name accept alphabet charac
+[INFO ] 2023-11-14 19:14:22.524 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-14 19:14:48.390 [main] Base - Checking street address accepts upto 200 charac,verify msg
+[INFO ] 2023-11-14 19:19:52.890 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-14 19:21:54.060 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-14 19:24:07.812 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-14 19:25:04.603 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-14 19:25:28.041 [main] Base - Checking street address display error msg when left blank
+[INFO ] 2023-11-14 19:36:32.609 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-14 19:36:56.866 [main] Base - Checking street address accept alphanumeric
+[INFO ] 2023-11-14 19:43:52.149 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-14 19:44:17.566 [main] Base - Checking street address accept special charac
+[INFO ] 2023-11-14 19:47:43.386 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-14 19:48:09.619 [main] Base - Checking street address accept special charac
+[INFO ] 2023-11-14 20:06:28.667 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-14 20:07:41.031 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-14 20:08:04.911 [main] Base - Checking street address accepts upto 200 charac,verify msg
+[INFO ] 2023-11-14 21:37:01.992 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-14 21:37:26.267 [main] Base - Checking street address line2 accepts alphanumeric
+[INFO ] 2023-11-15 19:35:30.054 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-15 19:35:54.126 [main] Base - Checking city accepts upto 20 charac
+[INFO ] 2023-11-15 19:46:05.874 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-15 19:46:31.484 [main] Base - Checking city accepts alphabets
+[INFO ] 2023-11-15 20:07:37.123 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-15 20:08:03.916 [main] Base - Checking city not accept special charac,veriy error msg
+[INFO ] 2023-11-15 20:17:33.311 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-15 20:18:01.582 [main] Base - Checking city not accept digits,veriy error msg
+[INFO ] 2023-11-15 20:26:21.633 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-15 20:27:16.674 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-15 20:27:39.064 [main] Base - Checking city not accept alphanumeric,veriy error msg
+[INFO ] 2023-11-15 21:43:38.832 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-15 21:44:12.907 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-15 21:44:36.367 [main] Base - Checking city not accept alphanumeric,veriy error msg
+[INFO ] 2023-11-16 19:44:58.779 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-16 19:45:20.351 [main] Base - Checking city not accept alphanumeric,veriy error msg
+[INFO ] 2023-11-16 20:59:14.144 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-16 20:59:41.541 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-16 21:00:02.353 [main] Base - Checking state field dropdown
+[INFO ] 2023-11-16 21:23:15.049 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-16 21:23:36.258 [main] Base - Checking state field dropdown
+[INFO ] 2023-11-16 21:53:57.742 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-16 21:54:56.460 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-16 21:55:18.407 [main] Base - Checking zip code accept upto 10 char
+[INFO ] 2023-11-16 22:09:13.830 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-16 22:09:36.681 [main] Base - Checking zip code not accept special charac
+[INFO ] 2023-11-17 18:09:29.080 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 18:09:48.629 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 18:10:29.969 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 18:11:49.398 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 18:19:05.492 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 18:19:28.160 [main] Base - Checking zip code not accept special charac
+[INFO ] 2023-11-17 18:56:24.646 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 18:56:47.873 [main] Base - Checking zip code not display msg when left blank
+[INFO ] 2023-11-17 20:08:50.157 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 20:09:29.818 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 20:16:47.596 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 20:18:18.386 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 20:19:55.857 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 20:20:25.696 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 20:21:10.206 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 20:29:55.789 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 20:33:12.655 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 20:34:00.807 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-17 20:34:24.712 [main] Base - Checking credit card displays msg when left blank
+[INFO ] 2023-11-22 15:57:11.063 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 15:57:54.678 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 15:58:57.678 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 16:00:04.672 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 16:00:28.144 [main] Base - Checking checkout page displays billing,shipping add same checkbox
+[INFO ] 2023-11-22 16:04:18.247 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 16:04:38.738 [main] Base - Checking checkout page displays billing,shipping add same checkbox
+[INFO ] 2023-11-22 16:46:08.375 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 16:47:47.521 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 16:48:10.460 [main] Base - Checking checkout page displays billing,shipping add same checkbox
+[INFO ] 2023-11-22 17:47:36.586 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:01:06.889 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:10:35.243 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:11:16.348 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:13:20.425 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:14:54.370 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:17:03.307 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:19:27.692 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:20:56.208 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:22:13.401 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:23:28.397 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:28:24.367 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:30:44.523 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:31:35.035 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:32:36.278 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:33:03.900 [main] Base - Checking checkout page displays billing,shipping add same checkbox
+[INFO ] 2023-11-22 18:56:11.730 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 18:56:33.593 [main] Base - Checking product size same as added in PDP
+[INFO ] 2023-11-22 19:16:27.152 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 19:16:36.289 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 19:16:43.426 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 19:17:55.476 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 19:18:24.156 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-22 19:21:45.055 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 16:32:01.939 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 16:34:09.218 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 16:34:45.726 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 16:38:48.524 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 16:39:49.244 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 16:42:10.761 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 16:43:54.544 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 16:58:21.063 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 17:04:37.825 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 17:08:39.752 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 17:27:11.155 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 17:41:04.138 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 17:53:19.511 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 17:59:09.212 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 18:03:11.785 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 18:05:22.233 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 18:05:44.391 [main] Base - Checking able to go back to Cart from checkout page
+[INFO ] 2023-11-27 18:11:04.297 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 18:12:54.873 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 18:15:39.353 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 18:16:28.714 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 18:16:48.693 [main] Base - Checking checkout page displays shipping charges
+[INFO ] 2023-11-27 18:18:04.524 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 18:18:36.579 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 18:18:56.244 [main] Base - Checking checkout page displays handling charge
+[INFO ] 2023-11-27 18:28:11.971 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 18:28:34.915 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 18:28:54.632 [main] Base - Checking checkout page displays payment info for partial payment
+[INFO ] 2023-11-27 19:35:43.891 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 19:56:17.524 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 19:56:57.563 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:00:56.650 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:01:32.410 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:02:56.866 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:04:50.398 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:06:50.694 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:08:48.006 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:09:12.686 [main] Base - Checking credit card not accept less than 16 digits
+[INFO ] 2023-11-27 20:09:42.688 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:10:08.078 [main] Base - Checking credit card not accept less than 16 digits
+[INFO ] 2023-11-27 20:12:13.563 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:15:51.975 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:18:14.417 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:19:03.178 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:19:27.550 [main] Base - Checking credit card not accept less than 16 digits
+[INFO ] 2023-11-27 20:22:02.992 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:28:12.911 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:29:26.618 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:29:48.061 [main] Base - Checking credit card not accept alphabets,special char
+[INFO ] 2023-11-27 20:32:27.868 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:34:16.655 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:36:36.736 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:40:18.022 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:40:55.163 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:42:39.086 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:44:11.891 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:45:13.993 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 20:51:29.885 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 21:52:59.803 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 21:53:09.583 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 21:53:16.910 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 21:53:24.400 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 21:53:32.724 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 21:53:42.532 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 21:53:49.584 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 21:53:56.663 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 21:54:03.819 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 21:54:10.993 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 21:59:51.992 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 22:00:01.423 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 22:00:08.274 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 22:00:15.374 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 22:01:43.683 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 22:01:53.246 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 22:02:00.443 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 22:02:07.212 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 22:02:15.142 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 22:07:38.612 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 22:07:47.875 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 22:07:54.792 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 22:10:49.797 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-27 22:10:59.356 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:50:20.110 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:50:25.336 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:50:37.128 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:50:46.421 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:50:53.852 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:51:00.761 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:51:08.396 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:51:17.527 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:51:23.124 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:51:32.971 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:51:42.653 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:51:48.549 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:51:54.668 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:52:00.352 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:52:07.010 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:52:17.148 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:52:26.433 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:52:35.606 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:52:44.895 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:52:57.069 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:53:08.413 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:53:18.753 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:53:27.990 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:53:37.639 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:53:46.971 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:53:56.940 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:54:06.553 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:54:16.085 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:54:26.497 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:54:35.670 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:54:44.879 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:54:57.810 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:55:07.843 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:55:18.585 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:55:29.621 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:55:39.873 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:55:50.399 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:56:00.588 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:56:10.675 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:56:20.915 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:56:30.994 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:56:41.076 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:56:50.939 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:57:01.013 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:57:12.225 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:57:23.355 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:57:33.579 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:57:43.479 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:57:53.507 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:58:03.866 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:58:14.238 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:58:24.280 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:58:34.365 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:58:44.324 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:58:54.548 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:59:04.692 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:59:14.935 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:59:25.002 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:59:35.041 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:59:45.161 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 13:59:55.296 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:00:05.116 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:00:15.034 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:00:25.022 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:00:35.200 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:00:45.328 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:00:55.414 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:01:05.838 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:01:15.931 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:01:26.077 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:01:36.417 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:01:46.571 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:01:56.700 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:02:06.964 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:02:17.175 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:02:27.695 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:02:38.044 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:02:48.289 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:03:49.398 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:04:29.312 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:05:07.516 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:05:21.515 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:13:11.484 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:13:17.581 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:13:23.685 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:13:29.797 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:13:36.047 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:13:42.361 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:14:11.205 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:14:30.361 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:15:06.180 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:15:31.434 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:15:56.438 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:16:07.642 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:16:19.855 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:16:33.422 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:16:46.884 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:17:00.669 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:17:13.127 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:17:25.405 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 14:17:39.421 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 16:19:16.190 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 19:28:42.292 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 19:28:47.035 [main] Base - Checking product size same as added in PDP
+[INFO ] 2023-11-28 20:10:12.526 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 20:13:46.118 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 20:13:51.780 [main] Base - Checking change email in my account
+[INFO ] 2023-11-28 20:20:50.632 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 20:20:56.409 [main] Base - Checking change email box and save button in my account
+[INFO ] 2023-11-28 20:31:08.291 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-28 20:31:14.148 [main] Base - Checking change password box and save button in my account
+[INFO ] 2023-11-29 19:20:44.821 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-29 19:22:06.670 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-29 19:22:39.082 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-29 19:22:45.787 [main] Base - Checking change email,password box and save button in my account
+[INFO ] 2023-11-30 16:36:08.529 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 19:54:32.746 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 19:55:32.695 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 19:56:20.667 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 19:56:27.313 [main] Base - Checking change email boxes left blank,verify error msg
+[INFO ] 2023-11-30 20:05:23.112 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 20:05:29.868 [main] Base - Checking change email boxes left blank,verify error msg
+[INFO ] 2023-11-30 20:09:18.880 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 20:10:35.753 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 20:12:04.441 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 20:15:18.762 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 20:16:16.080 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 20:21:02.938 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 20:29:09.129 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 20:29:17.797 [main] Base - Checking change email boxes left blank,verify error msg
+[INFO ] 2023-11-30 20:31:45.512 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 21:48:33.727 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 21:48:41.416 [main] Base - Checking change email boxes left blank,verify error msg
+[INFO ] 2023-11-30 21:50:52.106 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 21:55:17.453 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 21:57:18.393 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 22:07:41.726 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 22:08:04.509 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 22:08:11.221 [main] Base - Checking change password boxes left blank,verify msg
+[INFO ] 2023-11-30 22:19:55.537 [main] Base - Chrome browser and url launch
+[INFO ] 2023-11-30 22:27:03.432 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 00:10:00.419 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 00:10:08.248 [main] Base - Checking change email boxes left blank,verify error msg
+[INFO ] 2023-12-01 14:27:25.319 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 14:27:34.296 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 14:27:41.340 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 14:27:48.877 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 14:27:56.529 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 14:28:06.022 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 14:28:11.830 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 14:28:18.129 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 14:28:23.979 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 14:28:29.966 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 14:28:36.097 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 14:28:42.200 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 14:28:49.131 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 14:28:58.992 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 18:54:49.260 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 18:54:57.792 [main] Base - Checking change email boxes enter valid email,verify it
+[INFO ] 2023-12-01 18:56:11.504 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 18:56:19.493 [main] Base - Checking change email boxes left blank,verify error msg
+[INFO ] 2023-12-01 19:02:28.732 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 19:02:38.851 [main] Base - Checking change email boxes left blank,verify error msg
+[INFO ] 2023-12-01 19:28:11.774 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 19:29:16.338 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 19:29:23.178 [main] Base - Checking change email,password boxes left blank,verify errormsg
+[INFO ] 2023-12-01 19:41:45.810 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 19:41:51.428 [main] Base - Checking change email,password boxes left blank,verify errormsg
+[INFO ] 2023-12-01 20:37:17.574 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 20:37:25.083 [main] Base - Checking my acct first name not accept numeric,special chara and verify errormsg
+[INFO ] 2023-12-01 21:49:19.866 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 21:49:27.565 [main] Base - Checking my acct last name not accept numeric,special chara and verify errormsg
+[INFO ] 2023-12-01 22:01:08.695 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 22:01:15.128 [main] Base - Checking my acct last name not accept numeric,special chara and verify errormsg
+[INFO ] 2023-12-01 22:22:20.390 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 22:34:28.559 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 22:36:22.945 [main] Base - Chrome browser and url launch
+[INFO ] 2023-12-01 22:36:29.472 [main] Base - Checking my acct name is updated,verify success msg

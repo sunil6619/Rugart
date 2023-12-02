@@ -36,8 +36,8 @@ public class TC_240_Check_stain_protection_price_changes_when_size_changed exten
 	private WebElement widthcm;
 	@FindBy(xpath = "//input[@id=\"lengthCmRug\"]")
 	private WebElement lgthcm;
-	
-	
+
+
 	public   TC_240_Check_stain_protection_price_changes_when_size_changed () {
 		PageFactory.initElements(driver, this);
 	}
@@ -51,7 +51,7 @@ public class TC_240_Check_stain_protection_price_changes_when_size_changed exten
 		WebElement first=customize.get(2);
 		first.click();
 	}
-	
+
 	public void stain_protection_price_change() throws InterruptedException {
 		Thread.sleep(1000);
 		pagedown();
@@ -80,24 +80,24 @@ public class TC_240_Check_stain_protection_price_changes_when_size_changed exten
 		Thread.sleep(2000);
 		expected=stainprotectionprice.getText();
 		Assert.assertEquals("(+$745)", expected);
-	
+
 	}
-	TC_240_Check_stain_protection_price_changes_when_size_changed ob;
-	//@Parameters ("url")
-	@BeforeTest
-
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new  TC_240_Check_stain_protection_price_changes_when_size_changed();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_240_Check_stain_protection_price_changes_when_size_changed ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new  TC_240_Check_stain_protection_price_changes_when_size_changed();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_stain_protection_price_when_size_changes() throws InterruptedException, AWTException {
-
+		TC_240_Check_stain_protection_price_changes_when_size_changed ob= new  TC_240_Check_stain_protection_price_changes_when_size_changed();
 		ob.clickoncollection();
 		ob.stain_protection_price_change();
 		Log.info("Checking stain protection price when size is changed");

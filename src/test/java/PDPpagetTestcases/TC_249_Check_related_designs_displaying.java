@@ -20,7 +20,7 @@ public class TC_249_Check_related_designs_displaying extends Base{
 	private WebElement fof;
 	@FindBy(xpath = "//h3[contains(text(),' Related Designs ')]")
 	private WebElement relateddesigns;
-	
+
 	public TC_249_Check_related_designs_displaying() {
 		PageFactory.initElements(driver, this);
 	}
@@ -36,38 +36,33 @@ public class TC_249_Check_related_designs_displaying extends Base{
 		first.click();
 
 	}
-	TC_249_Check_related_designs_displaying ob;
-	@BeforeTest
-
-	
-
-	public void launchurl() throws InterruptedException {
-		
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_249_Check_related_designs_displaying();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_249_Check_related_designs_displaying ob;
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_249_Check_related_designs_displaying();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 	public void related_designs() throws InterruptedException {
-		
+
 		Thread.sleep(1000);
 		pagedown();
 		Thread.sleep(1000);
 		pagedown();
 		String expected=relateddesigns.getText();
 		Assert.assertEquals("Related Designs", expected);
-		
-		
-		
-		
+
 	}
 
 	@Test
 
 	public void check_related_designs() throws InterruptedException, AWTException {
-
+		TC_249_Check_related_designs_displaying ob= new TC_249_Check_related_designs_displaying();
 		ob.clickoncollection();
 		ob.related_designs();
 		Log.info("Checking related designs ");
 	}
-	
+
 }

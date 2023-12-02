@@ -13,14 +13,14 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_125_Check_search_functionality_Pastel_colors extends Base{
-	@Parameters ("url")
-	@BeforeTest
-	
-	public void launchurl_rugartisan() throws InterruptedException {
-		
-		getlaunchurl(getreaddata("url"));
-	}
-	
+//	@Parameters ("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException {
+//		
+//		getlaunchurl(getreaddata("url"));
+//	}
+//	
 	@Test
 
 	public void check_search_functionility_pastel_colors_Test() throws InterruptedException, AWTException {

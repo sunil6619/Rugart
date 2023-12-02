@@ -50,8 +50,8 @@ public class TC_219_Check_PDP_top_bar_in_share_product_link_displays extends Bas
 		share.click();
 		Thread.sleep(1000);
 		String expectedurl=shareurl.getText();
-    if (expectedurl.contains("https://www.rugartisan")) {
-			
+		if (expectedurl.contains("https://www.rugartisan")) {
+
 			System.out.println("Product link present");
 		}
 		else 
@@ -60,22 +60,22 @@ public class TC_219_Check_PDP_top_bar_in_share_product_link_displays extends Bas
 		}
 
 	}
-	TC_219_Check_PDP_top_bar_in_share_product_link_displays ob;
-	//@Parameters ("url")
-	@BeforeTest
-
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_219_Check_PDP_top_bar_in_share_product_link_displays  ();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_219_Check_PDP_top_bar_in_share_product_link_displays ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_219_Check_PDP_top_bar_in_share_product_link_displays  ();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_topbar_share_link() throws InterruptedException, AWTException {
-
+		TC_219_Check_PDP_top_bar_in_share_product_link_displays ob=new TC_219_Check_PDP_top_bar_in_share_product_link_displays ();
 		ob.clickoncollection();
 		ob.product_link();
 		Log.info("Clicking on collection FOF and checking share url link");

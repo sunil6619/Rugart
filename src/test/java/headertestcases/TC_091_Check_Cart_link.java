@@ -11,14 +11,14 @@ import resources.Base;
 
 public class TC_091_Check_Cart_link extends Base {
 	
-	@Parameters("url")
-	@BeforeTest
-	
-	public void launchurl_rugartisan() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		
-		
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		
+//		
+//	}
 @Test
 
 public void check_cart_link_Test() throws InterruptedException {

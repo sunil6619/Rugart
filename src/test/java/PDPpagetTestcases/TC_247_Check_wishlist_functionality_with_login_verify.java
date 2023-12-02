@@ -44,8 +44,8 @@ public class TC_247_Check_wishlist_functionality_with_login_verify extends Base{
 	private WebElement mywishlist;
 	@FindBy(xpath = "//a[contains(text(),'Anemone')]")
 	private WebElement wishlistproduct;
-	
-	
+
+
 	public TC_247_Check_wishlist_functionality_with_login_verify () {
 		PageFactory.initElements(driver, this);
 	}
@@ -67,7 +67,7 @@ public class TC_247_Check_wishlist_functionality_with_login_verify extends Base{
 
 
 	}
-	
+
 	public void click_wishlist_when_loggedin() throws InterruptedException {
 		Thread.sleep(1000);
 		pagedown();
@@ -90,24 +90,24 @@ public class TC_247_Check_wishlist_functionality_with_login_verify extends Base{
 		Thread.sleep(1000);
 		String expectedprod=wishlistproduct.getText();
 		Assert.assertEquals("ANEMONE",expectedprod);
-	
-	}
-	TC_247_Check_wishlist_functionality_with_login_verify ob;
-	@BeforeTest
 
-	
-
-	public void launchurl() throws InterruptedException {
-		
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_247_Check_wishlist_functionality_with_login_verify();
-		Log.info("Chrome browser and url launch");
 	}
+	//	TC_247_Check_wishlist_functionality_with_login_verify ob;
+	//	@BeforeTest
+	//
+	//	
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_247_Check_wishlist_functionality_with_login_verify();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_wishlist_functionality_login_verify() throws InterruptedException, AWTException {
-
+		TC_247_Check_wishlist_functionality_with_login_verify ob= new TC_247_Check_wishlist_functionality_with_login_verify();
 		ob.clickoncollection();
 		ob.click_wishlist_when_loggedin();
 		Log.info("Checking wishlist functionality when logged in,verify");

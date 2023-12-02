@@ -11,12 +11,12 @@ import resources.Base;
 
 public class TC_093_Check_Materials_Functionality extends Base{
 	
-	@Parameters ("url")
-	@BeforeTest
-	
-	public void launchurl_rugartisan() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-	}
+//	@Parameters ("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//	}
 	@Test
 public void check_materials_functionality_Test() throws InterruptedException {
 	WebElement materials;

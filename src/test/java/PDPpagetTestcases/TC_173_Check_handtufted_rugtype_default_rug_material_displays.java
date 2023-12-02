@@ -63,18 +63,19 @@ public class TC_173_Check_handtufted_rugtype_default_rug_material_displays exten
 		Assert.assertEquals("Bamboo Silk",text);	
 	}
 
-	TC_173_Check_handtufted_rugtype_default_rug_material_displays ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_173_Check_handtufted_rugtype_default_rug_material_displays();
-	}
+	//	TC_173_Check_handtufted_rugtype_default_rug_material_displays ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_173_Check_handtufted_rugtype_default_rug_material_displays();
+	//	}
 
 	@Test
 
 	public void check_handtufted_default_materials() throws InterruptedException, AWTException {
+		TC_173_Check_handtufted_rugtype_default_rug_material_displays ob=new TC_173_Check_handtufted_rugtype_default_rug_material_displays(); ;
 		ob.clickoncollectionfof();
 		ob.handtufted_rugtype_displaysdefault_rug_material();
 

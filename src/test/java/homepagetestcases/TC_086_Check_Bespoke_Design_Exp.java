@@ -11,12 +11,12 @@ import resources.Base;
 
 public class TC_086_Check_Bespoke_Design_Exp extends Base{
 
-	@Parameters("url")
-	@BeforeTest
-	
-	public void getlaunchurl_rugartisan() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	
+//	public void getlaunchurl_rugartisan() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//	}
 	
 	@Test
 	

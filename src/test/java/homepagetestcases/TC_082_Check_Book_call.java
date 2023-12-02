@@ -16,13 +16,13 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_082_Check_Book_call extends Base{
-	@Parameters("url") 
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url") 
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_book_call_Test() throws InterruptedException {
 		System.out.println("Current window Handle: "+driver.getWindowHandle()+"\n");

@@ -27,22 +27,22 @@ public class TC_149_Check_square_shape_length_locked extends Base {
 	private WebElement widthft ;
 	@FindBy(xpath = "//input[@id=\"lengthFeetRug\"]")
 	private WebElement lgthft ;
-	
+
 	public TC_149_Check_square_shape_length_locked() {
 		PageFactory.initElements(driver, this);
 	}
 	public void mousehovercollection() {
 		mousehover(collection);
 	}
-	
+
 	public void clickonfof() throws InterruptedException, AWTException {
 		fof.click();
-		 Thread.sleep(1000);
+		Thread.sleep(1000);
 		List<WebElement> customize=driver.findElements(By.xpath("//span[contains (text(),'Custom Sizes')]"));
 		WebElement first=customize.get(0);
 		first.click();
 		zoomin();
-			}
+	}
 	public void shapedropdown_selectshape() {
 		rugshapedropdown.click();
 		squareshape.click();
@@ -50,24 +50,25 @@ public class TC_149_Check_square_shape_length_locked extends Base {
 		widthft.sendKeys("8");
 		lgthft.isEnabled();
 		Assert.assertFalse(false);
-}
-	TC_149_Check_square_shape_length_locked ob;
-	@Parameters("url")
-	@BeforeTest
-	
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_149_Check_square_shape_length_locked();
 	}
+
+	//	@Parameters("url")
+	//	@BeforeTest
+	//	
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_149_Check_square_shape_length_locked();
+	//	}
 	@Test
-	
+
 	public void check_square_shape_length_locked() throws InterruptedException, AWTException {
+		TC_149_Check_square_shape_length_locked ob = new TC_149_Check_square_shape_length_locked();	
 		ob.mousehovercollection();
 		ob.clickonfof();
 		ob.shapedropdown_selectshape();
-		
-		
-		
+
+
+
 	}
 
 }

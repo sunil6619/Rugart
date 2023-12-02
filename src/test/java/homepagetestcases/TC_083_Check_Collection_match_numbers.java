@@ -14,12 +14,12 @@ import resources.Base;
 
 public class TC_083_Check_Collection_match_numbers extends Base {
 
-	@Parameters("url")
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 
 	@Test
 

@@ -14,13 +14,13 @@ import resources.Base;
 
 public class TC_118_Check_Core_color_name_displays_when_mousehover extends Base{
 
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl_rugartisan() throws InterruptedException {
-
-		getlaunchurl(getreaddata("url"));
-	}
+//	@Parameters ("url")
+//	@BeforeTest
+//
+//	public void launchurl_rugartisan() throws InterruptedException {
+//
+//		getlaunchurl(getreaddata("url"));
+//	}
 
 	@Test
 

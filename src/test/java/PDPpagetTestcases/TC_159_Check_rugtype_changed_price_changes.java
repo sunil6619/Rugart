@@ -20,9 +20,9 @@ public class TC_159_Check_rugtype_changed_price_changes extends Base {
 	@FindBy(xpath = "//div[@class=\"collection-item\"]/child::a/img[@alt=\"Field of Flowers\"]")
 	private WebElement fof;
 	@FindBy(xpath = "//div[@class=\"select weavingtype\"]")
-    private WebElement rugtypedropdown;
+	private WebElement rugtypedropdown;
 	@FindBy(xpath = "//span[contains(text(),'Hand Tufted')]/parent::div")
-    private WebElement handtufted;
+	private WebElement handtufted;
 	@FindBy (xpath = "//li[@id=\"HandKnotted\"]")
 	private WebElement handknotteddropdown;
 	@FindBy(xpath = "//input[@id=\"widthFeetRug\"]")
@@ -31,22 +31,22 @@ public class TC_159_Check_rugtype_changed_price_changes extends Base {
 	private WebElement lgthft ;
 	@FindBy(xpath = "//div[@class=\"pdp-summary priceValue\"]/child::div")
 	private WebElement rugprice;
-	
+
 	public TC_159_Check_rugtype_changed_price_changes() {
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	public void clickoncollectionfof() throws InterruptedException, AWTException {
 		mousehover(collection);
 		Thread.sleep(1000);
 		fof.click();
-		 Thread.sleep(1000);
+		Thread.sleep(1000);
 		List<WebElement> customize=driver.findElements(By.xpath("//span[contains (text(),'Custom Sizes')]"));
 		WebElement first=customize.get(0);
 		first.click();
 		zoomin();
 	}
-	
+
 	public void rugtypechanged_price_changes() throws InterruptedException {	
 		widthft.sendKeys("6");
 		lgthft.sendKeys("8");
@@ -67,22 +67,23 @@ public class TC_159_Check_rugtype_changed_price_changes extends Base {
 			System.out.println("Price is not changed");
 		}	
 	}
-	
-	TC_159_Check_rugtype_changed_price_changes ob;
-	@Parameters ("url")
-	@BeforeTest
-	
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_159_Check_rugtype_changed_price_changes();
-	}
-	
+
+	//	TC_159_Check_rugtype_changed_price_changes ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//	
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_159_Check_rugtype_changed_price_changes();
+	//	}
+
 	@Test
-	
+
 	public void rugtypechangedpricechanges() throws InterruptedException, AWTException {
+		TC_159_Check_rugtype_changed_price_changes ob= new TC_159_Check_rugtype_changed_price_changes();
 		ob.clickoncollectionfof();
 		ob.rugtypechanged_price_changes();
-		
-		
+
+
 	}
 }

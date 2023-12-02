@@ -31,23 +31,9 @@ public class TC_002_Check_aboutuslink extends Base {
 		String Currenturl=driver.getCurrentUrl();
 		System.out.println(Currenturl);
 		Assert.assertEquals("https://www.rugartisan.com/about", Currenturl);
-		 test=reports.createTest("Check about us link");
+//		 test=reports.createTest("Check about us link");
 		
 	}
-	@AfterMethod
-	public void  getTestResult(ITestResult result) {
-		if(result.getStatus()==ITestResult.FAILURE)
-		{
-			test.log(Status.FAIL, MarkupHelper.createLabel(result.getName()+" FAIL ", ExtentColor.RED));
-			//if test failed then to get detials
-			test.fail(result.getThrowable());
-			
-		}
-		else if (result.getStatus()==ITestResult.SUCCESS)
-		{
-			test.log(Status.PASS, MarkupHelper.createLabel(result.getName()+" PASS ", ExtentColor.GREEN));
-		}
-		
-	}
+	
 
 }

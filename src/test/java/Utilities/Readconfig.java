@@ -5,7 +5,9 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 
-public class Readconfig {
+import resources.Base;
+
+public class Readconfig{
 	
 	Properties prop;
 	String configpath="S:\\Eclipse 2\\Rugartisan_New\\config.properties";
@@ -24,8 +26,9 @@ public class Readconfig {
 
 	
 
-	public String geturl() {
-		String value=prop.getProperty("url");
+	public String getbaseurl(String key) {
+		String value="";
+		 value=prop.getProperty(key);
 		
 		if (value!=null)
 			return value;
@@ -33,15 +36,15 @@ public class Readconfig {
 			throw new RuntimeException("url not specified in config file");
 	}
 	
-	public String getemail() {
-		String value=prop.getProperty("email");
+	public String getemail(String key) {
+		String value=prop.getProperty(key);
 		if (value!=null)
 			return value;
 		else
 			throw new RuntimeException("email not specified in config file");
-	}
-	public String getpassword() {
-		String value=prop.getProperty("password");
+}
+	public String getpassword(String key) {
+		String value=prop.getProperty(key);
 		if (value!=null)
 			return value;
 		else

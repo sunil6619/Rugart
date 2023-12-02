@@ -84,16 +84,17 @@ public class TC_163_Check_order_samples_displays_selected_colors_PDP extends Bas
 		Assert.assertEquals(color5n,samplecolor5n);	
 	}
 	
-	TC_163_Check_order_samples_displays_selected_colors_PDP ob;
-	@Parameters("url")
-	@BeforeTest
-	
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_163_Check_order_samples_displays_selected_colors_PDP();	
-	}
+//	TC_163_Check_order_samples_displays_selected_colors_PDP ob;
+//	@Parameters("url")
+//	@BeforeTest
+//	
+//	public void launchurl() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		ob= new TC_163_Check_order_samples_displays_selected_colors_PDP();	
+//	}
 	@Test
 	public void orderdisplays_selectedcolors_of_PDP() throws InterruptedException, AWTException {
+		TC_163_Check_order_samples_displays_selected_colors_PDP ob= new TC_163_Check_order_samples_displays_selected_colors_PDP();
 		ob.clickoncollectionfof();
 		ob.ordersample_displays_selected_colorsof_PDP();
 	}

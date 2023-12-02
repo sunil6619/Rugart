@@ -48,19 +48,20 @@ public class TC_209_Check_default_Quantity extends Base{
 
 
 	}
-	TC_209_Check_default_Quantity ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_209_Check_default_Quantity();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_209_Check_default_Quantity ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_209_Check_default_Quantity();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_default_quantity() throws InterruptedException, AWTException {
+		TC_209_Check_default_Quantity ob= new TC_209_Check_default_Quantity();
 		ob.clickoncollection();
 		ob.default_quantity();
 		Log.info("Clicking on collection FOF and checking default quantity,");

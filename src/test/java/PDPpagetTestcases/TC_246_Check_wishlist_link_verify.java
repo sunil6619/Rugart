@@ -28,7 +28,7 @@ public class TC_246_Check_wishlist_link_verify extends Base{
 	private WebElement wishlist;
 	@FindBy(xpath = "//h3[contains(text(),'Sign In')]")
 	private WebElement signinbox;
-	
+
 	public TC_246_Check_wishlist_link_verify () {
 		PageFactory.initElements(driver, this);
 	}
@@ -44,7 +44,7 @@ public class TC_246_Check_wishlist_link_verify extends Base{
 		first.click();
 
 	}
-	
+
 	public void click_wishlist() throws InterruptedException {
 		Thread.sleep(1000);
 		pagedown();
@@ -60,28 +60,26 @@ public class TC_246_Check_wishlist_link_verify extends Base{
 		Thread.sleep(1000);
 		String expected=signinbox.getText();
 		Assert.assertEquals("SIGN IN", expected);
-	
-	}
-	TC_246_Check_wishlist_link_verify  ob;
-	@BeforeTest
 
-	
-
-	public void launchurl() throws InterruptedException {
-		
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_246_Check_wishlist_link_verify ();
-		Log.info("Chrome browser and url launch");
 	}
+	//	TC_246_Check_wishlist_link_verify  ob;
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_246_Check_wishlist_link_verify ();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_wishlist_link() throws InterruptedException, AWTException {
-
+		TC_246_Check_wishlist_link_verify  ob= new TC_246_Check_wishlist_link_verify ();
 		ob.clickoncollection();
 		ob.click_wishlist();
 		Log.info("Checking wishlist link");
 	}
 
-	
+
 }

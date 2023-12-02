@@ -93,24 +93,22 @@ public class TC_190_Check_rugmaterial_silk_changed_should_change_in_all extends 
 		Assert.assertEquals("Bamboo Silk", expectedmaterial);
 	}
 
-	TC_190_Check_rugmaterial_silk_changed_should_change_in_all ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_190_Check_rugmaterial_silk_changed_should_change_in_all();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_190_Check_rugmaterial_silk_changed_should_change_in_all ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_190_Check_rugmaterial_silk_changed_should_change_in_all();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_rugmaterial_silk_changed() throws InterruptedException, AWTException {
+		TC_190_Check_rugmaterial_silk_changed_should_change_in_all ob= new TC_190_Check_rugmaterial_silk_changed_should_change_in_all();
 		ob.clickoncollection();
 		ob.change_rugmaterial_silk();
-
-
-
 
 	}
 }

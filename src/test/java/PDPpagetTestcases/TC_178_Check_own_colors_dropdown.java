@@ -24,10 +24,10 @@ public class TC_178_Check_own_colors_dropdown extends Base {
 	private WebElement colordropdown;
 	@FindBy(id = "Core-tab")
 	private WebElement corecolors;
-	
-	
-	
-	
+
+
+
+
 	public  TC_178_Check_own_colors_dropdown() {
 		PageFactory.initElements(driver, this);
 	}
@@ -41,29 +41,30 @@ public class TC_178_Check_own_colors_dropdown extends Base {
 		first.click();
 		zoomin();
 	}
-	
+
 	public void check_owncolor_dropdown() throws InterruptedException, AWTException {
 		Thread.sleep(1000);
-//		zoomin();
+		//		zoomin();
 		colordropdown.click();
 		Thread.sleep(1000);
 		String text=corecolors.getText();
 		Assert.assertEquals("CORE COLORS", text);
-		
-	}
-	
-	TC_178_Check_own_colors_dropdown ob;
-	@Parameters ("url")
-	@BeforeTest
 
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_178_Check_own_colors_dropdown();
 	}
+
+	//	TC_178_Check_own_colors_dropdown ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_178_Check_own_colors_dropdown();
+	//	}
 
 	@Test
 
 	public void check_dropdown_own_colors() throws InterruptedException, AWTException {
+		TC_178_Check_own_colors_dropdown ob= new TC_178_Check_own_colors_dropdown() ;
 		ob.clickoncollection();
 		ob.check_owncolor_dropdown();
 

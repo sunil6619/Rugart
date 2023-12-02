@@ -12,13 +12,13 @@ import resources.Base;
 
 public class TC_010_Check_whether_ableto_mousehover_shapes extends Base {
 
-	@Parameters("url")
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_whetherable_mouseover_shapes_Test () throws InterruptedException, AWTException {
 		Thread.sleep(1000);

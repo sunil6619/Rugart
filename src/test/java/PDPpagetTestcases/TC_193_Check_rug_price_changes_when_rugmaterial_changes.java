@@ -38,7 +38,7 @@ public class TC_193_Check_rug_price_changes_when_rugmaterial_changes extends Bas
 	private WebElement lgthft ;
 	@FindBy (xpath = "//div[@class=\"pdp-top-bar-item price priceValue txtBx\"]/descendant::span[@class=\"regular-price\"]")
 	private WebElement rugprice;
-	
+
 	public  TC_193_Check_rug_price_changes_when_rugmaterial_changes () {
 		PageFactory.initElements(driver, this);
 	}
@@ -53,7 +53,7 @@ public class TC_193_Check_rug_price_changes_when_rugmaterial_changes extends Bas
 		first.click();
 		zoomin();
 	}
-	
+
 	public void rugprice_change() throws InterruptedException, AWTException {
 		Thread.sleep(1000);
 		pagedown();
@@ -91,25 +91,25 @@ public class TC_193_Check_rug_price_changes_when_rugmaterial_changes extends Bas
 		Thread.sleep(2000);
 		expectedrugprice=rugprice.getText();
 		Assert.assertEquals("$864",expectedrugprice);
-		
-			
-	}
-	TC_193_Check_rug_price_changes_when_rugmaterial_changes ob;
-	@Parameters ("url")
-	@BeforeTest
 
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_193_Check_rug_price_changes_when_rugmaterial_changes();
-				Log.info("Chrome browser and url launch");
 	}
+	//	TC_193_Check_rug_price_changes_when_rugmaterial_changes ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_193_Check_rug_price_changes_when_rugmaterial_changes();
+	//				Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_rug_price_changes() throws InterruptedException, AWTException {
+		TC_193_Check_rug_price_changes_when_rugmaterial_changes ob= new TC_193_Check_rug_price_changes_when_rugmaterial_changes();
 		ob.clickoncollection();
 		ob.rugprice_change();
-				Log.info("Clicking on collection FOF and changing rug materials,checking rug price");
+		Log.info("Clicking on collection FOF and changing rug materials,checking rug price");
 
 
 

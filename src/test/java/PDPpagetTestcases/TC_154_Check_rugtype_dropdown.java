@@ -57,18 +57,19 @@ public class TC_154_Check_rugtype_dropdown extends Base{
 		
 	}
 	
-	TC_154_Check_rugtype_dropdown ob;
-	@Parameters ("url")
-	@BeforeTest
-	
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_154_Check_rugtype_dropdown();
-	}
+//	TC_154_Check_rugtype_dropdown ob;
+//	@Parameters ("url")
+//	@BeforeTest
+//	
+//	public void launchurl() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		ob= new TC_154_Check_rugtype_dropdown();
+//	}
 		
 	@Test
 	
 	public void clickrugtypedropdown() throws InterruptedException, AWTException {
+		TC_154_Check_rugtype_dropdown ob = new TC_154_Check_rugtype_dropdown();
 		ob.collectionfof();
 		ob.rugtypedropdown();
 	}

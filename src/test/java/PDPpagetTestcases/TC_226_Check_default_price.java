@@ -45,22 +45,22 @@ public class TC_226_Check_default_price extends Base {
 		Assert.assertEquals("$0",expectedprice);
 		
 	}
-	TC_226_Check_default_price ob;
-	//@Parameters ("url")
-	@BeforeTest
-
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_226_Check_default_price();
-		Log.info("Chrome browser and url launch");
-	}
+//	TC_226_Check_default_price ob;
+//	//@Parameters ("url")
+//	@BeforeTest
+//
+//
+//
+//	public void launchurl() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		ob= new TC_226_Check_default_price();
+//		Log.info("Chrome browser and url launch");
+//	}
 
 	@Test
 
 	public void check_default_price() throws InterruptedException, AWTException {
-
+		TC_226_Check_default_price ob= new TC_226_Check_default_price();
 		ob.clickoncollection();
 		ob.default_rugprice();
 		Log.info("Clicking on collection FOF and checking default rugprice");

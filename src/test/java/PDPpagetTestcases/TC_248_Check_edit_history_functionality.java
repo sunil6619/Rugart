@@ -36,8 +36,8 @@ public class TC_248_Check_edit_history_functionality extends Base{
 	private List<WebElement> colorsuggestion;
 	@FindBy(xpath = "//div[@class=\"loadsuggestion \"]")
 	private WebElement suggestion;
-	
-	
+
+
 	public TC_248_Check_edit_history_functionality () {
 		PageFactory.initElements(driver, this);
 	}
@@ -53,12 +53,12 @@ public class TC_248_Check_edit_history_functionality extends Base{
 		first.click();
 
 	}
-	
+
 	public void edit_history() throws InterruptedException {
 		Thread.sleep(1000);
 		morecolors.click();
 		Thread.sleep(1000);
-//		List<WebElement>list=driver.findElements(By.xpath("//img[@class=\"suggestion-img\"]"));
+		//		List<WebElement>list=driver.findElements(By.xpath("//img[@class=\"suggestion-img\"]"));
 		WebElement three=colorsuggestion.get(3);
 		three.click();
 		closebutton.click();
@@ -69,14 +69,14 @@ public class TC_248_Check_edit_history_functionality extends Base{
 		two.click();
 		closebutton.click();
 		Thread.sleep(1000);	
-		
+
 		edithistory.click();
-//		List<WebElement> suggestion=driver.findElements(By.xpath("//div[@class=\"loadsuggestion \"]"));
-//		WebElement first=suggestion.get(1);
+		//		List<WebElement> suggestion=driver.findElements(By.xpath("//div[@class=\"loadsuggestion \"]"));
+		//		WebElement first=suggestion.get(1);
 		Thread.sleep(2000);
 		suggestion.click();
 		Thread.sleep(1000);
-//		first.click();
+		//		first.click();
 		pagedown();
 		String text=color1.getText();
 		Assert.assertEquals("RA-CG10",text);
@@ -86,25 +86,23 @@ public class TC_248_Check_edit_history_functionality extends Base{
 		Assert.assertEquals("RA-BJ11",text);
 		text=color4.getText();
 		Assert.assertEquals("RA-AE12",text);
-		
-	
-	}
-	TC_248_Check_edit_history_functionality ob;
-	@BeforeTest
 
-	
 
-	public void launchurl() throws InterruptedException {
-		
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_248_Check_edit_history_functionality();
-		Log.info("Chrome browser and url launch");
 	}
+	//	TC_248_Check_edit_history_functionality ob;
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_248_Check_edit_history_functionality();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_edit_history_loading() throws InterruptedException, AWTException {
-
+		TC_248_Check_edit_history_functionality ob= new TC_248_Check_edit_history_functionality();
 		ob.clickoncollection();
 		ob.edit_history();
 		Log.info("Checking edit history loading");

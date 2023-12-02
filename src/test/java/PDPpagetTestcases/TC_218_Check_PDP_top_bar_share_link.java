@@ -39,7 +39,7 @@ public class TC_218_Check_PDP_top_bar_share_link extends Base{
 		first.click();
 		zoomin();
 	}
-	
+
 	public void click_share_link() throws InterruptedException {
 		Thread.sleep(1000);
 		pagedown();
@@ -49,28 +49,24 @@ public class TC_218_Check_PDP_top_bar_share_link extends Base{
 		Thread.sleep(1000);
 		Boolean expected=sharebox.isDisplayed();
 		Assert.assertTrue(expected);
-		
-		
-		
-		
-		
+
 	}
-	TC_218_Check_PDP_top_bar_share_link ob;
-	//@Parameters ("url")
-	@BeforeTest
-
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_218_Check_PDP_top_bar_share_link  ();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_218_Check_PDP_top_bar_share_link ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_218_Check_PDP_top_bar_share_link  ();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_topbar_share_link() throws InterruptedException, AWTException {
-
+		TC_218_Check_PDP_top_bar_share_link ob=new TC_218_Check_PDP_top_bar_share_link ();
 		ob.clickoncollection();
 		ob.click_share_link();
 		Log.info("Clicking on collection FOF and checking PDP top bar order share link");

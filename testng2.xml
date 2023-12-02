@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+<listener class-name="Utilities.ExtentListenerClass"></listener>		
+	</listeners>
+  <test name="Test">
+    <classes>
+			<class name="headertestcases.TC_001_Check_Signin_link" />
+			<class name="headertestcases.TC_002_Check_aboutuslink" />
+			<class name="headertestcases.TC_003_Check_Trade_link"></class>
+			<class name="headertestcases.TC_004_Check_Contact_link"></class>
+			<class name="headertestcases.TC_005_Check_Press_link"></class>
+			<class name="headertestcases.TC_006_Check_Join_link"></class>
+			<class name="homepagetestcases.TC_007_Check_whether_ableto_mousehover_Collection" />
+			<class name="homepagetestcases.TC_008_Check_whether_ableto_mousehover_Rugstyle"></class>
+			<class name="homepagetestcases.TC_009_Check_whether_ableto_mousehover_Pattern"></class>
+			<class name="homepagetestcases.TC_010_Check_whether_ableto_mousehover_shapes"></class>
+			<class name="homepagetestcases.TC_011_Check_whether_ableto_mousehover_Discover"></class>
+		    <class name="homepagetestcases.TC_012_Check_bespoke_link_working_formdisplays"></class>
+		    <class name="homepagetestcases.TC_013_Check_Rugfinder_link_working_boxdisplays"></class>
+			<class name="homepagetestcases.TC_014_Check_FieldofFlowers_link_Collection_Click_all_shapes"></class>
+
+				
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
