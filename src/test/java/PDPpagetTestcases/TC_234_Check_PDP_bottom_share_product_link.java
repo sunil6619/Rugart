@@ -36,7 +36,7 @@ public class TC_234_Check_PDP_bottom_share_product_link extends Base {
 		WebElement first=customize.get(2);
 		first.click();
 	}
-	
+
 	public void share_product_link() throws InterruptedException {
 		Thread.sleep(1000);
 		pagedown();
@@ -45,7 +45,7 @@ public class TC_234_Check_PDP_bottom_share_product_link extends Base {
 		Thread.sleep(1000);
 		String expected=producturl.getAttribute("value");
 		if (expected.contains("https://www.rugartisan")) {
-			
+
 			System.out.println("Product link present");
 		}
 		else 
@@ -53,22 +53,22 @@ public class TC_234_Check_PDP_bottom_share_product_link extends Base {
 			System.out.println("Product link not present");
 		}
 	}
-	TC_234_Check_PDP_bottom_share_product_link ob;
-	//@Parameters ("url")
-	@BeforeTest
-
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_234_Check_PDP_bottom_share_product_link();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_234_Check_PDP_bottom_share_product_link ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_234_Check_PDP_bottom_share_product_link();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_share_product_link() throws InterruptedException, AWTException {
-
+		TC_234_Check_PDP_bottom_share_product_link ob= new TC_234_Check_PDP_bottom_share_product_link() ;
 		ob.clickoncollection();
 		ob.share_product_link();
 		Log.info("Checking share product link on bottom in PDP page");

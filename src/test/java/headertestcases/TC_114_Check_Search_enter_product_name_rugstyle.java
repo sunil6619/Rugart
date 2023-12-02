@@ -17,14 +17,14 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_114_Check_Search_enter_product_name_rugstyle extends Base {
-	@Parameters("url")
-	@BeforeTest
-	
-	public void launchurl_rugartisan() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		
-		
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		
+//		
+//	}
 @Test
 
 public void check_search_enter_product_name_Test() throws InterruptedException, AWTException {

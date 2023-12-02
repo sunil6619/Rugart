@@ -67,17 +67,18 @@ public class TC_155_Check_handtufted_rugtype_pile_height_displays extends Base {
 	    
 }
     
-    TC_155_Check_handtufted_rugtype_pile_height_displays ob;
-    @Parameters("url")
-    @BeforeTest
-    
-    public void launchurl() throws InterruptedException {
-    	getlaunchurl(getreaddata("url"));
-    	ob= new TC_155_Check_handtufted_rugtype_pile_height_displays();
-    	
-    }
+//    TC_155_Check_handtufted_rugtype_pile_height_displays ob;
+//    @Parameters("url")
+//    @BeforeTest
+//    
+//    public void launchurl() throws InterruptedException {
+//    	getlaunchurl(getreaddata("url"));
+//    	ob= new TC_155_Check_handtufted_rugtype_pile_height_displays();
+//    	
+//    }
     @Test
     public void check_handtufted_rugtype_pile_height_displays() throws InterruptedException, AWTException {
+    	TC_155_Check_handtufted_rugtype_pile_height_displays ob= new TC_155_Check_handtufted_rugtype_pile_height_displays();
     	ob.collectionfof();
     	ob.handtufted_pile_heightcheck();
     }

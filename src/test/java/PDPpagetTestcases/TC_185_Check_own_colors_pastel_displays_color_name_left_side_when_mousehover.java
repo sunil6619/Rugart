@@ -35,7 +35,7 @@ public class TC_185_Check_own_colors_pastel_displays_color_name_left_side_when_m
 	private WebElement color4;
 	@FindBy(className = "slClrnm")
 	private WebElement colornameleft;
-	
+
 	public  TC_185_Check_own_colors_pastel_displays_color_name_left_side_when_mousehover() {
 		PageFactory.initElements(driver, this);
 	}
@@ -50,7 +50,7 @@ public class TC_185_Check_own_colors_pastel_displays_color_name_left_side_when_m
 		first.click();
 		zoomin();
 	}
-	
+
 	public void colorname_displays_leftside_when_mousehover() throws InterruptedException, AWTException {
 		Thread.sleep(1000);
 		colordropdown.click();
@@ -72,25 +72,24 @@ public class TC_185_Check_own_colors_pastel_displays_color_name_left_side_when_m
 		mousehover(color4);
 		text=colornameleft.getText();
 		Assert.assertEquals("RA-73-N",text);
-	
-	
-		
-	}
-	
-	
-	TC_185_Check_own_colors_pastel_displays_color_name_left_side_when_mousehover ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_185_Check_own_colors_pastel_displays_color_name_left_side_when_mousehover();
 
 	}
+
+	//	
+	//	TC_185_Check_own_colors_pastel_displays_color_name_left_side_when_mousehover ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_185_Check_own_colors_pastel_displays_color_name_left_side_when_mousehover();
+	//
+	//	}
 
 	@Test
 
 	public void check_core_colors_displays_on_leftside_when_mousehover() throws InterruptedException, AWTException {
+		TC_185_Check_own_colors_pastel_displays_color_name_left_side_when_mousehover ob= new TC_185_Check_own_colors_pastel_displays_color_name_left_side_when_mousehover();
 		ob.clickoncollection();
 		ob.colorname_displays_leftside_when_mousehover();
 

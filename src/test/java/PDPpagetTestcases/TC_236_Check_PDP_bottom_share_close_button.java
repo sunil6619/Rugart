@@ -21,9 +21,9 @@ public class TC_236_Check_PDP_bottom_share_close_button extends Base{
 	@FindBy(xpath = "//span[@class=\"share-icon modal-text\"]")
 	private WebElement share;
 	@FindBy(xpath = "//div[@id=\"share-Modal\"]/descendant::span")
-    private WebElement close;
-	
-	
+	private WebElement close;
+
+
 	public  TC_236_Check_PDP_bottom_share_close_button () {
 		PageFactory.initElements(driver, this);
 	}
@@ -38,7 +38,7 @@ public class TC_236_Check_PDP_bottom_share_close_button extends Base{
 		first.click();
 	}
 	public void click_close() throws InterruptedException {
-		
+
 		Thread.sleep(1000);
 		pagedown();
 		Thread.sleep(1000);
@@ -47,27 +47,27 @@ public class TC_236_Check_PDP_bottom_share_close_button extends Base{
 		Boolean expected=close.isDisplayed();
 		Assert.assertTrue(expected);
 		close.click();
-		
+
 	}
-	TC_236_Check_PDP_bottom_share_close_button ob;
-	//@Parameters ("url")
-	@BeforeTest
-
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_236_Check_PDP_bottom_share_close_button();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_236_Check_PDP_bottom_share_close_button ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_236_Check_PDP_bottom_share_close_button();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_close_button_functionality_in_share() throws InterruptedException, AWTException {
-
+		TC_236_Check_PDP_bottom_share_close_button ob= new TC_236_Check_PDP_bottom_share_close_button();
 		ob.clickoncollection();
 		ob.click_close();
 		Log.info("Checking close button of share of PDP page");
 	}
-	
+
 }

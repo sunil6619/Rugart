@@ -48,8 +48,8 @@ public class TC_186_Check_able_to_change_pastel_colors extends Base {
 	private WebElement pdpcolorname3;
 	@FindBy(xpath = "//div[@id=\"colors-row-wrap\"]/descendant::span[text()='RA-73-N']")
 	private WebElement pdpcolorname4;
-	
-	
+
+
 	public  TC_186_Check_able_to_change_pastel_colors() {
 		PageFactory.initElements(driver, this);
 	}
@@ -64,7 +64,7 @@ public class TC_186_Check_able_to_change_pastel_colors extends Base {
 		first.click();
 		zoomin();
 	}
-	
+
 	public void change_pastel_colors() throws InterruptedException {
 		Thread.sleep(1000);
 		colordropdown1.click();
@@ -104,23 +104,24 @@ public class TC_186_Check_able_to_change_pastel_colors extends Base {
 		text=pdpcolorname4.getText();
 		Assert.assertEquals("RA-73-N",text);	
 	}
-	
-	TC_186_Check_able_to_change_pastel_colors ob;
-	@Parameters ("url")
-	@BeforeTest
 
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_186_Check_able_to_change_pastel_colors();
-
-	}
+	//	TC_186_Check_able_to_change_pastel_colors ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_186_Check_able_to_change_pastel_colors();
+	//
+	//	}
 
 	@Test
 
 	public void check_able_to_change_pastel_colors() throws InterruptedException, AWTException {
+		TC_186_Check_able_to_change_pastel_colors ob= new TC_186_Check_able_to_change_pastel_colors();
 		ob.clickoncollection();
 		ob.change_pastel_colors();
-		
+
 
 
 

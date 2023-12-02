@@ -36,8 +36,8 @@ public class TC_216_Check_PDP_top_bar_dropdown_required_details extends Base{
 	private WebElement qnty;
 	@FindBy(xpath = "//div[@class=\"vline1\"]")
 	private WebElement rugprice;
-	
-	
+
+
 	public  TC_216_Check_PDP_top_bar_dropdown_required_details () {
 		PageFactory.initElements(driver, this);
 	}
@@ -52,7 +52,7 @@ public class TC_216_Check_PDP_top_bar_dropdown_required_details extends Base{
 		first.click();
 		zoomin();
 	}
-	
+
 	public void topbar_details() throws InterruptedException {
 		Thread.sleep(1000);
 		pagedown();
@@ -74,32 +74,28 @@ public class TC_216_Check_PDP_top_bar_dropdown_required_details extends Base{
 		Assert.assertTrue(presentstate);
 		presentstate=rugprice.isDisplayed();
 		Assert.assertTrue(presentstate);
-		
-		
-		
-		
-		
-	}
-	TC_216_Check_PDP_top_bar_dropdown_required_details  ob;
-//	@Parameters ("url")
-	@BeforeTest
 
-	
-	
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_216_Check_PDP_top_bar_dropdown_required_details ();
-		Log.info("Chrome browser and url launch");
 	}
+	//	TC_216_Check_PDP_top_bar_dropdown_required_details  ob;
+	////	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	
+	//	
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_216_Check_PDP_top_bar_dropdown_required_details ();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_topbar_dropdown_details() throws InterruptedException, AWTException {
-		
+		TC_216_Check_PDP_top_bar_dropdown_required_details  ob= new TC_216_Check_PDP_top_bar_dropdown_required_details ();
 		ob.clickoncollection();
 		ob.topbar_details();
 		Log.info("Clicking on collection FOF and checking PDP top bar dropdown Details");
 	}
-	
-	
+
+
 }

@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_184_Check_own_colors_pastel_displays_color_name_mousehover extends Base{
-	
+
 	@FindBy(xpath = "//div[@class=\"collapse navbar-collapse\"]/child::ul/child::li/child::a[@href=\"/collections\"]")
 	private WebElement collection;
 	@FindBy(xpath = "//div[@class=\"collection-item\"]/child::a/img[@alt=\"Field of Flowers\"]")
@@ -34,9 +34,9 @@ public class TC_184_Check_own_colors_pastel_displays_color_name_mousehover exten
 	private WebElement color3;
 	@FindBy(xpath = "//span[@title=\"RA-73-N\"]")
 	private WebElement color4;
-	
-	
-	
+
+
+
 	public  TC_184_Check_own_colors_pastel_displays_color_name_mousehover() {
 		PageFactory.initElements(driver, this);
 	}
@@ -51,10 +51,10 @@ public class TC_184_Check_own_colors_pastel_displays_color_name_mousehover exten
 		first.click();
 		zoomin();
 	}
-	
+
 	public void colorname_displays_when_mousehover() throws InterruptedException, AWTException {
 		Thread.sleep(1000);
-//		zoomin();
+		//		zoomin();
 		colordropdown.click();
 		Thread.sleep(1000);	
 		pastelcolors.click();
@@ -66,23 +66,24 @@ public class TC_184_Check_own_colors_pastel_displays_color_name_mousehover exten
 		Assert.assertEquals("RA-58-N",tooltip);
 		tooltip=color4.getAttribute("title");
 		Assert.assertEquals("RA-73-N",tooltip);	
-		
-	}
-	
-	
-	TC_184_Check_own_colors_pastel_displays_color_name_mousehover ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_184_Check_own_colors_pastel_displays_color_name_mousehover();
 
 	}
+
+
+	//	TC_184_Check_own_colors_pastel_displays_color_name_mousehover ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_184_Check_own_colors_pastel_displays_color_name_mousehover();
+	//
+	//	}
 
 	@Test
 
 	public void check_core_colors_displays_tooltip_color_name() throws InterruptedException, AWTException {
+		TC_184_Check_own_colors_pastel_displays_color_name_mousehover ob= new TC_184_Check_own_colors_pastel_displays_color_name_mousehover();
 		ob.clickoncollection();
 		ob.colorname_displays_when_mousehover();
 

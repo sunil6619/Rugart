@@ -10,13 +10,13 @@ import resources.Base;
 
 public class TC_004_Check_Contact_link extends Base {
 
-	@Parameters("url")
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	
 	@Test
 	public void Check_Contact_link_Test () throws InterruptedException{

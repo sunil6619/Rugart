@@ -10,13 +10,13 @@ import resources.Base;
 
 public class TC_013_Check_Rugfinder_link_working_boxdisplays extends Base {
 
-	@Parameters("url")
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_rugfinder_link_working_boxappears_Test() throws InterruptedException {
 		Thread.sleep(1000);

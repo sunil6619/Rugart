@@ -25,8 +25,8 @@ public class TC_227_Check_if_width_or_lgth_value_invalid_price_remains_zero exte
 	private WebElement widthft ;
 	@FindBy(xpath = "//input[@id=\"lengthFeetRug\"]")
 	private WebElement lgthft ;
-	
-	
+
+
 	public  TC_227_Check_if_width_or_lgth_value_invalid_price_remains_zero() {
 		PageFactory.initElements(driver, this);
 	}
@@ -54,33 +54,30 @@ public class TC_227_Check_if_width_or_lgth_value_invalid_price_remains_zero exte
 		lgthft.sendKeys("91");
 		expectedprice=rugprice.getText();
 		Assert.assertEquals("$0", expectedprice);
-		
-		
-		
-		
-		
+
+
 	}
-	
-	TC_227_Check_if_width_or_lgth_value_invalid_price_remains_zero ob;
-	//@Parameters ("url")
-	@BeforeTest
 
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_227_Check_if_width_or_lgth_value_invalid_price_remains_zero();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_227_Check_if_width_or_lgth_value_invalid_price_remains_zero ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_227_Check_if_width_or_lgth_value_invalid_price_remains_zero();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_size_invalid_price_remains_zero() throws InterruptedException, AWTException {
-
+		TC_227_Check_if_width_or_lgth_value_invalid_price_remains_zero ob= new TC_227_Check_if_width_or_lgth_value_invalid_price_remains_zero();
 		ob.clickoncollection();
 		ob.lgth_width_value_invalid();
 		Log.info("Clicking on collection FOF and checking price when size is invalid");
 	}
 
-	
+
 }

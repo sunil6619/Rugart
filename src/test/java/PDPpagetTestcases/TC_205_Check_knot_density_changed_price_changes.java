@@ -36,7 +36,7 @@ public class TC_205_Check_knot_density_changed_price_changes extends Base{
 	@FindBy(xpath = "//span[@id=\"rug_price\"]")
 	private WebElement rugprice;
 	@FindBy(xpath = "//div[@class=\"select weavingtype\"]")
-    private WebElement rugtypedropdown;
+	private WebElement rugtypedropdown;
 	@FindBy (xpath = "//li[@id=\"HandKnotted\"]")
 	private WebElement handknotteddropdown;
 	@FindBy(xpath = "//div[@class=\"radio\"]/child::label[@for=\"pile_depth_1\"]")
@@ -45,7 +45,7 @@ public class TC_205_Check_knot_density_changed_price_changes extends Base{
 	private WebElement knotdensity2;
 	@FindBy(xpath = "//div[@class=\"radio\"]/child::label[@for=\"pile_depth_3\"]")
 	private WebElement knotdensity3;
-	
+
 	public  TC_205_Check_knot_density_changed_price_changes() {
 		PageFactory.initElements(driver, this);
 	}
@@ -106,25 +106,26 @@ public class TC_205_Check_knot_density_changed_price_changes extends Base{
 		expectedprice=rugprice.getText();
 		Assert.assertEquals("$29610",expectedprice);
 	}
-		
-	
-	TC_205_Check_knot_density_changed_price_changes ob;
-	@Parameters ("url")
-	@BeforeTest
 
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_205_Check_knot_density_changed_price_changes();
-		Log.info("Chrome browser and url launch");
-	}
+
+	//	TC_205_Check_knot_density_changed_price_changes ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_205_Check_knot_density_changed_price_changes();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_knot_density_chnaged_price_changes() throws InterruptedException, AWTException {
+		TC_205_Check_knot_density_changed_price_changes ob= new TC_205_Check_knot_density_changed_price_changes();
 		ob.clickoncollection();
 		ob.click_different_knot_density();
 		Log.info("Clicking on collection FOF and checking price change when knot density is changed");
 	}
-	
-	
+
+
 }

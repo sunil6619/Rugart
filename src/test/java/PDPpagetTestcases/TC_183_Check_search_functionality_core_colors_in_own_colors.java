@@ -66,26 +66,21 @@ public class TC_183_Check_search_functionality_core_colors_in_own_colors extends
 		text=tooltipcolor3.getAttribute("title");
 		Assert.assertEquals("RA-BG07", text);
 
-
-
-
-
-
-
 	}
-	TC_183_Check_search_functionality_core_colors_in_own_colors ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_183_Check_search_functionality_core_colors_in_own_colors();
-
-	}
+//	TC_183_Check_search_functionality_core_colors_in_own_colors ob;
+//	@Parameters ("url")
+//	@BeforeTest
+//
+//	public void launchurl() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		ob= new TC_183_Check_search_functionality_core_colors_in_own_colors();
+//
+//	}
 
 	@Test
 
 	public void check_search_functionality_core_colors() throws InterruptedException, AWTException {
+		TC_183_Check_search_functionality_core_colors_in_own_colors ob= new TC_183_Check_search_functionality_core_colors_in_own_colors();
 		ob.clickoncollection();
 		ob.search_functionality();
 

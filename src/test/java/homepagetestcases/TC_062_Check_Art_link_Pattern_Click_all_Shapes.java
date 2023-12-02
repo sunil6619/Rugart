@@ -10,14 +10,14 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_062_Check_Art_link_Pattern_Click_all_Shapes extends Base{
-
-	@Parameters("url") 
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//
+//	@Parameters("url") 
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_art_link_in_pattern_click_all_shapes_Test() throws InterruptedException {
 		Thread.sleep(1000);

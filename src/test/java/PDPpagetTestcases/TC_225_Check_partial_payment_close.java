@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_225_Check_partial_payment_close extends Base  {
-	
+
 	@FindBy(xpath = "//div[@class=\"collapse navbar-collapse\"]/child::ul/child::li/child::a[@href=\"/collections\"]")
 	private WebElement collection;
 	@FindBy(xpath = "//div[@class=\"collection-item\"]/child::a/img[@alt=\"Field of Flowers\"]")
@@ -23,7 +23,7 @@ public class TC_225_Check_partial_payment_close extends Base  {
 	private WebElement partial;
 	@FindBy(xpath = "//div[@id=\"close-table\"]")
 	private WebElement closepartialpay;
-	
+
 	public  TC_225_Check_partial_payment_close  () {
 		PageFactory.initElements(driver, this);
 	}
@@ -36,7 +36,7 @@ public class TC_225_Check_partial_payment_close extends Base  {
 		List<WebElement> customize=driver.findElements(By.xpath("//span[contains (text(),'Custom Sizes')]"));
 		WebElement first=customize.get(2);
 		first.click();
-//		zoomin();
+		//		zoomin();
 	}
 	public void click_close_partial_payment() throws InterruptedException {
 		Thread.sleep(1000);
@@ -48,26 +48,26 @@ public class TC_225_Check_partial_payment_close extends Base  {
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("window.scrollBy(0,200)");
 		closepartialpay.click();
-		
-		
+
+
 	}
-	
-	TC_225_Check_partial_payment_close ob;
-	//@Parameters ("url")
-	@BeforeTest
 
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_225_Check_partial_payment_close ();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_225_Check_partial_payment_close ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_225_Check_partial_payment_close ();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_partial_payment_close() throws InterruptedException, AWTException {
-
+		TC_225_Check_partial_payment_close ob= new TC_225_Check_partial_payment_close ();
 		ob.clickoncollection();
 		ob.click_close_partial_payment();
 		Log.info("Clicking on collection FOF and checking partial payment close icon");

@@ -13,15 +13,15 @@ import resources.Base;
 
 public class TC_008_Check_whether_ableto_mousehover_Rugstyle extends Base{
 
-	@Parameters("url")
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
-	public void Check_whether_ableto_mousehover_Rugstyle_Test () throws InterruptedException, AWTException {
+	public void Check_able_to_mousehover_Rugstyle() throws InterruptedException, AWTException {
 		Thread.sleep(1000);
 		zoomin();
 		WebElement rugstyle=driver.findElement(By.xpath("//ul[@class=\"nav navbar-nav\"]/li/span[text()='Rug Style']"));

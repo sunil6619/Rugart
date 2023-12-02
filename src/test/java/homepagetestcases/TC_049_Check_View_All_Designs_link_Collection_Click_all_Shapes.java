@@ -11,13 +11,13 @@ import resources.Base;
 
 public class TC_049_Check_View_All_Designs_link_Collection_Click_all_Shapes extends Base {
 
-	@Parameters("url") 
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url") 
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_viewall_designs_link_in_collection_click_all_shapes_Test() throws InterruptedException {
 		Thread.sleep(1000);

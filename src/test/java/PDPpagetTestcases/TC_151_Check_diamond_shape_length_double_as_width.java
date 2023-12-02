@@ -38,23 +38,23 @@ public class TC_151_Check_diamond_shape_length_double_as_width extends Base{
 	private WebElement ftradiobutton;
 	@FindBy(xpath = "//button[@title=\"Buy Now\"]")
 	private WebElement addtocart;
-	
+
 	public TC_151_Check_diamond_shape_length_double_as_width() {
 		PageFactory.initElements(driver,this);
 	}
 	public void mousehovercollection() {
 		mousehover(collection);
 	}
-	
+
 	public void clickonfof() throws InterruptedException, AWTException {
 		Thread.sleep(1000);
 		fof.click();
-		 Thread.sleep(1000);
+		Thread.sleep(1000);
 		List<WebElement> customize=driver.findElements(By.xpath("//span[contains (text(),'Custom Sizes')]"));
 		WebElement first=customize.get(0);
 		first.click();
 		zoomin();
-			}
+	}
 	public void selectshape_diamond() throws InterruptedException {
 		rugshapedropdown.click();
 		diamondshape.click();
@@ -78,22 +78,23 @@ public class TC_151_Check_diamond_shape_length_double_as_width extends Base{
 		text=lgthft.getAttribute("value");
 		Assert.assertEquals("8",text);
 		Thread.sleep(1000);
-		
-			}
-	
-	TC_151_Check_diamond_shape_length_double_as_width ob;
-	
-	@Parameters("url")
-	@BeforeTest
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob=new TC_151_Check_diamond_shape_length_double_as_width();
+
 	}
-	
+
+	//	TC_151_Check_diamond_shape_length_double_as_width ob;
+
+	//	@Parameters("url")
+	//	@BeforeTest
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob=new TC_151_Check_diamond_shape_length_double_as_width();
+	//	}
+
 	@Test
 	public void check_diamondshape_length_gets_double() throws InterruptedException, AWTException {
-	ob.mousehovercollection();
-	ob.clickonfof();
-	ob.selectshape_diamond();
-	
-}}
+		TC_151_Check_diamond_shape_length_double_as_width ob = new TC_151_Check_diamond_shape_length_double_as_width();
+		ob.mousehovercollection();
+		ob.clickonfof();
+		ob.selectshape_diamond();
+
+	}}

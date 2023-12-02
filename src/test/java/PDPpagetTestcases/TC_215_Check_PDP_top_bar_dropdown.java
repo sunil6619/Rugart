@@ -29,7 +29,7 @@ public class TC_215_Check_PDP_top_bar_dropdown extends Base{
 	private WebElement pdptopbardropdown;
 	@FindBy(xpath = "//span[contains(text(),'Product')]")
 	private WebElement productid;
-	
+
 	public  TC_215_Check_PDP_top_bar_dropdown () {
 		PageFactory.initElements(driver, this);
 	}
@@ -51,41 +51,41 @@ public class TC_215_Check_PDP_top_bar_dropdown extends Base{
 		Boolean presentstate=productid.isDisplayed();
 		Assert.assertTrue(presentstate);
 	}
-	TC_215_Check_PDP_top_bar_dropdown  ob;
-//	@Parameters ("url")
-//	@BeforeTest
+	//	TC_215_Check_PDP_top_bar_dropdown  ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
 
-	
-	
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		
-//		Log.info("Chrome browser and url launch");
-	}
+
+
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		
+	////		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_topbar_dropdown() throws InterruptedException, AWTException {
-		ob= new TC_215_Check_PDP_top_bar_dropdown ();
+		TC_215_Check_PDP_top_bar_dropdown  ob= new TC_215_Check_PDP_top_bar_dropdown ();
 		ob.clickoncollection();
 		ob.pdptopbar_dropdown();
 		Log.info("Clicking on collection FOF and checking PDP top bar dropdown");
-		test=reports.createTest("Check PDP top bar dropdown");
+		//		test=reports.createTest("Check PDP top bar dropdown");
 	}
-	@AfterMethod
-	public void  getTestResult(ITestResult result) {
-		if(result.getStatus()==ITestResult.FAILURE)
-		{
-			test.log(Status.FAIL, MarkupHelper.createLabel(result.getName()+" FAIL ", ExtentColor.RED));
-			//if test failed then to get detials
-			test.fail(result.getThrowable());
-			
-		}
-		else if (result.getStatus()==ITestResult.SUCCESS)
-		{
-			test.log(Status.PASS, MarkupHelper.createLabel(result.getName()+" PASS ", ExtentColor.GREEN));
-		}
-		
-	}
-	
+	//	@AfterMethod
+	//	public void  getTestResult(ITestResult result) {
+	//		if(result.getStatus()==ITestResult.FAILURE)
+	//		{
+	//			test.log(Status.FAIL, MarkupHelper.createLabel(result.getName()+" FAIL ", ExtentColor.RED));
+	//			//if test failed then to get detials
+	//			test.fail(result.getThrowable());
+	//			
+	//		}
+	//		else if (result.getStatus()==ITestResult.SUCCESS)
+	//		{
+	//			test.log(Status.PASS, MarkupHelper.createLabel(result.getName()+" PASS ", ExtentColor.GREEN));
+	//		}
+	//		
+	//	}
+
 }

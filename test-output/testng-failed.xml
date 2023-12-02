@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not">
+      <class name="MyaccountTestcases.TC_347_Check_my_acct_name_updated_success_msg_appears">
         <methods>
           <include name="getlaunchurl"/>
           <include name="teardown"/>
-          <include name="launchurl"/>
-          <include name="check_donwload_pdf_verify"/>
+          <include name="Check_my_acct_last_name_left_blank_verify_msg"/>
         </methods>
-      </class> <!-- PDPpagetTestcases.TC_237_Check_download_pdf_link_verify_downloaded_or_not -->
+      </class> <!-- MyaccountTestcases.TC_347_Check_my_acct_name_updated_success_msg_appears -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

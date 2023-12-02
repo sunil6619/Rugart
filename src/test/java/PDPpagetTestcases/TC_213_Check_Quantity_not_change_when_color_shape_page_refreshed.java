@@ -25,7 +25,7 @@ public class TC_213_Check_Quantity_not_change_when_color_shape_page_refreshed ex
 	private WebElement widthft ;
 	@FindBy(xpath = "//input[@id=\"lengthFeetRug\"]")
 	private WebElement lgthft ;
-	
+
 	@FindBy(xpath = "//span[@id=\"increase\"]")
 	private WebElement increaseqty;
 	@FindBy(xpath = "//div[@id=\"designShape_msdd\"]")
@@ -36,7 +36,7 @@ public class TC_213_Check_Quantity_not_change_when_color_shape_page_refreshed ex
 	private WebElement morecolors;
 	@FindBy(xpath = "//a[@class=\"close\"]")
 	private WebElement closebutton;
-	
+
 	public  TC_213_Check_Quantity_not_change_when_color_shape_page_refreshed () {
 		PageFactory.initElements(driver, this);
 	}
@@ -85,22 +85,23 @@ public class TC_213_Check_Quantity_not_change_when_color_shape_page_refreshed ex
 		else {
 			System.out.println("Quantity changed");
 		}
-		
-	}
-	
-	TC_213_Check_Quantity_not_change_when_color_shape_page_refreshed  ob;
-	@Parameters ("url")
-	@BeforeTest
 
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_213_Check_Quantity_not_change_when_color_shape_page_refreshed ();
-		Log.info("Chrome browser and url launch");
 	}
+
+	//	TC_213_Check_Quantity_not_change_when_color_shape_page_refreshed  ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_213_Check_Quantity_not_change_when_color_shape_page_refreshed ();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_quantity_not_changed_color_shape_page_refreshed() throws InterruptedException, AWTException {
+		TC_213_Check_Quantity_not_change_when_color_shape_page_refreshed  ob = new TC_213_Check_Quantity_not_change_when_color_shape_page_refreshed ();
 		ob.clickoncollection();
 		ob.change_shape_color_page_refersh();
 		Log.info("Clicking on collection FOF and checking quantity not changed");

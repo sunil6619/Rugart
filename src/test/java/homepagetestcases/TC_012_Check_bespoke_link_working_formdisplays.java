@@ -12,13 +12,13 @@ import resources.Base;
 
 public class TC_012_Check_bespoke_link_working_formdisplays extends Base{
 
-	@Parameters("url")
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_bespoke_link_working_formdisplays_Test() throws InterruptedException, AWTException {
 		

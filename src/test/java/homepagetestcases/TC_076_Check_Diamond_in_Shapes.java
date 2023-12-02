@@ -11,13 +11,13 @@ import resources.Base;
 
 public class TC_076_Check_Diamond_in_Shapes extends Base {
 
-	@Parameters("url") 
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url") 
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_diamond_in_shapes_Test() throws InterruptedException {
 		Thread.sleep(1000);

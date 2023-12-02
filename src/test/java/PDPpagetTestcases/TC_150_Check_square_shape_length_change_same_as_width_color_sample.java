@@ -33,64 +33,65 @@ public class TC_150_Check_square_shape_length_change_same_as_width_color_sample 
 	private WebElement ordersample;
 	@FindBy(xpath = "//div[@class=\"rug-size cs_feet\"]/descendant::input[@name=\"width[feet]\"]")
 	private WebElement widthftsample;
-	
-	
+
+
 	public TC_150_Check_square_shape_length_change_same_as_width_color_sample() {
 		PageFactory.initElements(driver, this);
 	}
 	public void mousehovercollection() {
 		mousehover(collection);
 	}
-	
+
 	public void clickonfof() throws InterruptedException, AWTException {
 		Thread.sleep(1000);
 		fof.click();
-		 Thread.sleep(1000);
+		Thread.sleep(1000);
 		List<WebElement> customize=driver.findElements(By.xpath("//span[contains (text(),'Custom Sizes')]"));
 		WebElement first=customize.get(0);
 		first.click();
 		zoomin();
-			}
+	}
 	public void shapedropdown_selectshape() {
 		rugshapedropdown.click();
 		squareshape.click();
 		widthft.click();
 		widthft.sendKeys("6");
-		}
-   public void ordersamplerugsize() throws InterruptedException {
-	   Thread.sleep(1000);
-	   Actions act = new Actions(driver);
-       act.sendKeys(Keys.PAGE_UP).build().perform();
-       Thread.sleep(1000);
-       act.sendKeys(Keys.PAGE_UP).build().perform();
-       Thread.sleep(1000);
-      ordersample.click();
-	Thread.sleep(2000);
-	widthftsample.click();
-	widthftsample.clear();
-	widthftsample.sendKeys("8");
-	Thread.sleep(1000);
-	String text=lgthftsample.getAttribute("value");
-	Assert.assertEquals("8", text);
-	
-}
+	}
+	public void ordersamplerugsize() throws InterruptedException {
+		Thread.sleep(1000);
+		Actions act = new Actions(driver);
+		act.sendKeys(Keys.PAGE_UP).build().perform();
+		Thread.sleep(1000);
+		act.sendKeys(Keys.PAGE_UP).build().perform();
+		Thread.sleep(1000);
+		ordersample.click();
+		Thread.sleep(2000);
+		widthftsample.click();
+		widthftsample.clear();
+		widthftsample.sendKeys("8");
+		Thread.sleep(1000);
+		String text=lgthftsample.getAttribute("value");
+		Assert.assertEquals("8", text);
 
-   TC_150_Check_square_shape_length_change_same_as_width_color_sample ob;
-@Parameters("url")
-@BeforeTest
+	}
 
-   public void launchurl() throws InterruptedException {
-	getlaunchurl(getreaddata("url"));
-	ob=new TC_150_Check_square_shape_length_change_same_as_width_color_sample();	
-}
-  @Test
+	//   TC_150_Check_square_shape_length_change_same_as_width_color_sample ob;
+	//@Parameters("url")
+	//@BeforeTest
+	//
+	//   public void launchurl() throws InterruptedException {
+	//	getlaunchurl(getreaddata("url"));
+	//	ob=new TC_150_Check_square_shape_length_change_same_as_width_color_sample();	
+	//}
+	@Test
 
-   public void check_square_shape_length_change_same_as_width_color_sample() throws InterruptedException, AWTException {
-	  ob.mousehovercollection();
-	  ob.clickonfof();
-	  ob.shapedropdown_selectshape();
-	  Thread.sleep(2000);
-	  ob.ordersamplerugsize();
-	  
-  }
+	public void check_square_shape_length_change_same_as_width_color_sample() throws InterruptedException, AWTException {
+		TC_150_Check_square_shape_length_change_same_as_width_color_sample ob= new TC_150_Check_square_shape_length_change_same_as_width_color_sample();
+		ob.mousehovercollection();
+		ob.clickonfof();
+		ob.shapedropdown_selectshape();
+		Thread.sleep(2000);
+		ob.ordersamplerugsize();
+
+	}
 }

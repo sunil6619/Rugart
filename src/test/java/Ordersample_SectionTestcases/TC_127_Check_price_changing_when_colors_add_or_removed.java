@@ -13,13 +13,13 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_127_Check_price_changing_when_colors_add_or_removed extends Base {
-	@Parameters ("url")
-	@BeforeTest
-	
-	public void launchurl_rugartisan() throws InterruptedException {
-		
-		getlaunchurl(getreaddata("url"));
-	}
+//	@Parameters ("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException {
+//		
+//		getlaunchurl(getreaddata("url"));
+//	}
 	
 	@Test
 

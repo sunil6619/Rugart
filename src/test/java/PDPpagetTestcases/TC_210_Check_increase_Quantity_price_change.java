@@ -73,27 +73,28 @@ public class TC_210_Check_increase_Quantity_price_change extends Base{
 		else {
 			System.out.println("Price changed after increse in quantity");
 		}
-		
-		
+
+
 
 
 
 
 	}
 
-	TC_210_Check_increase_Quantity_price_change ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_210_Check_increase_Quantity_price_change();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_210_Check_increase_Quantity_price_change ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_210_Check_increase_Quantity_price_change();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_price_change_quantity_increased() throws InterruptedException, AWTException {
+		TC_210_Check_increase_Quantity_price_change ob= new TC_210_Check_increase_Quantity_price_change();
 		ob.clickoncollection();
 		ob.increase_quantity_price_changes();
 		Log.info("Clicking on collection FOF and checking price change when quantity changed");

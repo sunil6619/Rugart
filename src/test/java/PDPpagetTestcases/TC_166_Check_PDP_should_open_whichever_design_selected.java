@@ -43,16 +43,17 @@ public class TC_166_Check_PDP_should_open_whichever_design_selected extends Base
 		String prodname=productname.getText();
 		Assert.assertEquals("Anemone",prodname);		
 	}
-	TC_166_Check_PDP_should_open_whichever_design_selected ob;
-	@Parameters("url")
-	@BeforeTest
-
-	public void launchrugartisan() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_166_Check_PDP_should_open_whichever_design_selected();
-	}
+	//	TC_166_Check_PDP_should_open_whichever_design_selected ob;
+	//	@Parameters("url")
+	//	@BeforeTest
+	//
+	//	public void launchrugartisan() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_166_Check_PDP_should_open_whichever_design_selected();
+	//	}
 	@Test
 	public void checkpdpshouldopen_whichever_design_selected() throws InterruptedException, AWTException {
+		TC_166_Check_PDP_should_open_whichever_design_selected ob= new TC_166_Check_PDP_should_open_whichever_design_selected();
 		ob.clickoncollectionfof();
 		ob.verifysamedesignopened();
 	}

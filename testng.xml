@@ -1,1265 +1,2303 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  
+		<listeners>
+<listener class-name="Utilities.ExtentListenerClass"></listener>		
+	</listeners>
+
 	<parameter name="url" value="url"></parameter>
-  <test name="Signin" enabled="true"> 
-    <classes>
-      <class name="headertestcases.TC_001_Check_Signin_link"></class>
-    </classes>
-  </test>   <!-- Test --> 
-   <test name="Aboutus" enabled="true">   
-    <classes> 
-      <class name="headertestcases.TC_002_Check_aboutuslink"></class>
-    </classes>
-  </test> <!-- Test -->
-   <test name="Trade" enabled="true">   
-    <classes> 
-      <class name="headertestcases.TC_003_Check_Trade_link"></class>
-    </classes>
-  </test> <!-- Test -->
-  <test name="Contactlink" enabled="true">   
-    <classes> 
-      <class name="headertestcases.TC_004_Check_Contact_link"></class>
-    </classes>
-  </test> <!-- Test -->
-  <test name="Presslink" enabled="true">	  
-    <classes> 
-      <class name="headertestcases.TC_005_Check_Press_link"></class>
-    </classes>
-  </test> <!-- Test -->
-  <test name="Joinlink" enabled="true">
-    <classes> 
-      <class name="headertestcases.TC_006_Check_Join_link"></class>
-    </classes>
-  </test> <!-- Test -->
-  <test name="Collection" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_007_Check_whether_ableto_mousehover_Collection"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Rugstyle" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_008_Check_whether_ableto_mousehover_Rugstyle"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Pattern" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_009_Check_whether_ableto_mousehover_Pattern"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Shapes" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_010_Check_whether_ableto_mousehover_shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Discover" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_011_Check_whether_ableto_mousehover_Discover"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Bespoke" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_012_Check_bespoke_link_working_formdisplays"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Rugfinder" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_013_Check_Rugfinder_link_working_boxdisplays"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Collection-Field of Flowers" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_014_Check_FieldofFlowers_link_Collection_Click_all_shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Collection-Ombre" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_015_Check_Ombre_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Collection-Terrazzo play" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_016_Check_Terrazzoplay_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Collection-Batik" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_017_Check_Batik_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Collection-Origami" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_018_Check_Origami_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Collection-Minimalist" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_019_Check_Minimalist_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Collection-Cerulean" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_020_Check_Cerulean_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Collection-Surface Art" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_021_Check_SurfaceArt_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Collection-BrushStrokes EU" enabled="false">
-    <classes> 
-      <class name="homepagetestcases.TC_022_Check_BrushStrokes_link_Collection_Click_all_Shapes_EU"></class>
-    </classes>
-  </test><!-- Test -->
-   <test name="Collection-Geometric" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_023_Check_Geometric_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-   <test name="Collection-Modern Geometric EU" enabled="false">
-    <classes> 
-      <class name="homepagetestcases.TC_024_Check_ModernGeometric_link_Collection_Click_all_Shapes_EU"></class>
-    </classes>
-  </test><!-- Test -->
-   <test name="Collection-Vintage" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_025_Check_Vintage_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-   <test name="Collection-Monochrome" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_026_Check_Monochrome_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-   <test name="Collection-Floral" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_027_Check_Floral_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-   <test name="Collection-Animal Prints" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_028_Check_Animal_Prints_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-   <test name="Collection-Kids" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_029_Check_Kids_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-   <test name="Collection-Abstract" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_030_Check_Abstract_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-   <test name="Collection-Modern Art Eu" enabled="false">
-    <classes> 
-      <class name="homepagetestcases.TC_031_Check_Modern_Art_link_Collection_Click_all_Shapes_EU"></class>
-    </classes>
-  </test><!-- Test -->
-   <test name="Collection-Blue Royal" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_032_Check_Blue_Royal_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Collection-Outdoor" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_033_Check_Outdoor_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Collection-Flatweaves" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_034_Check_Flatweaves_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Collection-Solid Colors" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_035_Check_Solid_Colors_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="RugStyle-Floral" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_036_Check_Floral_link_RugStyle_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="RugStyle-Linear" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_037_Check_Linear_link_RugStyle_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="RugStyle-Geometrics" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_038_Check_Geometrics_link_RugStyle_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Rugstyle-Borders" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_039_Check_Borders_link_RugStyle_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Rugstyle-Plains" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_040_Check_Plains_link_RugStyle_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Rugstyle-Chic" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_041_Check_Chic_link_RugStyle_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Rugstyle-Abstract" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_042_Check_Abstract_link_RugStyle_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Rugstyle-Textiles" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_043_Check_Textiles_link_RugStyle_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Rugstyle-Repeats" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_044_Check_Repeats_link_RugStyle_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Rugstyle-Offbeat" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_045_Check_Offbeat_link_RugStyle_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Rugstyle-Oriental" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_046_Check_Oriental_link_RugStyle_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Rugstyle-Distressed" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_047_Check_Distressed_link_RugStyle_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Rugstyle-View all Designs" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_048_Check_View_All_Designs_link_RugStyle_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Collection-View all Designs" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_049_Check_View_All_Designs_link_Collection_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Pattern-Geometrics" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_050_Check_Geometrics_link_Pattern_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Pattern-Textures" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_051_Check_Textures_link_Pattern_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Pattern-Contemporary" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_052_Check_Contemporary_link_Pattern_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Pattern-Floral" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_053_Check_Floral_link_Pattern_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Pattern-Landscape" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_054_Check_Landscape_link_Pattern_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Pattern-Monochrome" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_055_Check_Monochrome_link_Pattern_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Pattern-Motifs" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_056_Check_Motifs_link_Pattern_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Pattern-Brights" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_057_Check_Brights_link_Pattern_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Pattern-Stripes" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_058_Check_Stripes_link_Pattern_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Pattern-Vintage" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_059_Check_Vintage_link_Pattern_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Pattern-Rustic" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_060_Check_Rustic_link_Pattern_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Pattern-Kids" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_061_Check_Kids_link_Pattern_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Pattern-Art" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_062_Check_Art_link_Pattern_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Pattern-View all" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_063_Check_View_all_link_Pattern_Click_all_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Shapes-Oval" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_064_Check_Oval_in_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Shapes-Rectangle" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_065_Check_Rectangle_in_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Shapes-Runner" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_066_Check_Runner_in_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Shapes-Capsule" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_067_Check_Capsule_in_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Shapes-Round" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_068_Check_Round_in_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Shapes-Hexagon" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_069_Check_Hexagon_in_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  
-  <test name="Shapes-Ogee" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_070_Check_Ogee_in_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Shapes-Square" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_071_Check_Square_in_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Shapes-Arch" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_072_Check_Arch_in_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Shapes-Oblong" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_073_Check_Oblong_in_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Shapes-Eight" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_074_Check_Eight_in_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Shapes-Halfmoon" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_075_Check_Halfmoon_in_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Shapes-Diamond" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_076_Check_Diamond_in_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Shapes-Drop" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_077_Check_Drop_in_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Shapes-Splash" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_078_Check_Splash_in_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Handmade Custom Rugs" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_079_Check_all_handmade_Custom_rugs"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Trending Styles" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_080_Check_all_Trending_Styles"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Trending Shapes" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_081_Check_all_Trending_Shapes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Book Call" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_082_Check_Book_call"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Collection Designs Matching with inside" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_083_Check_Collection_match_numbers"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Latest Projects" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_084_Check_Latest_Projects"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Why Choose Handmade rugs" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_085_Check_Why_choose_handmade"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Bespoke Design Experience" enabled="true">
-    <classes> 
-      <class name="homepagetestcases.TC_086_Check_Bespoke_Design_Exp"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Wishlist Link" enabled="true">
-    <classes> 
-      <class name="headertestcases.TC_090_Check_Wishlist_link"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Cart Link" enabled="true">
-    <classes> 
-      <class name="headertestcases.TC_091_Check_Cart_link"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Filter Section Dropdown" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_087_Check_Filter_Section_Dropdown"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="SortBy Functionality" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_088_Check_SortBy_Option_Functionality"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Category functionality" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_089_Check_Category_Option_Functionality"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Weaving Type functionality" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_092_Check_Weaving_Type_Functionality"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Materials option functionality" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_093_Check_Materials_Functionality"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Size accept alphabet value Test" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_094_Check_Size_Click_ft_cms"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Size Ft accept special characters" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_095_Check_Size_ft_accepts_alphabets_value_or_not"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Size Cms accept special characters" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_096_Check_Size_cms_accepts_alphabets_value_or_not"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Size Cms range Test" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_097_Check_Size_Cm_range_error_msg"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Size Ft range Test" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_098_Check_Size_Ft_range_error_msg"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Size Cms special Charater " enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_099_Check_Size_cms_accepts_special_character_or_not"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Size Ft special Charater" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_100_Check_Size_ft_accepts_special_character_or_not"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Size enter different values in Ft" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_101_Check_Size_enter_different_values_ft"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Size enter different values in Cms" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_102_Check_Size_enter_different_values_cms"></class>
-    </classes>
-  </test><!-- Test -->
-   <test name="Size left blank" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_103_Check_Size_if_left_blank_verify_error_msg"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Size Submit Multiple times" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_104_Check_Size_submit_clicked_multiple_times"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Size not disappear" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_105_Check_Size_not_disappear_other_category_selected"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Custom Sizes link" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_106_Check_Custom_sizes"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Customize Option link" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_107_Check_Customize_Option_Link"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Order Sample link" enabled="true">
-    <classes> 
-      <class name="filterSectionTestcases.TC_108_Check_Order_Sample_Link"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="PDP Default Options " enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_109_Check_all_default_options"></class>
-    </classes>
-  </test> <!-- Test --> 
-  <test name="Order Sample link " enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_110_Check_Order_Color_sample_Link_Top"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Order Sample Rugsize Ft blank" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_111_Check_Order_Color_box_rugsize_ft_if_left_blank"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Order Sample Rugsize CM blank" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_112_Check_Order_Color_box_rugsize_cm_if_left_blank"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Search Functionality" enabled="true">
-    <classes> 
-      <class name="headertestcases.TC_113_Check_Search_functionality"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Search Enter Product etc" enabled="true">
-    <classes> 
-      <class name="headertestcases.TC_114_Check_Search_enter_product_name_rugstyle"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Order Sample Select Pastel,Core Colors Tab" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_115_Check_able_to_select_pastel_core_tab"></class>
-    </classes>
-  </test><!-- Test -->
-  <test name="Order Sample Remove Colors" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_116_Check_able_to_remove_colors"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample Add Colors" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_117_Check_able_to_add_Core_colors"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample Displays Core Color name " enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_118_Check_Core_color_name_displays_when_mousehover"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample Core Color name on leftside" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_119_Check_core_color_name_displayed_on_leftside"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample Search Functionality Core Colors" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_120_Check_search_functionality_Core_colors"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample Scroll color suggestion" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_121_Check_Scroll_Color_suggestions"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample add Pastel Colors" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_122_Check_able_to_add_Pastel_Colors"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample Displays Pastel Color name" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_123_Check_Pastel_color_name_displays_when_mousehover"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample Pastel Color name on leftside" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_124_Check_pastel_color_name_displayed_on_leftside"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample Search Functionality Pastel Colors" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_125_Check_search_functionality_Pastel_colors"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Add 20 colors and Verify message" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_126_Check_able_to_add_20_colors_verify_msg"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample price change" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_127_Check_price_changing_when_colors_add_or_removed"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample select rug size ft/cms" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_128_Check_in_ordersample_able_to_select_ft_cms"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample rug size range Feet" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_129_Check_in_ordersample_range_ft"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample rug size range CM" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_130_Check_in_ordersample_range_cm"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample rug size different values" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_131_Check_enter_different_values_ft_cms"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample close button" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_132_Check_close_button_functionality"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample Functionality without Login" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_133_Check_order_samples_functionality_without_login"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample email pop up close button" enabled="true">
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_134_Check_order_samples_email_popup_close_button"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample functionality after signin" enabled="true">
+	<test name="Signin" enabled="true">
+		<classes>
+			<class name="headertestcases.TC_001_Check_Signin_link"></class>
+		
+		</classes>
+	</test>   
+	<test name="Aboutus" enabled="true">
+		<classes>
+			<class name="headertestcases.TC_002_Check_aboutuslink"></class>
+		</classes>
+	</test><!--
+	Test --> 
+	<test name="Trade" enabled="true">
+		<classes>
+			<class name="headertestcases.TC_003_Check_Trade_link"></class>
+		</classes>
+	</test> <!--
+	Test -->
+	<test name="Contactlink" enabled="true">
+		<classes>
+			<class name="headertestcases.TC_004_Check_Contact_link"></class>
+		</classes>
+	</test> <!--
+	Test -->
+	<test name="Presslink" enabled="true">
+		<classes>
+			<class name="headertestcases.TC_005_Check_Press_link"></class>
+		</classes>
+	</test> <!--
+	Test -->
+	<test name="Joinlink" enabled="true">
+		<classes>
+			<class name="headertestcases.TC_006_Check_Join_link"></class>
+		</classes>
+	</test> <!--
+	Test -->
+	<test name="Collection" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_007_Check_whether_ableto_mousehover_Collection"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugstyle" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_008_Check_whether_ableto_mousehover_Rugstyle"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pattern" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_009_Check_whether_ableto_mousehover_Pattern"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shapes" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_010_Check_whether_ableto_mousehover_shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Discover" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_011_Check_whether_ableto_mousehover_Discover"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Bespoke" enabled="true">
+		<classes>
+<class name="homepagetestcases.TC_012_Check_bespoke_link_working_formdisplays"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugfinder" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_013_Check_Rugfinder_link_working_boxdisplays"></class>
+
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Field of Flowers" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_014_Check_FieldofFlowers_link_Collection_Click_all_shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Ombre" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_015_Check_Ombre_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Terrazzo play" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_016_Check_Terrazzoplay_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Batik" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_017_Check_Batik_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Origami" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_018_Check_Origami_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Minimalist" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_019_Check_Minimalist_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Cerulean" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_020_Check_Cerulean_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Surface Art" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_021_Check_SurfaceArt_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-BrushStrokes EU" enabled="false">
+		<classes>
+			<class
+				name="homepagetestcases.TC_022_Check_BrushStrokes_link_Collection_Click_all_Shapes_EU"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Geometric" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_023_Check_Geometric_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Modern Geometric EU" enabled="false">
+		<classes>
+			<class
+				name="homepagetestcases.TC_024_Check_ModernGeometric_link_Collection_Click_all_Shapes_EU"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Vintage" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_025_Check_Vintage_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Monochrome" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_026_Check_Monochrome_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Floral" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_027_Check_Floral_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Animal Prints" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_028_Check_Animal_Prints_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Kids" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_029_Check_Kids_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Abstract" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_030_Check_Abstract_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Modern Art Eu" enabled="false">
+		<classes>
+			<class
+				name="homepagetestcases.TC_031_Check_Modern_Art_link_Collection_Click_all_Shapes_EU"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Blue Royal" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_032_Check_Blue_Royal_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Outdoor" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_033_Check_Outdoor_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Flatweaves" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_034_Check_Flatweaves_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-Solid Colors" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_035_Check_Solid_Colors_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="RugStyle-Floral" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_036_Check_Floral_link_RugStyle_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="RugStyle-Linear" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_037_Check_Linear_link_RugStyle_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="RugStyle-Geometrics" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_038_Check_Geometrics_link_RugStyle_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugstyle-Borders" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_039_Check_Borders_link_RugStyle_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugstyle-Plains" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_040_Check_Plains_link_RugStyle_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugstyle-Chic" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_041_Check_Chic_link_RugStyle_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugstyle-Abstract" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_042_Check_Abstract_link_RugStyle_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugstyle-Textiles" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_043_Check_Textiles_link_RugStyle_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugstyle-Repeats" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_044_Check_Repeats_link_RugStyle_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugstyle-Offbeat" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_045_Check_Offbeat_link_RugStyle_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugstyle-Oriental" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_046_Check_Oriental_link_RugStyle_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugstyle-Distressed" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_047_Check_Distressed_link_RugStyle_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugstyle-View all Designs" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_048_Check_View_All_Designs_link_RugStyle_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection-View all Designs" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_049_Check_View_All_Designs_link_Collection_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pattern-Geometrics" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_050_Check_Geometrics_link_Pattern_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pattern-Textures" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_051_Check_Textures_link_Pattern_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pattern-Contemporary" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_052_Check_Contemporary_link_Pattern_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pattern-Floral" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_053_Check_Floral_link_Pattern_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pattern-Landscape" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_054_Check_Landscape_link_Pattern_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pattern-Monochrome" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_055_Check_Monochrome_link_Pattern_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pattern-Motifs" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_056_Check_Motifs_link_Pattern_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pattern-Brights" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_057_Check_Brights_link_Pattern_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pattern-Stripes" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_058_Check_Stripes_link_Pattern_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pattern-Vintage" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_059_Check_Vintage_link_Pattern_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pattern-Rustic" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_060_Check_Rustic_link_Pattern_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pattern-Kids" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_061_Check_Kids_link_Pattern_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pattern-Art" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_062_Check_Art_link_Pattern_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pattern-View all" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_063_Check_View_all_link_Pattern_Click_all_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shapes-Oval" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_064_Check_Oval_in_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shapes-Rectangle" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_065_Check_Rectangle_in_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shapes-Runner" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_066_Check_Runner_in_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shapes-Capsule" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_067_Check_Capsule_in_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shapes-Round" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_068_Check_Round_in_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shapes-Hexagon" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_069_Check_Hexagon_in_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+
+	<test name="Shapes-Ogee" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_070_Check_Ogee_in_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shapes-Square" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_071_Check_Square_in_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shapes-Arch" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_072_Check_Arch_in_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shapes-Oblong" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_073_Check_Oblong_in_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shapes-Eight" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_074_Check_Eight_in_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shapes-Halfmoon" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_075_Check_Halfmoon_in_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shapes-Diamond" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_076_Check_Diamond_in_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shapes-Drop" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_077_Check_Drop_in_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shapes-Splash" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_078_Check_Splash_in_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Handmade Custom Rugs" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_079_Check_all_handmade_Custom_rugs"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Trending Styles" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_080_Check_all_Trending_Styles"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Trending Shapes" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_081_Check_all_Trending_Shapes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Book Call" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_082_Check_Book_call"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Collection Designs Matching with inside" enabled="true">
+		<classes>
+			<class
+				name="homepagetestcases.TC_083_Check_Collection_match_numbers"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Latest Projects" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_084_Check_Latest_Projects"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Why Choose Handmade rugs" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_085_Check_Why_choose_handmade"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Bespoke Design Experience" enabled="true">
+		<classes>
+			<class name="homepagetestcases.TC_086_Check_Bespoke_Design_Exp"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Wishlist Link" enabled="true">
+		<classes>
+			<class name="headertestcases.TC_090_Check_Wishlist_link"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Cart Link" enabled="true">
+		<classes>
+			<class name="headertestcases.TC_091_Check_Cart_link"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Filter Section Dropdown" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_087_Check_Filter_Section_Dropdown"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="SortBy Functionality" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_088_Check_SortBy_Option_Functionality"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Category functionality" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_089_Check_Category_Option_Functionality"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Weaving Type functionality" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_092_Check_Weaving_Type_Functionality"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Materials option functionality" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_093_Check_Materials_Functionality"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size accept alphabet value Test" enabled="true">
+		<classes>
+			<class name="filterSectionTestcases.TC_094_Check_Size_Click_ft_cms"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size Ft accept special characters" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_095_Check_Size_ft_accepts_alphabets_value_or_not"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size Cms accept special characters" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_096_Check_Size_cms_accepts_alphabets_value_or_not"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size Cms range Test" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_097_Check_Size_Cm_range_error_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size Ft range Test" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_098_Check_Size_Ft_range_error_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size Cms special Charater " enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_099_Check_Size_cms_accepts_special_character_or_not"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size Ft special Charater" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_100_Check_Size_ft_accepts_special_character_or_not"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size enter different values in Ft" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_101_Check_Size_enter_different_values_ft"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size enter different values in Cms" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_102_Check_Size_enter_different_values_cms"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size left blank" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_103_Check_Size_if_left_blank_verify_error_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size Submit Multiple times" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_104_Check_Size_submit_clicked_multiple_times"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size not disappear" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_105_Check_Size_not_disappear_other_category_selected"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Custom Sizes link" enabled="true">
+		<classes>
+			<class name="filterSectionTestcases.TC_106_Check_Custom_sizes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Customize Option link" enabled="true">
+		<classes>
+			<class
+				name="filterSectionTestcases.TC_107_Check_Customize_Option_Link"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample link" enabled="true">
+		<classes>
+			<class name="filterSectionTestcases.TC_108_Check_Order_Sample_Link"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP Default Options " enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_109_Check_all_default_options"></class>
+		</classes>
+	</test> <!--
+	Test -->
+	<test name="Order Sample link " enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_110_Check_Order_Color_sample_Link_Top"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample Rugsize Ft blank" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_111_Check_Order_Color_box_rugsize_ft_if_left_blank"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample Rugsize CM blank" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_112_Check_Order_Color_box_rugsize_cm_if_left_blank"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Search Functionality" enabled="true">
+		<classes>
+			<class name="headertestcases.TC_113_Check_Search_functionality"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Search Enter Product etc" enabled="true">
+		<classes>
+			<class
+				name="headertestcases.TC_114_Check_Search_enter_product_name_rugstyle"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample Select Pastel,Core Colors Tab" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_115_Check_able_to_select_pastel_core_tab"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample Remove Colors" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_116_Check_able_to_remove_colors"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample Add Colors" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_117_Check_able_to_add_Core_colors"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample Displays Core Color name " enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_118_Check_Core_color_name_displays_when_mousehover"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample Core Color name on leftside" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_119_Check_core_color_name_displayed_on_leftside"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample Search Functionality Core Colors" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_120_Check_search_functionality_Core_colors"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample Scroll color suggestion" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_121_Check_Scroll_Color_suggestions"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample add Pastel Colors" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_122_Check_able_to_add_Pastel_Colors"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample Displays Pastel Color name" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_123_Check_Pastel_color_name_displays_when_mousehover"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample Pastel Color name on leftside" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_124_Check_pastel_color_name_displayed_on_leftside"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample Search Functionality Pastel Colors" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_125_Check_search_functionality_Pastel_colors"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Add 20 colors and Verify message" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_126_Check_able_to_add_20_colors_verify_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample price change" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_127_Check_price_changing_when_colors_add_or_removed"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample select rug size ft/cms" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_128_Check_in_ordersample_able_to_select_ft_cms"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample rug size range Feet" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_129_Check_in_ordersample_range_ft"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample rug size range CM" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_130_Check_in_ordersample_range_cm"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample rug size different values" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_131_Check_enter_different_values_ft_cms"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample close button" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_132_Check_close_button_functionality"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample Functionality without Login" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_133_Check_order_samples_functionality_without_login"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample email pop up close button" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_134_Check_order_samples_email_popup_close_button"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample functionality after signin" enabled="true">
 		<parameter name="email" value="email"></parameter>
 		<parameter name="password" value="password"></parameter>
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_135_Check_order_samples_after_signin"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample add to cart" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_135_Check_order_samples_after_signin"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample add to cart" enabled="true">
 		<parameter name="email" value="email"></parameter>
 		<parameter name="password" value="password"></parameter>
-    <classes> 
-      <class name="Ordersample_SectionTestcases.TC_136_Check_order_samples_email_popup_addto_cart"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample remove all colors" enabled="true">
-		 <classes> 
-      <class name="Ordersample_SectionTestcases.TC_137_Check_order_samples_remove_all_colors_verify_error_msg"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample email popup blank" enabled="true">
-		 <classes> 
-      <class name="Ordersample_SectionTestcases.TC_138_Check_order_samples_email_popup_left_blank_errormsg"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample email popup numeric entered" enabled="true">
-		 <classes> 
-      <class name="Ordersample_SectionTestcases.TC_139_Check_order_samples_email_popup_numeric_entered"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP check more colors link" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_140_Check_more_colors_link"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP color suggestion scroll" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_141_Check_color_suggestion_scroll"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP color suggestion close" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_142_Check_color_suggestion_close_button"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP color suggestion color changes" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_143_Check_color_suggestion_color_changes"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP rugshapes page title verify" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_144_Check_rug_shapes_verify_pagetitle"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP rugshapes dropdown" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_145_Check_rug_shapes_dropdown"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP rectangle shape same length/width error msg" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_146_Check_rectangle_shape_same_length_width_error_msg"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP round shape displays diameter" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_147_Check_round_shape_displays_diameter"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP square shape length automatically changes" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_148_Check_square_shape_length_change_same_as_width"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP square shape length locked" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_149_Check_square_shape_length_locked"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP square shape length automatically changes in color sample" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_150_Check_square_shape_length_change_same_as_width_color_sample"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP diamond shape length gets double" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_151_Check_diamond_shape_length_double_as_width"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP diamond shape length gets double in color sample" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_152_Check_diamond_shape_length_double_as_width_colorsample"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Rug Price changes when rug shape chnaged" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_153_Check_price_changes_when_rug_shape_changed"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Rugtype Dropdown " enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_154_Check_rugtype_dropdown"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Handtufted Rugtype pile Height" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_155_Check_handtufted_rugtype_pile_height_displays"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Handknotted Rugtype Knot Density" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_156_Check_handknotted_rugtype_knot_density_displays"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Rugtype page Title change" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_157_Check_rugtype_changed_page_title_changes"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Handknotted rugtype starting price" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_158_Check_handknot_rugtype_startingprice_changes"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Rugtype Price change Verify" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_159_Check_rugtype_changed_price_changes"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Rugtype changes on PDP top bar" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_160_Check_rugtype_changed_price_rugtype_displays_in_PDPtopbar"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Handknotted default rug material display" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_161_Check_handknotted_rugtype_default_rug_material_displays"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample inches to feet conversion" enabled="true">
-		 <classes> 
-      <class name="Ordersample_SectionTestcases.TC_162_Check_order_samples_12inches_feet_increases"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Order Sample displays selected PDP colors Verify" enabled="true">
-		 <classes> 
-      <class name="Ordersample_SectionTestcases.TC_163_Check_order_samples_displays_selected_colors_PDP"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Rug Defaut price check" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_164_Check_default_price"></class>
-    </classes>
-    </test><!-- Test -->
-     <test name="Rugshape same as selected from ref page" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_165_Check_rugshape_same_as_selected_from_ref_page"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP should open whichever Product selected" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_166_Check_PDP_should_open_whichever_design_selected"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Color changes change default when reset changes" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_167_Check_color_changes_to_default_reset_changes_clicked"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Colors remain same when material changes" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_168_Check_when_material_changed_colors_remain_same"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Colors remain same when Rugtype changes" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_169_Check_when_rugtype_changed_colors_remain_same"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Colors remain same when rugshape changes" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_170_Check_when_rugshape_changed_colors_remain_same"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Colors changes when color,shape changed" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_171_Check_when_color_and_shape_changed_updated_colors_displays_on_changed_shape"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Rugtype remain same when color,shape changed" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_172_Check_rugtype_remains_same_change_color_and_shape"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Handtufted default rugmaterial" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_173_Check_handtufted_rugtype_default_rug_material_displays"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Flatweave default rugmaterial" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_174_Check_flatweave_rugtype_default_rug_material_displays"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Outdoor default rugmaterial" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_175_Check_Outdoor_rugtype_default_rug_material_displays"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Delivery time when rugtype changed" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_176_Check_delivery_time_when_rug_type_changed"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Default Pile height" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_177_Check_default_pileheight_knotDensity_be_low"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Own colors dropdown" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_178_Check_own_colors_dropdown"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Own colors core,pastel colors check" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_179_Check_own_colors_able_to_click_core_pastel"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Core(own colors) displays color name when mousehover" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_180_Check_own_colors_core_displays_color_name_mousehover"></class>
-    </classes>
-    </test><!-- Test -->
-     <test name="Core colors displays on left side" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_181_Check_own_colors_core_displays_color_name_left_side_when_mousehover"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Change Core colors" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_182_Check_able_to_change_core_colors"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Core colors search functionality" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_183_Check_search_functionality_core_colors_in_own_colors"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Pastel(own colors) displays color name when mousehover" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_184_Check_own_colors_pastel_displays_color_name_mousehover"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Pastel colors displays on left side" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_185_Check_own_colors_pastel_displays_color_name_left_side_when_mousehover"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Change Pastel colors" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_186_Check_able_to_change_pastel_colors"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Pastel colors search functionality" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_187_Check_search_functionality_pastel_colors_in_own_colors"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Scroll Core pastel colors" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_188_Check_scroll_core_pastel_colors"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Rugmaterial change Wool in all colors" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_189_Check_rugmaterial_wool_changed_should_change_in_all"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Rugmaterial change Silk in all colors" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_190_Check_rugmaterial_silk_changed_should_change_in_all"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Select different rugmaterials" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_191_Check_able_select_different_rugmaterial"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Starting price change when rugmaterial change" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_192_Check_starting_price_changes_when_rugmaterial_changes"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Rug price change when rugmaterial change" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_193_Check_rug_price_changes_when_rugmaterial_changes"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Rugmaterial change not effect shape,color" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_194_Check_rug_material_change_not_effect_shape_color"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Size able to select ft,cm" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_195_Check_size_able_to_select_ft_cm"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Size left blank verify msg" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_196_Check_size_length_width_left_blank_verify_err_msg"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Size not accept alphabets" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_197_Check_size_length_width_not_accept_alphabets"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Size not accept special characters" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_198_Check_size_length_width_not_accept_special_characters"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Size range feet verify msg" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_199_Check_size_ft_range_verify_error_msg"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Size range cm verify msg" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_200_Check_size_cm_range_verify_error_msg"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Pile Height feet(cm),cm(mm)" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_201_Check_pile_height_inch_mm_when_feet_cm_selected"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Size different values cm,ft" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_202_Check_enter_different_values_feet_cm_verify_price_change"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Pile Height displaying correctly" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_203_Check_all_pile_height_displaying_correctly"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Price changes when Pile height changed" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_204_Check_pile_height_changed_price_changes"></class>
-    </classes>
-    </test><!-- Test -->
-   <test name="Price changes when Knot density changed" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_205_Check_knot_density_changed_price_changes"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Knot density changes pile weight changes" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_206_Check_knot_density_changes_pile_weight_also_changes"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Pile height changes pile weight changes" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_207_Check_pile_height_changes_pile_weight_also_changes"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Pile height change check if shape,color changed,page refrshed" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_208_Check_if_pile_height_gets_changed_when_shape_color_changed_and_page_refreshed"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Default Quantity" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_209_Check_default_Quantity"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name=" Quantity increased then Price change " enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_210_Check_increase_Quantity_price_change"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Quantity decreased then Price change" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_211_Check_decrease_Quantity_price_change"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Quantity maximum check" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_212_Check_maximum_Quantity"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Color,shape changed,page refrshed, Quantity not change" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_213_Check_Quantity_not_change_when_color_shape_page_refreshed"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP topbar required fields" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_214_Check_PDP_top_bar_displays_required_fields"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP topbar dropdown" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_215_Check_PDP_top_bar_dropdown"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP topbar fields after dropdown" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_216_Check_PDP_top_bar_dropdown_required_details"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP topbar order sample link" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_217_Check_PDP_top_bar_order_sample_link"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP topbar order share link" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_218_Check_PDP_top_bar_share_link"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP topbar order share product link" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_219_Check_PDP_top_bar_in_share_product_link_displays"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP topbar share,copy button functionality" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_220_Check_PDP_top_bar_in_share_copy_button_functionality"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP topbar close button" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_221_Check_PDP_top_bar_close_button"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP topbar add to cart link" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_222_Check_PDP_top_bar_addtocart"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Partial ,full payment select" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_223_Check_partial_full_payment_radio_buttons"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Partial payment default fields" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_224_Check_partial_payment_displays_default_columns"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Partial payment close" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_225_Check_partial_payment_close"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Default rug price" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_226_Check_default_price"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Invalid_size,price check" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_227_Check_if_width_or_lgth_value_invalid_price_remains_zero"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Add to Cart without login pop up" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_228_Check_addto_cart_without_login_pop_up_appears"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Add to Cart without login pop up left blank" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_229_Check_addto_cart_without_login_pop_up_left_blank_error_msg"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Add to Cart email pop up close" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_230_Check_addto_cart_without_login_pop_up_close"></class>
-    </classes>
-    </test><!-- Test -->
- 
-    <test name="Add to Cart functionality via pop up email box" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_231_Check_signin_add_to_cart_verify"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP order sample link" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_232_Check_PDP_Order_sample_bottom_link"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP share link" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_233_Check_PDP_bottom_share_link"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP share product link" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_234_Check_PDP_bottom_share_product_link"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP share copy button functionality" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_235_Check_PDP_bottom_share_copy_button_functionality"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="PDP share close " enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_236_Check_PDP_bottom_share_close_button"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Download PDF link" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_237_Check_download_pdf_link"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Small rug price topbar,bottom " enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_238_Check_small_rug_price_topbar_and_bottom"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Default Stain Protection " enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_239_Check_stain_protection_default"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Stain Protection price change when size changed " enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_240_Check_stain_protection_price_changes_when_size_changed"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Stain Protection price change when rugtype changed " enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_241_Check_stain_protection_price_changes_when_rugtype_changed"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Stain Protection price change when rugmaterial changed " enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_242_Check_stain_protection_price_changes_when_rugmaterial_changed"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Stain Protection price change when shape changed " enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_243_Check_stain_protection_price_changes_when_shape_changed"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Stain Protection price change when quantity changed " enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_244_Check_stain_protection_price_changes_when_quantity_changed"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Stain Protection in cart verify " enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_245_Check_stain_protection_in_Cart"></class>
-    </classes>
-    </test><!-- Test -->   
-    <test name="Wishlist link " enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_246_Check_wishlist_link_verify"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Wishlist functionality after login " enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_247_Check_wishlist_functionality_with_login_verify"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Edit history functionality " enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_248_Check_edit_history_functionality"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Related Designs displaying " enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_249_Check_related_designs_displaying"></class>
-    </classes>
-    </test><!-- Test -->
-    <test name="Top bar PDP changes" enabled="true">
-		 <classes> 
-      <class name="PDPpagetTestcases.TC_250_Check_topbar_changes"></class>
-    </classes>
-    </test><!-- Test -->
-    </suite> <!-- Suite -->
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_136_Check_order_samples_email_popup_addto_cart"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample remove all colors" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_137_Check_order_samples_remove_all_colors_verify_error_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample email popup blank" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_138_Check_order_samples_email_popup_left_blank_errormsg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample email popup numeric entered" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_139_Check_order_samples_email_popup_numeric_entered"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP check more colors link" enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_140_Check_more_colors_link"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP color suggestion scroll" enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_141_Check_color_suggestion_scroll"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP color suggestion close" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_142_Check_color_suggestion_close_button"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP color suggestion color changes" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_143_Check_color_suggestion_color_changes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP rugshapes page title verify" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_144_Check_rug_shapes_verify_pagetitle"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP rugshapes dropdown" enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_145_Check_rug_shapes_dropdown"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP rectangle shape same length/width error msg" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_146_Check_rectangle_shape_same_length_width_error_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP round shape displays diameter" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_147_Check_round_shape_displays_diameter"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP square shape length automatically changes" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_148_Check_square_shape_length_change_same_as_width"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP square shape length locked" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_149_Check_square_shape_length_locked"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP square shape length automatically changes in color sample"
+		enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_150_Check_square_shape_length_change_same_as_width_color_sample"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP diamond shape length gets double" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_151_Check_diamond_shape_length_double_as_width"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP diamond shape length gets double in color sample"
+		enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_152_Check_diamond_shape_length_double_as_width_colorsample"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rug Price changes when rug shape chnaged" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_153_Check_price_changes_when_rug_shape_changed"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugtype Dropdown " enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_154_Check_rugtype_dropdown"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Handtufted Rugtype pile Height" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_155_Check_handtufted_rugtype_pile_height_displays"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Handknotted Rugtype Knot Density" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_156_Check_handknotted_rugtype_knot_density_displays"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugtype page Title change" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_157_Check_rugtype_changed_page_title_changes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Handknotted rugtype starting price" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_158_Check_handknot_rugtype_startingprice_changes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugtype Price change Verify" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_159_Check_rugtype_changed_price_changes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugtype changes on PDP top bar" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_160_Check_rugtype_changed_price_rugtype_displays_in_PDPtopbar"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Handknotted default rug material display" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_161_Check_handknotted_rugtype_default_rug_material_displays"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample inches to feet conversion" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_162_Check_order_samples_12inches_feet_increases"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Order Sample displays selected PDP colors Verify" enabled="true">
+		<classes>
+			<class
+				name="Ordersample_SectionTestcases.TC_163_Check_order_samples_displays_selected_colors_PDP"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rug Defaut price check" enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_164_Check_default_price"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugshape same as selected from ref page" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_165_Check_rugshape_same_as_selected_from_ref_page"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP should open whichever Product selected" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_166_Check_PDP_should_open_whichever_design_selected"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Color changes change default when reset changes" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_167_Check_color_changes_to_default_reset_changes_clicked"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Colors remain same when material changes" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_168_Check_when_material_changed_colors_remain_same"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Colors remain same when Rugtype changes" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_169_Check_when_rugtype_changed_colors_remain_same"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Colors remain same when rugshape changes" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_170_Check_when_rugshape_changed_colors_remain_same"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Colors changes when color,shape changed" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_171_Check_when_color_and_shape_changed_updated_colors_displays_on_changed_shape"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugtype remain same when color,shape changed" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_172_Check_rugtype_remains_same_change_color_and_shape"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Handtufted default rugmaterial" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_173_Check_handtufted_rugtype_default_rug_material_displays"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Flatweave default rugmaterial" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_174_Check_flatweave_rugtype_default_rug_material_displays"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Outdoor default rugmaterial" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_175_Check_Outdoor_rugtype_default_rug_material_displays"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Delivery time when rugtype changed" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_176_Check_delivery_time_when_rug_type_changed"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Default Pile height" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_177_Check_default_pileheight_knotDensity_be_low"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Own colors dropdown" enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_178_Check_own_colors_dropdown"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Own colors core,pastel colors check" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_179_Check_own_colors_able_to_click_core_pastel"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Core(own colors) displays color name when mousehover"
+		enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_180_Check_own_colors_core_displays_color_name_mousehover"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Core colors displays on left side" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_181_Check_own_colors_core_displays_color_name_left_side_when_mousehover"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Change Core colors" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_182_Check_able_to_change_core_colors"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Core colors search functionality" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_183_Check_search_functionality_core_colors_in_own_colors"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pastel(own colors) displays color name when mousehover"
+		enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_184_Check_own_colors_pastel_displays_color_name_mousehover"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pastel colors displays on left side" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_185_Check_own_colors_pastel_displays_color_name_left_side_when_mousehover"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Change Pastel colors" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_186_Check_able_to_change_pastel_colors"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pastel colors search functionality" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_187_Check_search_functionality_pastel_colors_in_own_colors"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Scroll Core pastel colors" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_188_Check_scroll_core_pastel_colors"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugmaterial change Wool in all colors" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_189_Check_rugmaterial_wool_changed_should_change_in_all"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugmaterial change Silk in all colors" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_190_Check_rugmaterial_silk_changed_should_change_in_all"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Select different rugmaterials" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_191_Check_able_select_different_rugmaterial"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Starting price change when rugmaterial change" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_192_Check_starting_price_changes_when_rugmaterial_changes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rug price change when rugmaterial change" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_193_Check_rug_price_changes_when_rugmaterial_changes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Rugmaterial change not effect shape,color" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_194_Check_rug_material_change_not_effect_shape_color"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size able to select ft,cm" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_195_Check_size_able_to_select_ft_cm"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size left blank verify msg" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_196_Check_size_length_width_left_blank_verify_err_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size not accept alphabets" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_197_Check_size_length_width_not_accept_alphabets"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size not accept special characters" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_198_Check_size_length_width_not_accept_special_characters"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size range feet verify msg" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_199_Check_size_ft_range_verify_error_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size range cm verify msg" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_200_Check_size_cm_range_verify_error_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pile Height feet(cm),cm(mm)" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_201_Check_pile_height_inch_mm_when_feet_cm_selected"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Size different values cm,ft" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_202_Check_enter_different_values_feet_cm_verify_price_change"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pile Height displaying correctly" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_203_Check_all_pile_height_displaying_correctly"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Price changes when Pile height changed" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_204_Check_pile_height_changed_price_changes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Price changes when Knot density changed" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_205_Check_knot_density_changed_price_changes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Knot density changes pile weight changes" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_206_Check_knot_density_changes_pile_weight_also_changes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pile height changes pile weight changes" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_207_Check_pile_height_changes_pile_weight_also_changes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Pile height change check if shape,color changed,page refrshed"
+		enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_208_Check_if_pile_height_gets_changed_when_shape_color_changed_and_page_refreshed"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Default Quantity" enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_209_Check_default_Quantity"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name=" Quantity increased then Price change " enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_210_Check_increase_Quantity_price_change"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Quantity decreased then Price change" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_211_Check_decrease_Quantity_price_change"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Quantity maximum check" enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_212_Check_maximum_Quantity"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Color,shape changed,page refrshed, Quantity not change"
+		enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_213_Check_Quantity_not_change_when_color_shape_page_refreshed"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP topbar required fields" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_214_Check_PDP_top_bar_displays_required_fields"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP topbar dropdown" enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_215_Check_PDP_top_bar_dropdown"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP topbar fields after dropdown" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_216_Check_PDP_top_bar_dropdown_required_details"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP topbar order sample link" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_217_Check_PDP_top_bar_order_sample_link"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP topbar order share link" enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_218_Check_PDP_top_bar_share_link"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP topbar order share product link" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_219_Check_PDP_top_bar_in_share_product_link_displays"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP topbar share,copy button functionality" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_220_Check_PDP_top_bar_in_share_copy_button_functionality"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP topbar close button" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_221_Check_PDP_top_bar_close_button"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP topbar add to cart link" enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_222_Check_PDP_top_bar_addtocart"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Partial ,full payment select" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_223_Check_partial_full_payment_radio_buttons"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Partial payment default fields" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_224_Check_partial_payment_displays_default_columns"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Partial payment close" enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_225_Check_partial_payment_close"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Default rug price" enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_226_Check_default_price"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Invalid_size,price check" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_227_Check_if_width_or_lgth_value_invalid_price_remains_zero"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Add to Cart without login pop up" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_228_Check_addto_cart_without_login_pop_up_appears"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Add to Cart without login pop up left blank" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_229_Check_addto_cart_without_login_pop_up_left_blank_error_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Add to Cart email pop up close" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_230_Check_addto_cart_without_login_pop_up_close"></class>
+		</classes>
+	</test><!--
+	Test -->
+<test name="Add to Cart functionality via pop up email box" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_231_Check_signin_add_to_cart_verify"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP order sample link" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_232_Check_PDP_Order_sample_bottom_link"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP share link" enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_233_Check_PDP_bottom_share_link"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP share product link" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_234_Check_PDP_bottom_share_product_link"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP share copy button functionality" enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_235_Check_PDP_bottom_share_copy_button_functionality"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="PDP share close " enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_236_Check_PDP_bottom_share_close_button"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Download PDF link" enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_237_Check_download_pdf_link"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Small rug price topbar,bottom " enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_238_Check_small_rug_price_topbar_and_bottom"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Default Stain Protection " enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_239_Check_stain_protection_default"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Stain Protection price change when size changed " enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_240_Check_stain_protection_price_changes_when_size_changed"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Stain Protection price change when rugtype changed "
+		enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_241_Check_stain_protection_price_changes_when_rugtype_changed"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Stain Protection price change when rugmaterial changed "
+		enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_242_Check_stain_protection_price_changes_when_rugmaterial_changed"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Stain Protection price change when shape changed "
+		enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_243_Check_stain_protection_price_changes_when_shape_changed"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Stain Protection price change when quantity changed "
+		enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_244_Check_stain_protection_price_changes_when_quantity_changed"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Stain Protection in cart verify " enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_245_Check_stain_protection_in_Cart"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Wishlist link " enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_246_Check_wishlist_link_verify"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Wishlist functionality after login " enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_247_Check_wishlist_functionality_with_login_verify"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Edit history functionality " enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_248_Check_edit_history_functionality"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Related Designs displaying " enabled="true">
+		<classes>
+			<class
+				name="PDPpagetTestcases.TC_249_Check_related_designs_displaying"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Top bar PDP changes" enabled="true">
+		<classes>
+			<class name="PDPpagetTestcases.TC_250_Check_topbar_changes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Added Products Displayed in Cart" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_251_Check_added_products_displayed_in_cart"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Cart displays required fields" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_252_Check_cart_displays_required_fields"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Check currency symbol" enabled="true">
+		<classes>
+			<class name="Shopping_cartTestcases.TC_253_Check_currency_of_price"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Change Quantity in Cart ,verify price" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_254_Check_able_to_change_quantity_and_price_changes"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Add/Remove stain protection" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_255_Check_able_to_add_remove_stain_protection_cart"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Remove product from Cart" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_256_Check_able_to_remove_product_from_cart"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Add to wishlist from Cart" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_257_Check_able_to_add_wishlist_from_cart"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shipping,return Policies displays" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_258_Check_shipping_return_policy_displays"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shipping policy link in Cart" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_259_Check_shipping_policy_link_verify"></class>
+		</classes>
+	</test><!--
+
+	Test -->
+	<test name="Return policy link in Cart" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_260_Check_return_policy_link_verify"></class>
+		</classes>
+	</test><!--
+	
+	Test -->
+	<test name="Order Summary displays required fields" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_261_Check_Order_Summary_displays_required_fields"></class>
+		</classes>
+	</test><!--
+	
+	Test -->
+	<test name="Checkout displays in Cart" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_262_Check_checkout_displays_in_cart"></class>
+		</classes>
+	</test><!--
+	
+	Test -->
+	<test name="Checkout directs to correct page" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_263_Check_checkout_directs_to_checkout_page"></class>
+		</classes>
+	</test><!--
+	
+	Test -->
+	<test name="Empty cart verify msg" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_264_Check_when_cart_empty_verify_msg"></class>
+		</classes>
+	</test><!--
+	
+	Test -->
+	<test name="Continue Shopping displays" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_265_Check_when_cart_empty_Continue_shopping_displays"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Continue Shopping directs to Collection page" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_266_Check_Continue_shopping_directs_Collection_page"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Continue Shopping upper left directs to Home page" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_267_Check_Continue_shopping_upperleft_directs_home_page"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Cart page title displays amount" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_268_Check_Cart_page_title_displays_price"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Remove Product from cart pop up" enabled="true">
+		<classes>
+			<class
+				name="Shopping_cartTestcases.TC_269_Check_delete_product_cart_popup"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Proceed checkout displays on cart popup" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_270_Check_Proceedto_Checkout_displays"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Proceed checkout directs to checkout page" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_271_Check_Proceedto_Checkout_directs_checkout_page"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Checkout displays required fields" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_272_Check_checkout_page_displays_required_fields"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shipping address fields" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_273_Check_checkout_page_shipping_address_fields"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Shipping address mandatory fields" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_274_Check_shipping_address_mandatory_fields"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="First name displays errormsg when left blank" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_275_Check_shipping_address_firstname_display_validation_msg_left_blank"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="First name displays erro msg when numeric value entered" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_276_Check_shipping_address_firstname_not_accept_numeric_value_displays_error_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="First name not accept special charac" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_277_Check_shipping_address_firstname_not_accept_special_charc_value_displays_error_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="First name accept alphabets" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_278_Check_shipping_address_firstname_accept_alphabets"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="First name accept upto 20charc" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_279_Check_firstname_accept_upto_20char_verify_msg_ship_add"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Last name accept upto 20charc" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_280_Check_lastname_accept_upto_20char_verify_msg_ship_add"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Last name accept alphabets" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_281_Check_shipping_address_lastname_accept_alphabets"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Last name not accept special charac" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_282_Check_shipping_address_lastname_not_accept_special_charc_displays_error_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Last name accept numeric values" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_283_Check_shipping_address_lastname_not_accept_numeric_value_displays_error_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Last name displays errormsg when left blank" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_284_Check_shipping_address_lastname_display_validation_msg_left_blank"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Phone number displays errormsg when left blank" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_285_Check_shipping_address_phonenumber_display_validation_msg_left_blank"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Phone number country code dropdown functionality" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_286_Check_shipping_address_phonenumber_country_code_dropdown"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Phone number country code search" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_287_Check_shipping_address_phonenumber_country_code_search_from_dropdown"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Phone number not accept alphabets" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_288_Check_shipping_address_phonenumber_not_accept_alphabets_verify_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Phone number not accept special chara" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_289_Check_shipping_address_phonenumber_not_accept_special_charac_verify_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Phone number not accept less digits" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_290_Check_shipping_address_phonenumber_not_accept_less_digits"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Phone number not accept more digits" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_291_Check_shipping_address_phonenumber_not_accept_more_digits"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Phone number accept valid input" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_292_Check_shipping_address_phonenumber_accept_valid_number"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Country dropdown" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_293_Check_shipping_address_Country_dropdown"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name=" Zip code search" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_294_Check_shipping_address_search_add_zip_code"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Company name accept upto 30charac" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_295_Check_shipping_address_company_name_accept_upto_30charc"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Company name not accept digits" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_296_Check_shipping_address_comp_name_not_accept_digits"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Company name accept special charc" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_297_Check_shipping_address_comp_name_accept_special_char"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Company name not accept alphanumeric" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_298_Check_shipping_address_comp_name_not_accept_alphanumeric"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Company name accept alphabets" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_299_Check_shipping_address_comp_name_accept_alphabets"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Street address accept upto 200charac" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_300_Check_street_address_not_accept_more_than_200charc"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Street address left blank display msg " enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_301_Check_street_address_displays_msg_left_blank"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Street address accept alphanumeric" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_302_Check_street_address_accept_alphanumeric"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Street address accept special charac" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_303_Check_street_address_accept_special_charac"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Street address line2 accept upto 200charac" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_304_Check_street_address2_not_accept_more_than_200charc"></class>
+		</classes>
+	</test><!--
+	Test -->
+	
+	<test name="Street address line 2 accept alphanumeric" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_305_Check_street_address_line2_accept_alphanumeric"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Street address line2 accept special charac" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_306_Check_street_address_line2_accept_special_charac"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="City accept upto 20 charac" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_307_Check_city_accept_upto_20charac"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="City accept alphabets" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_308_Check_city_accept_alphabets"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="City not accept special charac" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_309_Check_city_not_accept_speical_charac"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="City not accept digits" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_310_Check_city_not_accept_digits"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="City not accept alphanumeric" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_311_Check_city_not_accept_alphanumeric"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="City left blank verify msg" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_312_Check_city_left_blank_verify_error_msg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="State dropdown,displays selected state" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_313_Check_state_dropdown"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Zipcode accept upto 10charac" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_314_Check_zipcode_accept_upto_10chara"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Zipcode not accept special chara" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_315_Check_zipcode_not_accept_special_charac"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Zipcode accepts digits,alphanumeric" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_316_Check_zipcode_accept_digits_alphanumeric"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Zip code displays msg left blank" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_317_Check_zipcode_displays_msg_left_blank"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Credit card # displays error msg left blank" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_318_Check_credit_card_number_displays_msg_left_blank"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Credit card # not accept less than 16 digits" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_319_Check_credit_card_number_not_accepts_less_than_16digits"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Credit card # accepts 16 digits" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_320_Check_credit_card_number_accepts_16digits"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Credit card # not accept alpha,special charac" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_321_Check_credit_card_number_not_accepts_alphabets_speical_chrac"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Credit card expire date accepts MM b/w 1-12" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_322_Check_expire_date_cc_accepts_digits_1to12_MM"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Credit card expire date accepts future date" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_323_Check_expire_date_cc_accepts_future_date"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Credit card expire date not accepts past date" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_324_Check_expire_date_cc_not_accepts_past_date_verify_errormsg"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Go back Cart" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_325_Check_able_to_go_back_cart"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Checkout page displays shipping charge" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_326_Check_checkout_page_displays_shipping_charge"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Checkout page displays handling charge" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_327_Check_checkout_page_displays_handling_charge"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Checkout page displays payment info if partial payment" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_328_Check_checkout_page_displays_payment_info_if_partial_payment"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Checkout page billing,shipping checkbox same" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_329_Check_checkout_page_billing_shipping_same_checkbox"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Checkout page place order displayed" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_330_Check_checkout_page_place_order_displayed"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Checkout page grand total for multiple products" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_331_Check_checkout_page_grand_total"></class>
+		</classes>
+	</test><!--
+	Test -->
+	<test name="Checkout page product size same as added" enabled="true">
+		<classes>
+			<class
+				name="CheckoutpageTestcases.TC_332_Check_checkout_page_product_size_same_as_added"></class>
+		</classes>
+	</test><!--
+	Test -->
+	
+
+</suite> <!--
+Suite -->
 
 
 

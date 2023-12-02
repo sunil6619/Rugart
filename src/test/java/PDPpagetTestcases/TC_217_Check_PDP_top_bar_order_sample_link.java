@@ -51,26 +51,24 @@ public class TC_217_Check_PDP_top_bar_order_sample_link extends Base {
 		String expected=ordersamplebox.getText();
 		Assert.assertEquals("ORDER COLOR SAMPLES",expected);
 		
-		
-		
-		
+	
 	}
-	TC_217_Check_PDP_top_bar_order_sample_link   ob;
+//	TC_217_Check_PDP_top_bar_order_sample_link   ob;
 //	@Parameters ("url")
-	@BeforeTest
+//	@BeforeTest
 
 	
 	
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_217_Check_PDP_top_bar_order_sample_link  ();
-		Log.info("Chrome browser and url launch");
-	}
+//	public void launchurl() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		ob= new TC_217_Check_PDP_top_bar_order_sample_link  ();
+//		Log.info("Chrome browser and url launch");
+//	}
 
 	@Test
 
 	public void check_topbar_order_sample_link() throws InterruptedException, AWTException {
-		
+		TC_217_Check_PDP_top_bar_order_sample_link   ob= new TC_217_Check_PDP_top_bar_order_sample_link  ();
 		ob.clickoncollection();
 		ob.clickordersample();
 		Log.info("Clicking on collection FOF and checking PDP top bar order sample link");

@@ -119,19 +119,20 @@ public class TC_208_Check_if_pile_height_gets_changed_when_shape_color_changed_a
 		Assert.assertTrue(afterallchanges);
 
 	}
-	TC_208_Check_if_pile_height_gets_changed_when_shape_color_changed_and_page_refreshed ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_208_Check_if_pile_height_gets_changed_when_shape_color_changed_and_page_refreshed();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_208_Check_if_pile_height_gets_changed_when_shape_color_changed_and_page_refreshed ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_208_Check_if_pile_height_gets_changed_when_shape_color_changed_and_page_refreshed();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_if_pile_height_gets_changed() throws InterruptedException, AWTException {
+		TC_208_Check_if_pile_height_gets_changed_when_shape_color_changed_and_page_refreshed ob = new TC_208_Check_if_pile_height_gets_changed_when_shape_color_changed_and_page_refreshed();
 		ob.clickoncollection();
 		ob.change_color_shape_refresh_if_pile_height_changed();
 		Log.info("Clicking on collection FOF and checking pile height is changed or not when color,");

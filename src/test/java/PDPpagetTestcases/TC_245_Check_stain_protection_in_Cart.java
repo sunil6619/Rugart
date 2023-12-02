@@ -42,10 +42,10 @@ public class TC_245_Check_stain_protection_in_Cart extends Base{
 	@FindBy(xpath = "//a[contains(text(),'View and Edit Cart')]")
 	private WebElement viewcart;
 	@FindBy(xpath = "//h3[contains(text(),'STAIN PROTECTION')]")
-    private WebElement stainprocart;		
-	
-	
-	
+	private WebElement stainprocart;		
+
+
+
 	public TC_245_Check_stain_protection_in_Cart() {
 		PageFactory.initElements(driver, this);
 	}
@@ -66,9 +66,9 @@ public class TC_245_Check_stain_protection_in_Cart extends Base{
 		first.click();
 
 	}
-	
+
 	public void click_stainprotection_verify_cart() throws InterruptedException {
-		
+
 		Thread.sleep(1000);
 		pagedown();
 		Thread.sleep(1000);
@@ -87,22 +87,20 @@ public class TC_245_Check_stain_protection_in_Cart extends Base{
 		Thread.sleep(1000);
 		String expected=stainprocart.getText();
 		Assert.assertEquals("STAIN PROTECTION", expected);
-		
+
 	}
-	
-	
-	TC_245_Check_stain_protection_in_Cart ob;
 
-	@BeforeTest
 
-	
-
-	public void launchurl() throws InterruptedException {
-
-		getlaunchurl(getreaddata("url"));
-			ob= new TC_245_Check_stain_protection_in_Cart();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_245_Check_stain_protection_in_Cart ob;
+	//
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//
+	//		getlaunchurl(getreaddata("url"));
+	//			ob= new TC_245_Check_stain_protection_in_Cart();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 

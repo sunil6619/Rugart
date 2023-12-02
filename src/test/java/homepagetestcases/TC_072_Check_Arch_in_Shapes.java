@@ -11,13 +11,13 @@ import resources.Base;
 
 public class TC_072_Check_Arch_in_Shapes extends Base{
 
-	@Parameters("url") 
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url") 
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_arch_in_shapes_Test() throws InterruptedException {
 		Thread.sleep(1000);

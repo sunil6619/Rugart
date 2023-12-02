@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_189_Check_rugmaterial_wool_changed_should_change_in_all extends Base{
-	
+
 	@FindBy(xpath = "//div[@class=\"collapse navbar-collapse\"]/child::ul/child::li/child::a[@href=\"/collections\"]")
 	private WebElement collection;
 	@FindBy(xpath = "//div[@class=\"collection-item\"]/child::a/img[@alt=\"Field of Flowers\"]")
@@ -30,7 +30,7 @@ public class TC_189_Check_rugmaterial_wool_changed_should_change_in_all extends 
 	private WebElement rugmaterial4;
 	@FindBy(xpath = "//div[@class=\"dropdown dropdown-material active\"]/descendant::li[@id=\"New Zealand Wool\"]")
 	private WebElement newzealandwool;
-	
+
 	public  TC_189_Check_rugmaterial_wool_changed_should_change_in_all() {
 		PageFactory.initElements(driver, this);
 	}
@@ -45,7 +45,7 @@ public class TC_189_Check_rugmaterial_wool_changed_should_change_in_all extends 
 		first.click();
 		zoomin();
 	}
-	
+
 	public void change_rugmaterial_wool() throws InterruptedException {
 		Thread.sleep(1000);
 		rugmaterial1.click();
@@ -60,21 +60,22 @@ public class TC_189_Check_rugmaterial_wool_changed_should_change_in_all extends 
 		Assert.assertEquals("New Zealand Wool", expectedmaterial);
 		expectedmaterial=rugmaterial4.getText();
 		Assert.assertEquals("New Zealand Wool", expectedmaterial);
-			
-	}
-	
-	TC_189_Check_rugmaterial_wool_changed_should_change_in_all ob;
-	@Parameters ("url")
-	@BeforeTest
 
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_189_Check_rugmaterial_wool_changed_should_change_in_all();
 	}
+
+	//	TC_189_Check_rugmaterial_wool_changed_should_change_in_all ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_189_Check_rugmaterial_wool_changed_should_change_in_all();
+	//	}
 
 	@Test
 
 	public void check_rugmaterial_wool_changed() throws InterruptedException, AWTException {
+		TC_189_Check_rugmaterial_wool_changed_should_change_in_all ob=new TC_189_Check_rugmaterial_wool_changed_should_change_in_all();
 		ob.clickoncollection();
 		ob.change_rugmaterial_wool();
 
@@ -82,7 +83,7 @@ public class TC_189_Check_rugmaterial_wool_changed_should_change_in_all extends 
 
 
 	}
-	
-	
+
+
 
 }

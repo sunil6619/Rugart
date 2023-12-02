@@ -69,19 +69,20 @@ public class TC_196_Check_size_length_width_left_blank_verify_err_msg extends Ba
 	}
 
 
-	TC_196_Check_size_length_width_left_blank_verify_err_msg ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_196_Check_size_length_width_left_blank_verify_err_msg();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_196_Check_size_length_width_left_blank_verify_err_msg ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_196_Check_size_length_width_left_blank_verify_err_msg();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_size_rugsize_left_blank_verify_error_msg() throws InterruptedException, AWTException {
+		TC_196_Check_size_length_width_left_blank_verify_err_msg ob=new TC_196_Check_size_length_width_left_blank_verify_err_msg() ;
 		ob.clickoncollection();
 		ob.clickaddtocart_left_blank_rugsize();
 		Log.info("Clicking on collection FOF and checking error msg when rugsize left blank ,clicked add to cart");

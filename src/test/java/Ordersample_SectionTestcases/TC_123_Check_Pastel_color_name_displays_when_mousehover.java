@@ -13,14 +13,14 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_123_Check_Pastel_color_name_displays_when_mousehover extends Base {
-	@Parameters ("url")
-	@BeforeTest
-	
-	public void launchurl_rugartisan() throws InterruptedException  {
-		
-		getlaunchurl(getreaddata("url"));
-	}
-	
+//	@Parameters ("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException  {
+//		
+//		getlaunchurl(getreaddata("url"));
+//	}
+//	
 	@Test
 
 	public void check_pastel_color_name_displays_mousehover_Test() throws InterruptedException, AWTException {

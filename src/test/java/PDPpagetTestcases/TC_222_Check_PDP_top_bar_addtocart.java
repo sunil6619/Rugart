@@ -88,25 +88,24 @@ public class TC_222_Check_PDP_top_bar_addtocart extends Base{
 		Thread.sleep(1000);
 		String expectedproduct=productname.getText();
 		Assert.assertEquals("ANEMONE", expectedproduct);
-		
-
+	
 	}
-	TC_222_Check_PDP_top_bar_addtocart ob;
-	//@Parameters ("url")
-	@BeforeTest
-
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_222_Check_PDP_top_bar_addtocart();
-		Log.info("Chrome browser and url launch");
-	}
+//	TC_222_Check_PDP_top_bar_addtocart ob;
+//	//@Parameters ("url")
+//	@BeforeTest
+//
+//
+//
+//	public void launchurl() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		ob= new TC_222_Check_PDP_top_bar_addtocart();
+//		Log.info("Chrome browser and url launch");
+//	}
 
 	@Test
 
 	public void check_topbar_add_to_cart_verify_shopping_cart() throws InterruptedException, AWTException {
-
+		TC_222_Check_PDP_top_bar_addtocart ob= new TC_222_Check_PDP_top_bar_addtocart();
 		ob.clickoncollection();
 		ob.click_addtocart_verify_it();
 		Log.info("Clicking on collection FOF and checking add to cart,verify in shopping cart");

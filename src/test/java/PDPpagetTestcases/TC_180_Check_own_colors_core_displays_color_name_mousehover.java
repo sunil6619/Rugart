@@ -63,18 +63,19 @@ public class TC_180_Check_own_colors_core_displays_color_name_mousehover extends
 		
 	}
 	
-	TC_180_Check_own_colors_core_displays_color_name_mousehover ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_180_Check_own_colors_core_displays_color_name_mousehover();
-	}
+//	TC_180_Check_own_colors_core_displays_color_name_mousehover ob;
+//	@Parameters ("url")
+//	@BeforeTest
+//
+//	public void launchurl() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		ob= new TC_180_Check_own_colors_core_displays_color_name_mousehover();
+//	}
 
 	@Test
 
 	public void check_core_colors_displays_tooltip_color_name() throws InterruptedException, AWTException {
+		TC_180_Check_own_colors_core_displays_color_name_mousehover ob= new TC_180_Check_own_colors_core_displays_color_name_mousehover();
 		ob.clickoncollection();
 		ob.colorname_displays_when_mousehover();
 

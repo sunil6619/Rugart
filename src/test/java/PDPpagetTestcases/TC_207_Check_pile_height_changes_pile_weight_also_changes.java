@@ -85,19 +85,20 @@ public class TC_207_Check_pile_height_changes_pile_weight_also_changes extends B
 
 	}
 
-	TC_207_Check_pile_height_changes_pile_weight_also_changes ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_207_Check_pile_height_changes_pile_weight_also_changes();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_207_Check_pile_height_changes_pile_weight_also_changes ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_207_Check_pile_height_changes_pile_weight_also_changes();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_pile_height_change_pile_weight() throws InterruptedException, AWTException {
+		TC_207_Check_pile_height_changes_pile_weight_also_changes ob= new TC_207_Check_pile_height_changes_pile_weight_also_changes();
 		ob.clickoncollection();
 		ob.click_different_pile_height();
 		Log.info("Clicking on collection FOF and checking pile weight when pile height is changed");

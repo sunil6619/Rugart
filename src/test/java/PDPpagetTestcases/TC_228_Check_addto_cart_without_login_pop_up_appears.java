@@ -27,7 +27,7 @@ public class TC_228_Check_addto_cart_without_login_pop_up_appears extends Base{
 	private WebElement addtocart;
 	@FindBy(xpath = "//div[@class=\"form-group\"]/child::label[contains(text(),'email')]")
 	private WebElement popupbox;
-	
+
 	public  TC_228_Check_addto_cart_without_login_pop_up_appears() {
 		PageFactory.initElements(driver, this);
 	}
@@ -52,31 +52,30 @@ public class TC_228_Check_addto_cart_without_login_pop_up_appears extends Base{
 		Thread.sleep(1000);
 		String expected=popupbox.getText();
 		Assert.assertEquals("*Please provide your email to save your changes", expected);
-		
-		
-		
+
+
 	}
-	
-	TC_228_Check_addto_cart_without_login_pop_up_appears ob;
-	//@Parameters ("url")
-	@BeforeTest
 
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_228_Check_addto_cart_without_login_pop_up_appears();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_228_Check_addto_cart_without_login_pop_up_appears ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_228_Check_addto_cart_without_login_pop_up_appears();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_addtocart_without_login_popup_displays() throws InterruptedException, AWTException {
-
+		TC_228_Check_addto_cart_without_login_pop_up_appears ob= new TC_228_Check_addto_cart_without_login_pop_up_appears();
 		ob.clickoncollection();
 		ob.click_add_to_cart_verify_pop_up();
 		Log.info("Clicking on collection FOF and check add to cart without login pop up");
 	}
 
-	
+
 }

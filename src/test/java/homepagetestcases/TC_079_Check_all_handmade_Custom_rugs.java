@@ -12,13 +12,13 @@ import resources.Base;
 
 public class TC_079_Check_all_handmade_Custom_rugs extends Base{
 
-	@Parameters("url") 
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url") 
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_all_handmade_custom_rugs_Test() throws InterruptedException {
 		String text="";

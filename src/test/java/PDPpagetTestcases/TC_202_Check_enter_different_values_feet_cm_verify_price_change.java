@@ -16,14 +16,14 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_202_Check_enter_different_values_feet_cm_verify_price_change extends Base {
-	
+
 	@FindBy(xpath = "//div[@class=\"collapse navbar-collapse\"]/child::ul/child::li/child::a[@href=\"/collections\"]")
 	private WebElement collection;
 	@FindBy(xpath = "//div[@class=\"collection-item\"]/child::a/img[@alt=\"Field of Flowers\"]")
 	private WebElement fof;
 	@FindBy(xpath = "//div[@class=\"radio\"]/child::label[@for=\"cm\"]")
 	private WebElement radiocm;
-   @FindBy(xpath = "//div[@class=\"radio\"]/child::label[@for=\"feet\"]")
+	@FindBy(xpath = "//div[@class=\"radio\"]/child::label[@for=\"feet\"]")
 	private WebElement feet;
 	@FindBy(xpath = "//input[@id=\"widthFeetRug\"]")
 	private WebElement widthft ;
@@ -34,9 +34,9 @@ public class TC_202_Check_enter_different_values_feet_cm_verify_price_change ext
 	@FindBy(xpath = "//input[@id=\"lengthCmRug\"]")
 	private WebElement lgthcm;
 	@FindBy(xpath = "//span[@id=\"rug_price\"]")
-    private WebElement rugprice;
-	
-	
+	private WebElement rugprice;
+
+
 	public  TC_202_Check_enter_different_values_feet_cm_verify_price_change() {
 		PageFactory.initElements(driver, this);
 	}
@@ -87,27 +87,28 @@ public class TC_202_Check_enter_different_values_feet_cm_verify_price_change ext
 		Thread.sleep(2000);
 		expectedprice=rugprice.getText();
 		Assert.assertEquals("$13968",expectedprice);		
-	
-	}
-	
-	TC_202_Check_enter_different_values_feet_cm_verify_price_change ob;
-	@Parameters ("url")
-	@BeforeTest
 
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_202_Check_enter_different_values_feet_cm_verify_price_change();
-		Log.info("Chrome browser and url launch");
 	}
+
+	//	TC_202_Check_enter_different_values_feet_cm_verify_price_change ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_202_Check_enter_different_values_feet_cm_verify_price_change();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_enter_different_values_ft_cm_verify_price() throws InterruptedException, AWTException {
+		TC_202_Check_enter_different_values_feet_cm_verify_price_change ob=  new TC_202_Check_enter_different_values_feet_cm_verify_price_change();
 		ob.clickoncollection();
 		ob.enter_different_values_price_change();
 		Log.info("Clicking on collection FOF and checking price change when different values entered in feet");
 	}
 
-	
+
 
 }

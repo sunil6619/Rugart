@@ -115,18 +115,19 @@ public class TC_176_Check_delivery_time_when_rug_type_changed extends Base{
 
 	}
 	
-	TC_176_Check_delivery_time_when_rug_type_changed ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_176_Check_delivery_time_when_rug_type_changed();
-	}
+//	TC_176_Check_delivery_time_when_rug_type_changed ob;
+//	@Parameters ("url")
+//	@BeforeTest
+//
+//	public void launchurl() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		ob= new TC_176_Check_delivery_time_when_rug_type_changed();
+//	}
 
 	@Test
 
 	public void check_delivery_time_when_rugtype_changed() throws InterruptedException, AWTException {
+		TC_176_Check_delivery_time_when_rug_type_changed ob= new TC_176_Check_delivery_time_when_rug_type_changed();
 		ob.clickoncollection();
 		ob.deliverytime_rugtype_is_changed();
 

@@ -54,25 +54,25 @@ public class TC_229_Check_addto_cart_without_login_pop_up_left_blank_error_msg e
 		Thread.sleep(1000);
 		addtocartpopup.click();
 		String expectederrormsg=errormsg.getText();
-        Assert.assertEquals("Please enter a value for email", expectederrormsg);
+		Assert.assertEquals("Please enter a value for email", expectederrormsg);
 	}
 
-	TC_229_Check_addto_cart_without_login_pop_up_left_blank_error_msg ob;
-	//@Parameters ("url")
-	@BeforeTest
-
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_229_Check_addto_cart_without_login_pop_up_left_blank_error_msg();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_229_Check_addto_cart_without_login_pop_up_left_blank_error_msg ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_229_Check_addto_cart_without_login_pop_up_left_blank_error_msg();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_addtocart_without_login_popup_left_blank() throws InterruptedException, AWTException {
-
+		TC_229_Check_addto_cart_without_login_pop_up_left_blank_error_msg ob= new TC_229_Check_addto_cart_without_login_pop_up_left_blank_error_msg();
 		ob.clickoncollection();
 		ob.email_popup_left_blank();
 		Log.info("Clicking on collection FOF and email pop up left blank,verify error msg");

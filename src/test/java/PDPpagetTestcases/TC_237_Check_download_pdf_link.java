@@ -30,10 +30,10 @@ public class TC_237_Check_download_pdf_link extends Base{
 	private WebElement fof;
 	@FindBy(xpath = "//span[@class=\"downloadpdf modal-text\"]")
 	private WebElement downloadpdf;
-	
 
-//	private static String downloadpath="S:\\RugDownloads";
-	
+
+	//	private static String downloadpath="S:\\RugDownloads";
+
 	public  TC_237_Check_download_pdf_link() {
 		PageFactory.initElements(driver, this);
 	}
@@ -52,39 +52,39 @@ public class TC_237_Check_download_pdf_link extends Base{
 		pagedown();
 		Thread.sleep(1000);
 		downloadpdf.click();
-		
-		
-		
-//		Assert.assertTrue(isFileDownloaded("S:\\RugDownloads", "file-sample_100kB.doc"), "Failed to download Expected document");
+
+
+
+		//		Assert.assertTrue(isFileDownloaded("S:\\RugDownloads", "file-sample_100kB.doc"), "Failed to download Expected document");
 	}
-	
-	
-	
-
-	TC_237_Check_download_pdf_link ob;
-	//@Parameters ("url")
-	@BeforeTest
 
 
 
-	public void launchurl() throws InterruptedException, IOException {
-		
-				
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_237_Check_download_pdf_link();
-		Log.info("Chrome browser and url launch");
-		
-	}
-	
+
+	//	TC_237_Check_download_pdf_link ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException, IOException {
+	//		
+	//				
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_237_Check_download_pdf_link();
+	//		Log.info("Chrome browser and url launch");
+	//		
+	//	}
+
 
 	@Test
 
 	public void check_donwload_pdf_verify() throws InterruptedException, AWTException {
-
+		TC_237_Check_download_pdf_link ob= new TC_237_Check_download_pdf_link();
 		ob.clickoncollection();
 		ob.click_download_pdf();
-		
+
 		Log.info("Checking download PDF in PDP ");
 	}
-	
+
 }

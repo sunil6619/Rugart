@@ -26,10 +26,10 @@ public class TC_212_Check_maximum_Quantity extends Base{
 	private WebElement widthft ;
 	@FindBy(xpath = "//input[@id=\"lengthFeetRug\"]")
 	private WebElement lgthft ;
-	
+
 	@FindBy(xpath = "//span[@id=\"increase\"]")
 	private WebElement increaseqty;
-	
+
 	public  TC_212_Check_maximum_Quantity() {
 		PageFactory.initElements(driver, this);
 	}
@@ -77,22 +77,23 @@ public class TC_212_Check_maximum_Quantity extends Base{
 		String expectedqty=quantity.getAttribute("value");
 		System.out.println(expectedqty);
 		Assert.assertEquals("10", expectedqty);
-	
+
 	}
 
-	TC_212_Check_maximum_Quantity ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_212_Check_maximum_Quantity();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_212_Check_maximum_Quantity ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_212_Check_maximum_Quantity();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_price_change_quantity_increased() throws InterruptedException, AWTException {
+		TC_212_Check_maximum_Quantity ob=new TC_212_Check_maximum_Quantity() ;
 		ob.clickoncollection();
 		ob.click_maximum_quantity();
 		Log.info("Clicking on collection FOF and checking maximum quantity");

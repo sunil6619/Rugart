@@ -13,13 +13,13 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_129_Check_in_ordersample_range_ft extends Base{
-	@Parameters ("url")
-	@BeforeTest
-	
-	public void launchurl_rugartisan() throws InterruptedException {
-		
-		getlaunchurl(getreaddata("url"));
-	}
+//	@Parameters ("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException {
+//		
+//		getlaunchurl(getreaddata("url"));
+//	}
 	
 	@Test
 

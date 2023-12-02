@@ -21,8 +21,8 @@ public class TC_164_Check_default_price extends Base{
 	private WebElement fof;
 	@FindBy(xpath = "//div[@class=\"pdp-summary priceValue\"]/descendant::span[@class=\"price\"]")
 	private WebElement rugprice;
-	
-	
+
+
 	public TC_164_Check_default_price() {
 		PageFactory.initElements(driver,this);
 	}
@@ -31,7 +31,7 @@ public class TC_164_Check_default_price extends Base{
 		mousehover(collection);
 		Thread.sleep(1000);
 		fof.click();
-		 Thread.sleep(1000);
+		Thread.sleep(1000);
 		List<WebElement> customize=driver.findElements(By.xpath("//span[contains (text(),'Custom Sizes')]"));
 		WebElement first=customize.get(0);
 		first.click();
@@ -39,22 +39,23 @@ public class TC_164_Check_default_price extends Base{
 	}
 	//checking default rug price
 	public void checkdefaultrugprice() throws InterruptedException {
-//		pagedown();
+		//		pagedown();
 		String price=rugprice.getText();
 		Assert.assertEquals("$0",price);
 	}
-	TC_164_Check_default_price ob;
-	@Parameters("url")
-	@BeforeTest
-	
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_164_Check_default_price();	
-	}
-	
+	//	TC_164_Check_default_price ob;
+	//	@Parameters("url")
+	//	@BeforeTest
+	//	
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_164_Check_default_price();	
+	//	}
+
 	@Test
-	
+
 	public void check_defaultrugprice() throws InterruptedException, AWTException {
+		TC_164_Check_default_price ob= new TC_164_Check_default_price();
 		ob.clickoncollectionfof();
 		ob.checkdefaultrugprice();
 	}

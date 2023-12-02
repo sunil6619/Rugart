@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_238_Check_small_rug_price_topbar_and_bottom extends Base{
-	
+
 	@FindBy(xpath = "//div[@class=\"collapse navbar-collapse\"]/child::ul/child::li/child::a[@href=\"/collections\"]")
 	private WebElement collection;
 	@FindBy(xpath = "//div[@class=\"collection-item\"]/child::a/img[@alt=\"Field of Flowers\"]")
@@ -27,9 +27,9 @@ public class TC_238_Check_small_rug_price_topbar_and_bottom extends Base{
 	private WebElement topbarsmallrugmsg;
 	@FindBy(xpath = "//div[@class=\"price-box\"]/descendant::div[@class=\"small-order-charge\"]")
 	private WebElement bottomsmallrugmsg;
-	
-	
-	
+
+
+
 	public   TC_238_Check_small_rug_price_topbar_and_bottom () {
 		PageFactory.initElements(driver, this);
 	}
@@ -55,26 +55,26 @@ public class TC_238_Check_small_rug_price_topbar_and_bottom extends Base{
 		Assert.assertEquals("+150 (Small order charge may apply on checkout)", expectedmsg);
 		expectedmsg=bottomsmallrugmsg.getText();
 		Assert.assertEquals("+150 (Small order charge may apply on checkout)", expectedmsg);
-		
-		}
-	
-	
-	 TC_238_Check_small_rug_price_topbar_and_bottom  ob;
-	//@Parameters ("url")
-	@BeforeTest
 
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new  TC_238_Check_small_rug_price_topbar_and_bottom ();
-		Log.info("Chrome browser and url launch");
 	}
+
+
+	//	 TC_238_Check_small_rug_price_topbar_and_bottom  ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new  TC_238_Check_small_rug_price_topbar_and_bottom ();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_small_rug_price() throws InterruptedException, AWTException {
-
+		TC_238_Check_small_rug_price_topbar_and_bottom  ob= new  TC_238_Check_small_rug_price_topbar_and_bottom ();
 		ob.clickoncollection();
 		ob.small_rug_price();
 		Log.info("Checking small rug price in PDP page");

@@ -72,7 +72,7 @@ public class TC_211_Check_decrease_Quantity_price_change extends Base{
 		Thread.sleep(1000);
 		decreaseqty.click();
 		Thread.sleep(2000);
-		
+
 		String afterqtyincreaseprice=rugprice.getText();
 		Assert.assertEquals("$2592", afterqtyincreaseprice);
 		Thread.sleep(1000);
@@ -83,23 +83,24 @@ public class TC_211_Check_decrease_Quantity_price_change extends Base{
 		else {
 			System.out.println("Price changed after decrease in quantity");
 		}
-		
+
 
 	}
 
-	TC_211_Check_decrease_Quantity_price_change ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_211_Check_decrease_Quantity_price_change();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_211_Check_decrease_Quantity_price_change ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_211_Check_decrease_Quantity_price_change();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_price_change_quantity_decreased() throws InterruptedException, AWTException {
+		TC_211_Check_decrease_Quantity_price_change ob=  new TC_211_Check_decrease_Quantity_price_change();
 		ob.clickoncollection();
 		ob.decrease_quantity_price_changes();
 		Log.info("Clicking on collection FOF and checking price change when quantity decreased");

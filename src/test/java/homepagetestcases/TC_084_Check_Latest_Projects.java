@@ -11,15 +11,14 @@ import resources.Base;
 
 public class TC_084_Check_Latest_Projects extends Base{
 
-		@Parameters("url") 
-		@BeforeTest
-		public void getlaunchurl_rugartisan() throws InterruptedException
-		{
-			getlaunchurl(getreaddata("url"));
-
-		}
+//		@Parameters("url") 
+//		@BeforeTest
+//		public void getlaunchurl_rugartisan() throws InterruptedException
+//		{
+//			getlaunchurl(getreaddata("url"));
+//
+//		}
 		@Test
-		
 		public void check__latest_projects_Test() throws InterruptedException {
 			Thread.sleep(1000);
 			WebElement projects=driver.findElement(By.xpath("//a[contains(text(),'Latest Projects')]"));

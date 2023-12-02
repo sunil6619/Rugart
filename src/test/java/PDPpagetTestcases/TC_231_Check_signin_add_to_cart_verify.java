@@ -41,7 +41,7 @@ public class TC_231_Check_signin_add_to_cart_verify extends Base{
 	private WebElement productname;
 	@FindBy(xpath = "//button[@title=\"Buy Now\"]")
 	private WebElement addtocart;
-	
+
 	public  TC_231_Check_signin_add_to_cart_verify   () {
 		PageFactory.initElements(driver, this);
 	}
@@ -62,9 +62,9 @@ public class TC_231_Check_signin_add_to_cart_verify extends Base{
 		first.click();
 
 	}
-	
+
 	public void sign_in_addto_cart() throws InterruptedException {
-		
+
 		Thread.sleep(1000);
 		pagedown();
 		widthft.sendKeys("4");
@@ -72,32 +72,32 @@ public class TC_231_Check_signin_add_to_cart_verify extends Base{
 		Thread.sleep(1000);
 		addtocart.click();
 		Thread.sleep(2000);
-//		shopcart.click();
-//		Thread.sleep(2000);
+		//		shopcart.click();
+		//		Thread.sleep(2000);
 		viewcart.click();
 		Thread.sleep(1000);
 		String expectedproduct=productname.getText();
 		Assert.assertEquals("ANEMONE", expectedproduct);
-		
+
 	}
 
-	
-	TC_231_Check_signin_add_to_cart_verify  ob;
-	//@Parameters ("url")
-	@BeforeTest
 
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_231_Check_signin_add_to_cart_verify ();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_231_Check_signin_add_to_cart_verify  ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_231_Check_signin_add_to_cart_verify ();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_signin_addto_cart_functionality() throws InterruptedException, AWTException {
-
+		TC_231_Check_signin_add_to_cart_verify  ob= new TC_231_Check_signin_add_to_cart_verify ();
 		ob.clickoncollection();
 		ob.sign_in_addto_cart();
 		Log.info("Clickon sign in and add product,verify in cart");

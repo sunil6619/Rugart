@@ -12,15 +12,15 @@ import resources.Base;
 
 public class TC_009_Check_whether_ableto_mousehover_Pattern extends Base {
 
-	@Parameters("url")
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
-	public void check_whetherable_mouseover_Pattern_Test() throws InterruptedException, AWTException {
+	public void Check_whether_able_to_mouseover_Pattern() throws InterruptedException, AWTException {
 		Thread.sleep(1000);
 		zoomin();
 		WebElement pattern=driver.findElement(By.xpath("//ul[@class=\"nav navbar-nav\"]/li/span[text()='Pattern']"));

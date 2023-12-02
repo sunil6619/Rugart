@@ -77,22 +77,22 @@ public class TC_242_Check_stain_protection_price_changes_when_rugmaterial_change
 
 	}
 
-	TC_242_Check_stain_protection_price_changes_when_rugmaterial_changed ob;
-	//@Parameters ("url")
-	@BeforeTest
-
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_242_Check_stain_protection_price_changes_when_rugmaterial_changed ();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_242_Check_stain_protection_price_changes_when_rugmaterial_changed ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_242_Check_stain_protection_price_changes_when_rugmaterial_changed ();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_stain_protection_price_when_rugmaterial_changes() throws InterruptedException, AWTException {
-
+		TC_242_Check_stain_protection_price_changes_when_rugmaterial_changed ob= new TC_242_Check_stain_protection_price_changes_when_rugmaterial_changed ();
 		ob.clickoncollection();
 		ob.change_rugmaterial();
 		Log.info("Checking stain protection price when rugmaterial is changed");

@@ -39,15 +39,15 @@ public class TC_146_Check_rectangle_shape_same_length_width_error_msg  extends B
 		
 	}
 	
-	@Parameters ("url")
-	@BeforeTest
-	
-	public void launchurl_rugartisan() throws InterruptedException {
-		
-
-		getlaunchurl(getreaddata("url"));
-		
-	}
+//	@Parameters ("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException {
+//		
+//
+//		getlaunchurl(getreaddata("url"));
+//		
+//	}
 	@Test
 
 	public void check_rugshapes_verify_title_Test() throws InterruptedException, AWTException {

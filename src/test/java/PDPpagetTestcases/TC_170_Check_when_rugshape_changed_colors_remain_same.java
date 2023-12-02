@@ -72,17 +72,17 @@ public class TC_170_Check_when_rugshape_changed_colors_remain_same extends Base{
 		}
 
 	}
-	TC_170_Check_when_rugshape_changed_colors_remain_same ob;
-	@Parameters("url")
-	@BeforeTest
-
-	public void launchrugartisan() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_170_Check_when_rugshape_changed_colors_remain_same();
-	}
+	//	TC_170_Check_when_rugshape_changed_colors_remain_same ob;
+	//	@Parameters("url")
+	//	@BeforeTest
+	//
+	//	public void launchrugartisan() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_170_Check_when_rugshape_changed_colors_remain_same();
+	//	}
 	@Test
 	public void check_rugshape_changed_colors_remain_same() throws InterruptedException, AWTException {
-
+		TC_170_Check_when_rugshape_changed_colors_remain_same ob= new TC_170_Check_when_rugshape_changed_colors_remain_same();
 		ob.clickoncollectionfof();
 		ob.changerugshape_verify_colors_remain_same();
 	}

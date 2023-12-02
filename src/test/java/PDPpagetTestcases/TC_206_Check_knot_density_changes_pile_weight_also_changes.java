@@ -110,19 +110,20 @@ public class TC_206_Check_knot_density_changes_pile_weight_also_changes extends 
 	}
 		
 	
-	TC_206_Check_knot_density_changes_pile_weight_also_changes ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_206_Check_knot_density_changes_pile_weight_also_changes();
-		Log.info("Chrome browser and url launch");
-	}
+//	TC_206_Check_knot_density_changes_pile_weight_also_changes ob;
+//	@Parameters ("url")
+//	@BeforeTest
+//
+//	public void launchurl() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		ob= new TC_206_Check_knot_density_changes_pile_weight_also_changes();
+//		Log.info("Chrome browser and url launch");
+//	}
 
 	@Test
 
 	public void check_knot_density_changes_pile_weight() throws InterruptedException, AWTException {
+		TC_206_Check_knot_density_changes_pile_weight_also_changes ob= new TC_206_Check_knot_density_changes_pile_weight_also_changes();
 		ob.clickoncollection();
 		ob.click_different_knot_density();
 		Log.info("Clicking on collection FOF and checking pile weight when knot density is changed");

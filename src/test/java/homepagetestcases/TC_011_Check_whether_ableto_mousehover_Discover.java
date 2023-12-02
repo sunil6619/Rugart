@@ -13,13 +13,13 @@ import resources.Base;
 public class TC_011_Check_whether_ableto_mousehover_Discover extends Base{
 
 
-	@Parameters("url")
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_whetherable_mouseover_Discover_Test () throws InterruptedException, AWTException {
 		Thread.sleep(1000);

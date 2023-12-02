@@ -24,12 +24,12 @@ public class TC_250_Check_topbar_changes extends Base{
 	@FindBy(xpath = "//aside[@class=\"tBox3 tboxh\"]/child::div[@class=\"text1\"]")
 	private WebElement shapetopbar;
 	@FindBy(xpath = "//div[@class=\"tbr2Cls\"]")
-    private WebElement close;
+	private WebElement close;
 	@FindBy(xpath = "//div[@id=\"designShape_msdd\"]")
 	private WebElement rugshapedropdown;
 	@FindBy(xpath = "//li[@title=\"round\"]")
 	private WebElement roundshape;
-	
+
 	public  TC_250_Check_topbar_changes () {
 		PageFactory.initElements(driver, this);
 	}
@@ -45,7 +45,7 @@ public class TC_250_Check_topbar_changes extends Base{
 		zoomin();
 	}
 	public void topbar_changes() throws InterruptedException {
-		
+
 		Thread.sleep(1000);
 		pagedown();
 		pdptopbardropdown.click();
@@ -62,29 +62,27 @@ public class TC_250_Check_topbar_changes extends Base{
 		Thread.sleep(1000);
 		expected=shapetopbar.getText();
 		Assert.assertEquals("Round", expected);
-		
-		
-		
-	}
-	TC_250_Check_topbar_changes ob;
 
-	@BeforeTest
 
-	
-	
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_250_Check_topbar_changes ();
-		Log.info("Chrome browser and url launch");
+
 	}
+	//	TC_250_Check_topbar_changes ob;
+	//
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_250_Check_topbar_changes ();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_topbar_changes() throws InterruptedException, AWTException {
-		
+		TC_250_Check_topbar_changes ob= new TC_250_Check_topbar_changes ();
 		ob.clickoncollection();
 		ob.topbar_changes();
 		Log.info("Clicking on collection FOF and checking PDP top bar changes");
 	}
-	
+
 }

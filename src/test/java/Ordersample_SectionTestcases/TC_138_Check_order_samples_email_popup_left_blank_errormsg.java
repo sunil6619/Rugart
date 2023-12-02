@@ -14,13 +14,13 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_138_Check_order_samples_email_popup_left_blank_errormsg extends Base {
-	@Parameters ("url")
-	@BeforeTest
-	
-	public void launchurl_rugartisan() throws InterruptedException  {
-		
-		getlaunchurl(getreaddata("url"));
-	}
+//	@Parameters ("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException  {
+//		
+//		getlaunchurl(getreaddata("url"));
+//	}
 	
 	@Test
 

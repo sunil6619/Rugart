@@ -10,13 +10,13 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_019_Check_Minimalist_link_Collection_Click_all_Shapes extends Base{
-	@Parameters("url")
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_minimalist_link_in_collection_click_all_shapes_Test() throws InterruptedException {
 		Thread.sleep(1000);

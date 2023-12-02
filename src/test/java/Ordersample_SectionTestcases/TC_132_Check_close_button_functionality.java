@@ -13,13 +13,13 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_132_Check_close_button_functionality extends Base{
-	@Parameters ("url")
-	@BeforeTest
-	
-	public void launchurl_rugartisan() throws InterruptedException {
-		
-		getlaunchurl(getreaddata("url"));
-	}
+//	@Parameters ("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException {
+//		
+//		getlaunchurl(getreaddata("url"));
+//	}
 	
 	@Test
 

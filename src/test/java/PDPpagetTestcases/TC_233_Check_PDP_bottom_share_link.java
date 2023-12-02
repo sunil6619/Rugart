@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_233_Check_PDP_bottom_share_link extends Base{
-	
+
 	@FindBy(xpath = "//div[@class=\"collapse navbar-collapse\"]/child::ul/child::li/child::a[@href=\"/collections\"]")
 	private WebElement collection;
 	@FindBy(xpath = "//div[@class=\"collection-item\"]/child::a/img[@alt=\"Field of Flowers\"]")
@@ -23,7 +23,7 @@ public class TC_233_Check_PDP_bottom_share_link extends Base{
 	private WebElement share;
 	@FindBy(xpath = "//h5[contains(text(),'Share')]")
 	private WebElement sharebox;
-	
+
 	public  TC_233_Check_PDP_bottom_share_link () {
 		PageFactory.initElements(driver, this);
 	}
@@ -37,7 +37,7 @@ public class TC_233_Check_PDP_bottom_share_link extends Base{
 		WebElement first=customize.get(2);
 		first.click();
 	}
-	
+
 	public void click_share_link() throws InterruptedException {
 		Thread.sleep(1000);
 		pagedown();
@@ -46,25 +46,25 @@ public class TC_233_Check_PDP_bottom_share_link extends Base{
 		Thread.sleep(1000);
 		String expected=sharebox.getText();
 		Assert.assertEquals("Share", expected);
-		
-		
+
+
 	}
-	TC_233_Check_PDP_bottom_share_link ob;
-	//@Parameters ("url")
-	@BeforeTest
-
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_233_Check_PDP_bottom_share_link();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_233_Check_PDP_bottom_share_link ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_233_Check_PDP_bottom_share_link();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_bottom_share_link() throws InterruptedException, AWTException {
-
+		TC_233_Check_PDP_bottom_share_link ob = new TC_233_Check_PDP_bottom_share_link();
 		ob.clickoncollection();
 		ob.click_share_link();
 		Log.info("Checking share link on bottom in PDP page");

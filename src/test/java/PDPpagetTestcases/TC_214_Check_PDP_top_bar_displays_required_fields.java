@@ -109,21 +109,21 @@ public class TC_214_Check_PDP_top_bar_displays_required_fields extends Base{
 		Log.info("Clicking on collection FOF and checking PDP top bar details");
 	}
 	
-	@AfterMethod
-	public void  getTestResult(ITestResult result) {
-		if(result.getStatus()==ITestResult.FAILURE)
-		{
-			test.log(Status.FAIL, MarkupHelper.createLabel(result.getName()+" FAIL ", ExtentColor.RED));
-			//if test failed then to get detials
-			test.fail(result.getThrowable());
-			
-		}
-		else if (result.getStatus()==ITestResult.SUCCESS)
-		{
-			test.log(Status.PASS, MarkupHelper.createLabel(result.getName()+" PASS ", ExtentColor.GREEN));
-		}
-		
-	}
+//	@AfterMethod
+//	public void  getTestResult(ITestResult result) {
+//		if(result.getStatus()==ITestResult.FAILURE)
+//		{
+//			test.log(Status.FAIL, MarkupHelper.createLabel(result.getName()+" FAIL ", ExtentColor.RED));
+//			//if test failed then to get detials
+//			test.fail(result.getThrowable());
+//			
+//		}
+//		else if (result.getStatus()==ITestResult.SUCCESS)
+//		{
+//			test.log(Status.PASS, MarkupHelper.createLabel(result.getName()+" PASS ", ExtentColor.GREEN));
+//		}
+//		
+//	}
 
 
 }

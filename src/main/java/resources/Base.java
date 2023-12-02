@@ -55,22 +55,28 @@ public class Base {
 	public static Logger Log;
 	
 	
+
+	
+	
 	
 	
 
 	String configpath="S:\\Eclipse 2\\Rugartisan_New\\config.properties";
-	@Parameters ("url")
+//	@Parameters ("url")
 	@BeforeClass
-	public void getlaunchurl(String url) throws InterruptedException {
+//	public void getlaunchurl(String url) throws InterruptedException {
 
-
-		//		System.setProperty("webdriver.chrome.driver", "S:\\Eclipse 2\\Rugartisan_New\\drivers\\chromedriver.exe");
+		public void getlaunchurl() throws InterruptedException {
+		
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+//		driver.get(url);
+		
 		driver.get(getreaddata("url"));
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		Log= LogManager.getLogger("Base");
+		Log.info("Chrome browser and url launch");
 
 		//		 driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/div/div[2]/div[2]/butoon")).click();
 		driver.findElement(By.xpath("//butoon[contains(text(),'Ignore')]")).click();
@@ -141,33 +147,33 @@ public class Base {
 //		}
 //	}
 //	
-	@AfterClass
-		public void teardown() throws InterruptedException {
-		
-			reports.flush();
-			driver.close();
-		}	
+//	@AfterClass
+//		public void teardown() throws InterruptedException {
+//		
+//		reports.flush();
+//			driver.close();
+//		}	
 
 	
 
 	
-	public void extentreport()
-	{
-		
-		//extent report configuration
-        htmlReporter= new ExtentSparkReporter("ExtentReport.html");
-        reports=new ExtentReports();
-        reports.attachReporter(htmlReporter);
-        //add environment details
-        reports.setSystemInfo("Machine", "testpc");
-        reports.setSystemInfo("OS", "windows11");
-       
-//configuration to change look and feel	
-        htmlReporter.config().setDocumentTitle("Extent Report");
-        htmlReporter.config().setReportName("Test Report");
-        htmlReporter.config().setTheme(Theme.STANDARD);
-        htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
-	}
+//	public void extentreport()
+//	{
+//		
+//		//extent report configuration
+//        htmlReporter= new ExtentSparkReporter("ExtentReport.html");
+//        reports=new ExtentReports();
+//        reports.attachReporter(htmlReporter);
+//        //add environment details
+//        reports.setSystemInfo("Machine", "testpc");
+//        reports.setSystemInfo("OS", "windows11");
+//       
+////configuration to change look and feel	
+//        htmlReporter.config().setDocumentTitle("Extent Report");
+//        htmlReporter.config().setReportName("Test Report");
+//        htmlReporter.config().setTheme(Theme.STANDARD);
+//        htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
+//	}
 
 	public String getreaddata(String key) {
 		String value="";
@@ -376,18 +382,26 @@ public class Base {
 //			robot.keyRelease(KeyEvent.VK_CONTROL);
 		}}
 	
+	public void alertaccept() {
+		driver.switchTo().alert().accept();
+	}
+	
+	public void alertdismiss() {
+		driver.switchTo().alert().dismiss();
+	}
+	
 	
 		
-	public void screenshot() throws IOException {
+	public void screenshot(WebDriver driver, String testName) throws IOException {
 		//Convert webdriver object to TakeScreenshot
-			String filewithpath="S:\\Eclipse 2\\Rugartisan_New\\Screenshots\\test1.png";
+//			String filewithpath="S:\\Eclipse 2\\Rugartisan_New\\ScreenShots\\test1.png";
 			TakesScreenshot scrshot=((TakesScreenshot)driver);
 			
 	//Call getScreenshotAs method to create image file
 			File Srcfile=scrshot.getScreenshotAs(OutputType.FILE);
 			
 	//Move image file to new destination
-			File DestFile=new File(filewithpath);
+			File DestFile=new File(System.getProperty("user.dir") + "//Screenshots//" + testName + ".png");
 			
 	// Copy file to destination	
 			FileUtils.copyFile(Srcfile, DestFile);	
@@ -395,7 +409,7 @@ public class Base {
 		}
 	
 	
-//	@AfterTest
+//	@AfterClass
 //		public void teardown() throws InterruptedException {
 //		
 //			reports.flush();
@@ -403,10 +417,8 @@ public class Base {
 //		}	
 
 	
-	//	@AfterTest
-	//	public void teardown() throws InterruptedException {
-	//	
-	//		
-	//		driver.close();
-	//	}
+	@AfterClass
+	public void teardown() throws InterruptedException {
+		driver.close();
+	}
 }

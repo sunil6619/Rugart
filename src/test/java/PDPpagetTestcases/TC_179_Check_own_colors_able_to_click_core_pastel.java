@@ -53,24 +53,21 @@ public class TC_179_Check_own_colors_able_to_click_core_pastel extends Base{
 		selectstate=corecolors.isEnabled();
 		Assert.assertTrue(selectstate);
 
-
-
-
-
 	}
 
-	TC_179_Check_own_colors_able_to_click_core_pastel ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_179_Check_own_colors_able_to_click_core_pastel();
-	}
+	//	TC_179_Check_own_colors_able_to_click_core_pastel ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_179_Check_own_colors_able_to_click_core_pastel();
+	//	}
 
 	@Test
 
 	public void check_dropdown_own_colors() throws InterruptedException, AWTException {
+		TC_179_Check_own_colors_able_to_click_core_pastel ob= new TC_179_Check_own_colors_able_to_click_core_pastel();
 		ob.clickoncollection();
 		ob.click_core_pastel_colors();
 

@@ -77,24 +77,22 @@ public class TC_244_Check_stain_protection_price_changes_when_quantity_changed e
 		expected=stainprotectionprice.getText();
 		Assert.assertEquals("(+$332)", expected);
 
-
-
 	}
-	TC_244_Check_stain_protection_price_changes_when_quantity_changed ob;
-	@BeforeTest
-
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_244_Check_stain_protection_price_changes_when_quantity_changed();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_244_Check_stain_protection_price_changes_when_quantity_changed ob;
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_244_Check_stain_protection_price_changes_when_quantity_changed();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_stain_protection_price_when_quantity_changes() throws InterruptedException, AWTException {
-
+		TC_244_Check_stain_protection_price_changes_when_quantity_changed ob= new TC_244_Check_stain_protection_price_changes_when_quantity_changed() ;
 		ob.clickoncollection();
 		ob.change_quantity();
 		Log.info("Checking stain protection price when quantity is changed");

@@ -61,26 +61,21 @@ public class TC_201_Check_pile_height_inch_mm_when_feet_cm_selected extends Base
 		pileheighttype=mm.getText();
 		Assert.assertEquals("12-14mm",pileheighttype);
 		
-		
-		
-		
-		
-		
-		
 	}
-	TC_201_Check_pile_height_inch_mm_when_feet_cm_selected ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_201_Check_pile_height_inch_mm_when_feet_cm_selected();
-		Log.info("Chrome browser and url launch");
-	}
+//	TC_201_Check_pile_height_inch_mm_when_feet_cm_selected ob;
+//	@Parameters ("url")
+//	@BeforeTest
+//
+//	public void launchurl() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		ob= new TC_201_Check_pile_height_inch_mm_when_feet_cm_selected();
+//		Log.info("Chrome browser and url launch");
+//	}
 
 	@Test
 
 	public void check_size_cm_range() throws InterruptedException, AWTException {
+		TC_201_Check_pile_height_inch_mm_when_feet_cm_selected ob= new TC_201_Check_pile_height_inch_mm_when_feet_cm_selected() ;
 		ob.clickoncollection();
 		ob.pile_height_inch_mm();
 		Log.info("Clicking on collection FOF and checking pile height");

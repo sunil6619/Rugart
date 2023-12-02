@@ -75,26 +75,23 @@ public class TC_187_Check_search_functionality_pastel_colors_in_own_colors exten
 		text=tooltipcolor3.getAttribute("title");
 		Assert.assertEquals("RA-58-N", text);
 
-
 	}
-	TC_187_Check_search_functionality_pastel_colors_in_own_colors ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_187_Check_search_functionality_pastel_colors_in_own_colors();
-
-	}
+	//	TC_187_Check_search_functionality_pastel_colors_in_own_colors ob;
+	//	@Parameters ("url")
+	//	@BeforeTest
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_187_Check_search_functionality_pastel_colors_in_own_colors();
+	//
+	//	}
 
 	@Test
 
 	public void check_search_functionality_pastel_colors() throws InterruptedException, AWTException {
+		TC_187_Check_search_functionality_pastel_colors_in_own_colors ob= new TC_187_Check_search_functionality_pastel_colors_in_own_colors();
 		ob.clickoncollection();
 		ob.search_functionality_pastel();
-
-
-
 
 	}
 

@@ -3,20 +3,19 @@ package homepagetestcases;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
+
 import org.testng.annotations.Test;
 
 import resources.Base;
 
 public class TC_020_Check_Cerulean_link_Collection_Click_all_Shapes extends Base {
-	@Parameters("url")
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url")
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_cerulean_link_in_collection_click_all_shapes_Test() throws InterruptedException {
 		Thread.sleep(1000);

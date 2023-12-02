@@ -33,7 +33,6 @@ public class TC_200_Check_size_cm_range_verify_error_msg extends Base {
 	private WebElement widthcm;
 	@FindBy(xpath = "//input[@id=\"lengthCmRug\"]")
 	private WebElement lgthcm;
-
 	@FindBy(xpath = "//span[contains(text(),'Add To Cart')]")
 	private WebElement addtocart;
 	@FindBy(xpath = "//div[@class=\"cm-width-error unit-error mt-1\"]")
@@ -84,19 +83,20 @@ public class TC_200_Check_size_cm_range_verify_error_msg extends Base {
 
 	}
 
-	TC_200_Check_size_cm_range_verify_error_msg ob;
-	@Parameters ("url")
-	@BeforeTest
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_200_Check_size_cm_range_verify_error_msg();
-		Log.info("Chrome browser and url launch");
-	}
+//	TC_200_Check_size_cm_range_verify_error_msg ob;
+//	@Parameters ("url")
+//	@BeforeTest
+//
+//	public void launchurl() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//		ob= new TC_200_Check_size_cm_range_verify_error_msg();
+//		Log.info("Chrome browser and url launch");
+//	}
 
 	@Test
 
 	public void check_size_cm_range() throws InterruptedException, AWTException {
+		TC_200_Check_size_cm_range_verify_error_msg ob= new TC_200_Check_size_cm_range_verify_error_msg();
 		ob.clickoncollection();
 		ob.cm_range_verify_error();
 		Log.info("Clicking on collection FOF and checking CM range");

@@ -28,8 +28,8 @@ public class TC_223_Check_partial_full_payment_radio_buttons extends Base {
 	private WebElement radiopartial;
 	@FindBy(xpath = "//li[@id=\"full-payment\"]/child::label[@for=\"full-payment-radio\"]")
 	private WebElement radiofullpayment;
-	
-	
+
+
 	public  TC_223_Check_partial_full_payment_radio_buttons  () {
 		PageFactory.initElements(driver, this);
 	}
@@ -44,7 +44,7 @@ public class TC_223_Check_partial_full_payment_radio_buttons extends Base {
 		first.click();
 		zoomin();
 	}
-	
+
 	public void click_partial_full_payment() throws InterruptedException {
 		Thread.sleep(1000);
 		pagedown();
@@ -56,39 +56,35 @@ public class TC_223_Check_partial_full_payment_radio_buttons extends Base {
 		Assert.assertTrue(expected);
 		partial.click();
 		Thread.sleep(2000);
-//		expected=partial.isSelected();
-//		Assert.assertTrue(expected);
+		//		expected=partial.isSelected();
+		//		Assert.assertTrue(expected);
 		fullpayment.click();
 		Thread.sleep(1000);
-//		expected=radiofullpayment.isSelected();
-//		Assert.assertTrue(expected);
-		
-		
-		
-		
-		
-		
+		//		expected=radiofullpayment.isSelected();
+		//		Assert.assertTrue(expected);
+
+
 	}
-	TC_223_Check_partial_full_payment_radio_buttons  ob;
-	//@Parameters ("url")
-	@BeforeTest
-
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_223_Check_partial_full_payment_radio_buttons ();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_223_Check_partial_full_payment_radio_buttons  ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_223_Check_partial_full_payment_radio_buttons ();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_partial_full_payment_option() throws InterruptedException, AWTException {
-
+		TC_223_Check_partial_full_payment_radio_buttons ob=new TC_223_Check_partial_full_payment_radio_buttons ();
 		ob.clickoncollection();
 		ob.click_partial_full_payment();
 		Log.info("Clicking on collection FOF and checking partial,full payment options");
 	}
-	
-	
+
+
 }

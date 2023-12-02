@@ -12,13 +12,13 @@ import resources.Base;
 public class TC_085_Check_Why_choose_handmade extends Base {
 
 
-	@Parameters("url") 
-	@BeforeTest
-	public void getlaunchurl_rugartisan() throws InterruptedException
-	{
-		getlaunchurl(getreaddata("url"));
-
-	}
+//	@Parameters("url") 
+//	@BeforeTest
+//	public void getlaunchurl_rugartisan() throws InterruptedException
+//	{
+//		getlaunchurl(getreaddata("url"));
+//
+//	}
 	@Test
 	public void check_why_choose_handmade() throws InterruptedException {
 		Thread.sleep(1000);

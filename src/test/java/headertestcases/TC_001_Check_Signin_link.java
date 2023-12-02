@@ -10,6 +10,8 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
+import java.io.IOException;
+
 import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -56,7 +58,7 @@ public class TC_001_Check_Signin_link extends Base {
 
 	
 	@Test
-public void Check_Signin_link_Test() throws InterruptedException {
+public void Check_Signin_link_Test() throws InterruptedException, IOException {
 		
 	Thread.sleep(3000);
 //
@@ -72,40 +74,41 @@ public void Check_Signin_link_Test() throws InterruptedException {
 //
 //
 //       driver.findElement(By.xpath("//button[@class=\"m-button m-accept\"]")).click();
-	    test=reports.createTest("click on sign in");
+//	    test=reports.createTest("click on sign in");
 		driver.findElement(By.xpath(" //ul[@class=\"links\"]/li/span[text()='Sign in']")).click();;
 		Thread.sleep(1000);
 		String signinbox=driver.findElement(By.xpath("//form[@id=\"form-sign-in\"]//h3[text()='Sign In']")).getText();
     	System.out.println(signinbox);
     	Assert.assertEquals("SIGN IN", signinbox);
+    	screenshot(driver,"Check_Signin_link_Test");
 //		Thread.sleep(5000);
 		
 //		driver.close();
 	
-	}
-	@AfterMethod
-	public void  getTestResult(ITestResult result) {
-		if(result.getStatus()==ITestResult.FAILURE)
-		{
-			test.log(Status.FAIL, MarkupHelper.createLabel(result.getName()+" FAIL ", ExtentColor.RED));
-			//if test failed then to get detials
-			test.fail(result.getThrowable());
-			
-		}
-		else if (result.getStatus()==ITestResult.SUCCESS)
-		{
-			test.log(Status.PASS, MarkupHelper.createLabel(result.getName()+" PASS ", ExtentColor.GREEN));
-		}
-		
-	}
-	}
+	}}
+//	@AfterMethod
+//	public void  getTestResult(ITestResult result) {
+//		if(result.getStatus()==ITestResult.FAILURE)
+//		{
+//			test.log(Status.FAIL, MarkupHelper.createLabel(result.getName()+" FAIL ", ExtentColor.RED));
+//			//if test failed then to get detials
+//			test.fail(result.getThrowable());
+//			
+//		}
+//		else if (result.getStatus()==ITestResult.SUCCESS)
+//		{
+//			test.log(Status.PASS, MarkupHelper.createLabel(result.getName()+" PASS ", ExtentColor.GREEN));
+//		}
+//		
+//	}
+//	}
 ////	
 //	@AfterTest
 //		public void teardown() throws InterruptedException {
 //		
 //			reports.flush();
 //			driver.close();
-//		}	
+//		}	}
 //
 
 

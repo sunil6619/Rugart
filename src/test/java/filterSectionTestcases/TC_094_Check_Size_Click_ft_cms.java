@@ -10,12 +10,13 @@ import org.testng.annotations.Test;
 import resources.Base;
 
 public class TC_094_Check_Size_Click_ft_cms extends Base {
-	@Parameters ("url")
-	@BeforeTest
 	
-	public void launchurl_rugartisan() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-	}
+//	@Parameters ("url")
+//	@BeforeTest
+//	
+//	public void launchurl_rugartisan() throws InterruptedException {
+//		getlaunchurl(getreaddata("url"));
+//	}
 	
 	@Test
 	public void check_size_functionality_Test() throws InterruptedException {

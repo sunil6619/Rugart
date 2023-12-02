@@ -30,7 +30,7 @@ public class TC_241_Check_stain_protection_price_changes_when_rugtype_changed ex
 	private WebElement lgthft ;
 	@FindBy(xpath = "//span[@class=\"stain-protection-price\"]")
 	private WebElement stainprotectionprice;
-	
+
 	public  TC_241_Check_stain_protection_price_changes_when_rugtype_changed () {
 		PageFactory.initElements(driver, this);
 	}
@@ -69,34 +69,28 @@ public class TC_241_Check_stain_protection_price_changes_when_rugtype_changed ex
 		Thread.sleep(2000);
 		expected=stainprotectionprice.getText();
 		Assert.assertEquals("(+$419)", expected);
-		
-		
-		
-		
-		
-		
-		
+
 	}
-	
-	TC_241_Check_stain_protection_price_changes_when_rugtype_changed ob;
-	//@Parameters ("url")
-	@BeforeTest
 
-
-
-	public void launchurl() throws InterruptedException {
-		getlaunchurl(getreaddata("url"));
-		ob= new TC_241_Check_stain_protection_price_changes_when_rugtype_changed();
-		Log.info("Chrome browser and url launch");
-	}
+	//	TC_241_Check_stain_protection_price_changes_when_rugtype_changed ob;
+	//	//@Parameters ("url")
+	//	@BeforeTest
+	//
+	//
+	//
+	//	public void launchurl() throws InterruptedException {
+	//		getlaunchurl(getreaddata("url"));
+	//		ob= new TC_241_Check_stain_protection_price_changes_when_rugtype_changed();
+	//		Log.info("Chrome browser and url launch");
+	//	}
 
 	@Test
 
 	public void check_stain_protection_price_when_rugtype_changes() throws InterruptedException, AWTException {
-
+		TC_241_Check_stain_protection_price_changes_when_rugtype_changed ob= new TC_241_Check_stain_protection_price_changes_when_rugtype_changed();
 		ob.clickoncollection();
 		ob.stain_protection_price_rugtype_change();
 		Log.info("Checking stain protection price when rugtype is changed");
 	}
-	
+
 }
